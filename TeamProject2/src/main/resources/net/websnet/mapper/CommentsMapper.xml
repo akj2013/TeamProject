@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "net.websnet.mapper.CommentsMapper">
+
+	<!-- count -->
+	<select id = "CommentsCount" resultType="int" parameterType="map">
+		<![CDATA[
+			select count(idx) from Comments where mnumc = #{mnumc} and team = #{team}
+		]]>
+	</select>
+
+	<!-- selectAll -->
+	<select id = "CommentsSelectAll" resultType="net.websnet.domain.CommentsVO" parameterType="map">
+		select * from Comments where mnumc = #{mnumc} and team = #{team} order by idx desc
+	</select>
+	
+	<!-- insert -->
+	<insert id = "CommentsInsert">
+		insert into Comments (idx, emailc, context, mnumc, team) 
+		values (comment_seq_idx.nextval, #{emailc}, #{context}, #{mnumc}, #{team})
+	</insert>
+	
+	<!-- update -->
+	<update id = "CommentsUpdate">
+		update Comments set context = #{context} where idx = #{idx}
+	</update>
+	
+	
+	<!-- delete -->
+	<delete id="CommentsDelete">
+		delete from Comments where idx=#{idx}
+	</delete>
+
+</mapper>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "net.websnet.mapper.NewsMapper">
+
+	<!-- select --> <!-- select는 리절트타입이 있어야 합니다. -->
+	<select id = "newsView" resultType="net.websnet.domain.NewsVO">
+		select * from News where idx=#{idx}
+	</select>
+	
+	<!-- insert --> 
+	<insert id = "newsInsert">
+		insert into News (idx,url,context,title,subTitle) 
+			values (news_seq_idx.nextval,#{url, jdbcType=VARCHAR}, #{context, jdbcType=VARCHAR},#{title, jdbcType=VARCHAR},#{subTitle, jdbcType=VARCHAR})
+	</insert>
+
+	<!-- delete -->
+	<delete id = "newsDelete">
+		delete from News where idx=#{idx}
+	</delete>
+	
+	<!-- newsList --> <!-- select는 리절트타입이 있어야 합니다. -->
+	<select id = "newsList" resultType="net.websnet.domain.NewsVO">
+		select /*+ INDEX_DESC(news pk_news) */ * from news where idx > 0 
+	</select>
+	
+	<!-- 페이징 기법 수정 전-->
+	<select id="getListWithPaging" resultType="net.websnet.domain.NewsVO">
+		<![CDATA[
+			select idx, filename from (select /*+INDEX_DESC(tbl_image pk_image)*/ 
+				rownum rn, idx, filename from tbl_image where rownum <= #{pageNum} * #{amount})
+					where rn > (#{pageNum} -1) * #{amount} ]]>
+	</select>
+
+	<!-- 뉴스 업데이트 -->
+	<update id="newsModify">
+		update News set context=#{context}, title=#{title}, subTitle=#{subTitle}
+			where idx=#{idx}
+	</update>
+
+	<!-- 뉴스 url 업데이트 -->
+	<update id="newsModifyUrl">
+		update News set url=#{url} where idx=#{idx}
+	</update>
+	
+	<!-- 최종 수정 시간 업데이트 -->
+	<update id="timeModify">
+		update News set timen=to_char(sysdate,'YYYY-MM-DD HH24:MI:SS')
+			where idx=#{idx}
+	</update>
+</mapper>

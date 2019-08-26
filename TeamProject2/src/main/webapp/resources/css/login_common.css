@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.FS2_login_layout_table .CrossHead {
+	margin: 0 0 20px;
+	padding: 10px 0;
+	border: none;
+	width: 480px;
+	color: #666;
+	background: #f4f4f4;
+	text-align: center;
+	font-size: 16px;
+	font-size: 1.334rem;
+	font-weight: bold;
+}
+
+.pageTitle {
+	margin-bottom: 30px;
+	padding: 12px 0;
+	border-bottom: 1px #dcdcdc solid;
+	font-size: 16px;
+	font-size: 1.334rem;
+	font-weight: bold;
+}
+.FS2_login_layout_table .userTable_01 th,
+.FS2_login_layout_table .userTable_01 td {
+	vertical-align: middle;
+}
+
+
+
+.layout_body{
+
+	min-width:100%;
+	margin: 0px auto!important;
+}
+
+.layout_table { 
+	width: 1040px; min-width: 1040px; margin: 0 auto;
+ }
+ 
+td.layout_content{
+
+	padding: 40px 20px;
+	margin: 0px;
+	vertical-align: top;
+}

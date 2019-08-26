@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.websnet.mapper.NationMapper">
+	
+	<!-- 또갈라서 불러올 필요는 없는듯 한번 쓴거 재활용 합시다
+	 	
+	<select id="NationHomeSelect">
+		select * from Nation where nname LIKE '%#{hteam}%'
+	</select>
+	
+	<select id="NationAwaySelect">
+		select * from Nation where nname LIKE '%#{ateam}%'
+	</select>
+	
+	 -->
+	 
+	
+	<!-- 국가 정보 불러오기 -->
+	<select id="NationSelect" resultType="net.websnet.domain.NationVO">
+		select * from Nation where nname = #{nname}
+	</select>
+	
+</mapper>

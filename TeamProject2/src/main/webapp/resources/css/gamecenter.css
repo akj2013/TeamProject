@@ -1,0 +1,1542 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+/* Layout */
+#wrap{width:980px;margin:0 auto;text-align:left}
+#header{clear:both;margin:0;padding:0}
+#header ul,li,ol{list-style-type:none}
+#container{position:relative}
+/* 게임센터 상단 (다른경기스코어,광고) */
+.section_center{overflow:hidden;height:78px;margin-top:10px;background:url(https://imgnews.pstatic.net/image/sports/2011/gamecenter/bg_gamecenter.png) no-repeat}
+.gc_type1 .section_center{background:none}
+.kbo{float:left;width:163px}
+.kbo h2{margin:19px 0 0 19px}
+.kbo_gc_type2{width:100%}
+.kbo_result{overflow:hidden;float:left;position:relative;width:163px;height:77px}
+.kbo_result img{vertical-align:top}
+.kbo_result .date{float:left;width:83px;height:21px;padding:16px 0 11px 4px;text-align:center}
+.kbo_result .date .week{margin:1px 0 0 2px}
+.kbo_result .date span{display:inline-block;width:17px;height:21px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_date.gif) no-repeat 0 0}
+.kbo_result .date span em{visibility:hidden;position:absolute;z-index:-1;text-indent:-9000px}
+.kbo_result .date span.n0{background-position:-152px 0}
+.kbo_result .date span.n1{width:12px;background-position:0 0}
+.kbo_result .date span.n2{background-position:-16px 0}
+.kbo_result .date span.n3{background-position:-33px 0}
+.kbo_result .date span.n4{background-position:-50px 0}
+.kbo_result .date span.n5{background-position:-67px 0}
+.kbo_result .date span.n6{background-position:-84px 0}
+.kbo_result .date span.n7{background-position:-101px 0}
+.kbo_result .date span.n8{background-position:-118px 0}
+.kbo_result .date span.n9{background-position:-135px 0}
+.kbo_result .date span.n10{width:5px;background:none}
+.kbo_result .date span.nd{width:5px;background-position:-172px 0}
+.kbo_result .date span.w0{width:15px;margin:0 1px;background-position:-17px -35px}
+.kbo_result .date span.w1{width:15px;margin:0 1px;background-position:-36px -35px}
+.kbo_result .date span.w2{width:15px;margin:0 1px;background-position:0 -35px}
+.kbo_result .date span.w3{width:15px;margin:0 1px;background-position:-54px -35px}
+.kbo_result .date span.w4{width:15px;margin:0 1px;background-position:-72px -35px}
+.kbo_result .date span.w5{width:15px;margin:0 1px;background-position:-90px -35px}
+.kbo_result .date span.w6{width:15px;margin:0 1px;background-position:-108px -35px}
+.kbo_result .btn_prev{display:inline;overflow:hidden;float:left;width:7px;height:13px;margin:19px 0 0 25px}
+.kbo_result .btn_prev a{display:block;overflow:hidden;width:7px;height:13px}
+.kbo_result .btn_prev a:hover{background:none}
+.kbo_result .btn_prev a:hover img{margin-top:-13px}
+.kbo_result .btn_next{overflow:hidden;float:left;width:7px;height:13px;margin:19px 0 0}
+.kbo_result .btn_next a{display:block;overflow:hidden;width:7px;height:13px}
+.kbo_result .btn_next a:hover{background:none}
+.kbo_result .btn_next a:hover img{margin-top:-13px}
+.kbo_result .btn_today{display:inline;float:left;margin:17px 0 0 5px}
+.kbo_result .btn_kbo_view{margin-left:28px}
+.kbo_result .btn_kbo_view img{margin-top:1px}
+.date_type1{overflow:hidden;float:left;position:relative;width:107px;height:77px;margin-left:13px}
+.date_type1 img{vertical-align:top}
+.date_type1 .date{float:left;width:88px;height:20px;padding:17px 0 10px;text-align:center}
+.date_type1 .date .week{margin:1px 0 0 2px}
+.date_type1 .date span{display:inline-block;height:20px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_date2.gif) no-repeat 0 0}
+.date_type1 .date span em{visibility:hidden;position:absolute;z-index:-1;text-indent:-9000px}
+.date_type1 .date span.n1{width:9px;background-position:0 0}
+.date_type1 .date span.n2{width:14px;background-position:-17px 0}
+.date_type1 .date span.n3{width:14px;background-position:-38px 0}
+.date_type1 .date span.n4{width:14px;background-position:-56px 0}
+.date_type1 .date span.n5{width:14px;background-position:-74px 0}
+.date_type1 .date span.n6{width:15px;background-position:-92px 0}
+.date_type1 .date span.n7{width:15px;background-position:-110px 0}
+.date_type1 .date span.n8{width:15px;background-position:-128px 0}
+.date_type1 .date span.n9{width:15px;background-position:-146px 0}
+.date_type1 .date span.n10{width:28px;background-position:-83px -36px}
+.date_type1 .date span.n11{width:24px;background-position:-83px -61px}
+.date_type1 .date span.n12{width:28px;background-position:-83px -86px}
+.date_type1 .date span.n13{width:28px;background-position:-83px -111px}
+.date_type1 .date span.n14{width:28px;background-position:-83px -136px}
+.date_type1 .date span.n15{width:28px;background-position:-83px -161px}
+.date_type1 .date span.n16{width:28px;background-position:-83px -186px}
+.date_type1 .date span.n17{width:28px;background-position:-83px -211px}
+.date_type1 .date span.n18{width:28px;background-position:-83px -236px}
+.date_type1 .date span.n19{width:28px;background-position:-83px -261px}
+.date_type1 .date span.n20{width:30px;background-position:-130px -36px}
+.date_type1 .date span.n21{width:26px;background-position:-130px -61px}
+.date_type1 .date span.n22{width:30px;background-position:-130px -86px}
+.date_type1 .date span.n23{width:30px;background-position:-130px -111px}
+.date_type1 .date span.n24{width:30px;background-position:-130px -136px}
+.date_type1 .date span.n25{width:30px;background-position:-130px -161px}
+.date_type1 .date span.n26{width:30px;background-position:-130px -186px}
+.date_type1 .date span.n27{width:30px;background-position:-130px -211px}
+.date_type1 .date span.n28{width:30px;background-position:-130px -236px}
+.date_type1 .date span.n29{width:30px;background-position:-130px -261px}
+.date_type1 .date span.n30{width:30px;background-position:-130px -286px}
+.date_type1 .date span.n31{width:26px;background-position:-130px -311px}
+.date_type1 .date span.nd{width:7px;background-position:-164px 0}
+.date_type1 .date span.w0{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -1px;vertical-align:bottom}
+.date_type1 .date span.w1{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -17px;vertical-align:bottom}
+.date_type1 .date span.w2{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -33px;vertical-align:bottom}
+.date_type1 .date span.w3{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -49px;vertical-align:bottom}
+.date_type1 .date span.w4{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -65px;vertical-align:bottom}
+.date_type1 .date span.w5{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -81px;vertical-align:bottom}
+.date_type1 .date span.w6{width:15px;height:11px;margin:0 0 2px 3px;background-position:-187px -97px;vertical-align:bottom}
+.date_type1 .btn_prev{display:inline;overflow:hidden;float:left;width:8px;height:13px;margin:22px 0 0}
+.date_type1 .btn_prev a{display:block;overflow:hidden;width:8px;height:13px}
+.date_type1 .btn_prev a:hover{background:none}
+.date_type1 .btn_prev a:hover img{margin-top:-13px}
+.date_type1 .btn_next{overflow:hidden;float:left;width:8px;height:13px;margin:22px 0 0 -1px}
+.date_type1 .btn_next a{display:block;overflow:hidden;width:8px;height:13px}
+.date_type1 .btn_next a:hover{background:none}
+.date_type1 .btn_next a:hover img{margin-top:-13px}
+.date_type1 .btn_today{display:inline;float:left;margin:17px 0 0 2px}
+.date_type1 .btn_kbo_view{padding-right:4px;text-align:center}
+.date_type1 .btn_kbo_view a{width:87px;height:11px}
+.g_date{margin:7px 0 0 20px}
+.g_date span{float:left;height:9px;margin-right:1px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_num_date.gif) no-repeat 0 0;text-indent:-9000px}
+.g_date span.n0{width:7px;background-position:0 0}
+.g_date span.n1{width:3px;background-position:0 -24px}
+.g_date span.n2{width:6px;background-position:0 -48px}
+.g_date span.n3{width:6px;background-position:0 -72px}
+.g_date span.n4{width:7px;background-position:0 -96px}
+.g_date span.n5{width:6px;background-position:0 -120px}
+.g_date span.n6{width:7px;background-position:0 -144px}
+.g_date span.n7{width:6px;background-position:0 -168px}
+.g_date span.n8{width:7px;background-position:0 -192px}
+.g_date span.n9{width:7px;background-position:0 -216px}
+.g_date span.nd{width:2px;background-position:0 -240px}
+.g_date a{float:left;margin-left:6px}
+.g_date a img{margin-top:-2px}
+.other_score{float:left;width:540px;margin-top:12px}
+.other_score li{float:left;position:relative;width:103px;height:50px;margin-left:3px;border:1px solid #31467c;background:#1c346b url(https://imgsports.pstatic.net/images/section/baseball/bg_base.gif) no-repeat 100% 0}
+.other_score li.g_suspended{background-position-y:-6px}
+.other_score li.g_suspended .suspended{position:absolute;top:35px;left:6px;color:#446296;font-size:11px;letter-spacing:-1px}
+.other_score li.g_ovr{border:1px solid #314c8c;background-color:#1c3a7a;background-position:70px 100%}
+.other_score li.g_prev{background:#1c346b}
+.other_score .on{background-color:#172d5f;border:1px solid #536691}
+.g_cast{position:relative;top:-1px;left:-1px;z-index:10}
+.g_cast .bg_bx{position:absolute;top:0;left:0;width:117px;height:52px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast.gif) no-repeat;opacity:0.7;filter:alpha(opacity=70)}
+.g_cast a.btn{position:absolute;top:15px;left:9px;z-index:12}
+.g_cast a.btn2{position:absolute;top:15px;left:60px;z-index:12}
+.btn_single a.btn,.btn_single a.btn2{left:34px}
+.btn_single .bg_bx{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast2.gif) no-repeat}
+.kbo_gc_type2 .other_score li.g_ovr{z-index:10}
+.kbo_gc_type2 .g_cast{position:relative;top:-1px;left:-1px;z-index:10}
+.kbo_gc_type2 .g_cast .bg_bx2{position:absolute;top:0;left:0;width:105px;height:52px;background:url(https://imgsports.pstatic.net/images/section/baseball/bg_dimm.png) no-repeat}
+.kbo_gc_type2 .g_cast .btn{position:absolute;top:16px;left:12px;z-index:12}
+.kbo_gc_type2 .g_cast .btn2{position:absolute;top:16px;left:54px;z-index:12}
+.kbo_gc_type2 .g_cast .no_live{position:absolute;top:-5px;left:32px;z-index:13;width:95px;height:20px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/no_live.png) no-repeat}
+.g_score{float:left;width:60px;margin-top:9px;*margin-top:10px}
+.g_score dt{float:left;width:27px;margin:2px 0 3px;padding-left:7px;color:#c4d2f5;font-size:11px}
+.g_score dd{float:right;width:18px;margin:1px 0;*margin:0;padding-right:8px;color:#ec2927;font-family:tahoma;font-size:11px;letter-spacing:-1px;text-align:right;font-weight:bold}
+.g_score dt span{margin:0 1px;color:#c4d1f6;font-size:11px}
+.g_suspended .g_score{margin-top:6px;*margin-top:7px}
+.g_suspended .g_score dt{height:14px;margin:0}
+.g_suspended .g_score dd{height:14px;margin:0;*margin:0}
+.g_base{float:right;position:relative;width:34px;height:50px;text-align:center}
+.g_base p{position:absolute;width:5px;height:5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_base.gif) no-repeat 0 0}
+.g_base p span{display:none}
+.g_base .b1{top:16px;right:12px;_right:11px}
+.g_base .b2{top:9px;right:19px;_right:18px}
+.g_base .b3{top:16px;right:26px;_right:25px}
+.g_base em{position:absolute;top:31px;right:0;width:43px;color:#446296;font-family:dotum;font-size:11px;text-align:center}
+.g_suspended .g_base em{top:25px}
+.g_prev .g_score{float:none;width:115px;margin-top:11px;*margin-top:12px}
+.g_prev .g_score dt,.g_prev .g_score dd{float:none;width:auto;margin:0}
+.g_prev .g_score dd{margin-top:5px;padding-left:7px;color:#446296;font-family:dotum;text-align:left;font-weight:normal}
+.g_prev.g_ovr{border:1px solid #314c8c !important;background-color:#1c3a7a !important}
+.kbo_gc_type2 .g_prev .g_score{float:none;width:103px;margin-top:11px;*margin-top:12px}
+.kbo_gc_type2 .g_prev .g_score dt,.kbo_gc_type2 .g_prev .g_score dd{float:none;width:auto;margin:0;padding:0;text-align:center}
+.kbo_gc_type2 .g_prev .g_score dd{margin-top:3px;*margin-top:5px;padding-left:0;color:#5d85cc;font-family:dotum;font-weight:normal}
+.kbo_gc_type2 .g_prev .g_score dd span{color:#6089d2;font-family:verdana}
+.kbo_gc_type2 .g_prev .g_score dd span em{margin:0 2px 0}
+.kbo_gc_type2 .g_prev.g_ovr{border:1px solid #314c8c !important;background-color:#1c3a7a !important}
+.kbo_gc_type2 .g_prev.g_suspended .g_score{margin-top:5px;*margin-top:6px}
+.kbo_gc_type2 .g_prev.g_suspended .g_score dt{height:13px}
+.kbo_gc_type2 .g_prev.g_suspended .g_score dd{height:13px;margin-top:2px;*margin-top:3px}
+.kbo_gc_type2 .g_prev.g_suspended .g_score .suspended{position:static;margin-top:1px;text-align:center;color:#446296;font-size:11px;letter-spacing:-1px}
+.kbo_gc_type2 .g_prev.g_suspended .g_score .time{letter-spacing:0}
+.g_none{border:1px solid #253b69;background:url(https://imgsports.pstatic.net/images/section/baseball/game_none.gif) no-repeat 0 0 !important;text-indent:-9000px;cursor:default !important}
+.ad_center{float:right}
+/* 팀 VS */
+.section_vs{overflow:hidden;clear:both;height:113px}
+.section_vs table{margin:23px auto 0;border:none}
+.team_cen{position:absolute;top:0;left:0;width:980px;height:113px;text-align:center}
+.team_lft{position:absolute;top:0;left:20px;width:248px}
+.team_lft .p_score{left:100%}
+.team_rgt{position:absolute;top:0;right:20px;width:248px;text-align:right}
+.team_rgt .p_score{right:100%}
+.t_logo{overflow:hidden;display:inline-block;width:108px;vertical-align:top}
+.t_name{overflow:hidden;display:inline-block;width:126px;margin-top:34px;text-align:center;vertical-align:top}
+.p_score{position:absolute;top:32px;width:64px;text-align:center}
+.p_score span + span{margin-left:-2px}
+.t_logo{float:left;margin-right:10px}
+.team_rgt .t_logo{margin-right:0;margin-left:10px}
+.t_flag{float:left;margin:27px 15px 0 14px}
+.t_name{float:left;margin-top:34px}
+.t_name dd{margin-top:-1px;padding:1px 0;color:#4b4b4b;text-align:inherit;white-space:nowrap}
+.t_name .t_rank,.t_name .t_win,.t_name .t_lose{display:inline-block;width:32px;margin:-1px 1px 0 0;padding:2px 0 1px;border:1px solid #d1d1d1;color:#515eb4;font-weight:bold;text-align:center;vertical-align:middle;font-size:11px}
+.t_name .t_win{width:24px;border:1px solid #e20000;background:#ff0000;color:#fff}
+.t_name .t_lose{width:24px;border:1px solid #3645a5;background:#4353bf;color:#fff}
+.t_name .npb_league{padding-top:11px}
+/* 게임센터 탭 */
+.section_tab{clear:both;position:relative;width:980px;height:40px;margin:-8px 0 22px;background:url(https://imgnews.pstatic.net/image/sports/2011/gamecenter/bg_gamecenter_tab_v2.gif) repeat-x 0 7px;*zoom:1;z-index:100}
+.section_tab:after{display:block;clear:both;content:""}
+.new_sub .section_tab{margin:-8px 0 0}
+.tab_center{float:left}
+.tab_center li{float:left;padding-top:8px}
+.tab_center li a{overflow:hidden;height:41px}
+.tab_center li a img{margin:-53px 0 0 0;vertical-align:top}
+.tab_center li.first a img{*margin-right:-1px}
+.tab_center li.first strong a img,.tab_center li.first a.off img{*margin-right:-1px;margin-left:0}
+.tab_center li strong a img{position:relative;z-index:10;margin:0 0 0 -1px;*margin-left:0}
+.tab_center li a.off img{position:relative;z-index:10;margin:-106px 0 0 -1px;*margin-left:0}
+.tab_center li a.off{cursor:default}
+.tab_center li.first a.off{cursor:pointer}
+.tab_center li.tb_tv{margin:0 0 0 23px;padding-top:0}
+.tab_mnu{float:left;margin-top:7px;_margin-top:6px;*zoom:1;border-left:1px solid #c3c3c8}
+.tab_mnu:after{display:block;clear:both;content:""}
+.tab_mnu li{position:relative;float:left;width:118px;height:31px;border:1px solid #c3c3c8;border-bottom-color:#8e929e;border-left:none;z-index:100}
+.tab_mnu .frst{width:98px;border-left:none}
+.tab_mnu .lst{width:98px;border-right:none}
+.tab_mnu a,.tab_mnu .offtab{display:block;height:30px;border:1px solid #f7f8f9;border-bottom:none;_border-bottom:1px solid #f2f2f2;background:#f2f2f2 url(https://imgsports.pstatic.net/images/2018/pc/baseball/spr_ngamectr_v5.png) no-repeat}
+.tab_mnu .mnu a{background-position:34px -32px}
+.tab_mnu .mnu2 a{background-position:-51px -32px}
+.tab_mnu .mnu3 a{background-position:-136px -32px}
+.tab_mnu .mnu4 a{background-position:-221px -32px}
+.tab_mnu .on{margin-left:-1px;border:1px solid #8e929e;background:#fff}
+.tab_mnu .on a{border:1px solid #fff}
+.tab_mnu .on .mnu a{background-color:#fff;background-position:34px 8px}
+.tab_mnu .on .mnu2 a{background-color:#fff;background-position:-51px 8px}
+.tab_mnu .on .mnu3 a{background-color:#fff;background-position:-136px 8px}
+.tab_mnu .on .mnu4 a{background-color:#fff;background-position:-221px 8px}
+.tab_mnu .mnu .offtab{background-position:34px -72px}
+.tab_mnu .mnu2 .offtab{background-position:-51px -72px}
+.tab_mnu .mnu3 .offtab{background-position:-136px -72px}
+.tab_mnu .mnu4 .offtab{background-position:-221px -72px}
+.tab_mnu .lyr_status,.tab_mnu .lyr_status2,.tab_mnu .lyr_status3{position:absolute;top:24px;left:3px;width:112px;height:21px;background:url(https://imgsports.pstatic.net/images/2018/pc/baseball/spr_ngamectr_v5.png) no-repeat 0 -120px;z-index:100}
+.tab_mnu .lyr_status2{background-position:-118px -120px}
+.tab_mnu .lyr_status3{background-position:-238px -120px}
+.btn_tvlive{float:left;display:inline-block;margin:-1px 0 0 13px}
+.g_time{position:absolute;top:18px;*top:19px;right:50px;padding-top:1px;color:#112547}
+.g_time .sdm{margin-left:4px}
+.g_time span{letter-spacing:-1px}
+.g_time .t_num{font-family:Verdana,Geneva,sans-serif}
+.g_time strong.t_num{margin-right:3px}
+.g_time .time{margin-right:7px}
+.kbo_gc_type2 .g_time{top:15px;*top:16px}
+.kbo_gc_type2 .g_time strong{color:#24334b;font-family:tahoma}
+.kbo_gc_type2 .g_time .bar{margin:0 0 0 -1px;color:#d5d5d5;font-size:11px}
+.gc_type1 .g_time .sdm{margin-right:4px;margin-left:-2px;letter-spacing:-1px}
+.gc_type1 .g_time .bar{margin:0 0 0 -1px;color:#d5d5d5;font-size:11px}
+/* 날씨 아이콘 (구장) */
+.w_ico{display:inline;overflow:hidden;float:right;width:36px;height:26px;margin:11px 11px 0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_ico_weather.gif) no-repeat 0 0;text-indent:-9000px}
+.w_ico.w1{background-position:0 0}
+.w_ico.w2{background-position:0 -41px}
+.w_ico.w3{background-position:0 -82px}
+.w_ico.w4{background-position:0 -123px}
+.w_ico.w5{background-position:0 -164px}
+.w_ico.w6{background-position:0 -205px}
+.w_ico.w7{background-position:0 -246px}
+.w_ico.w8{background-position:0 -287px}
+.w_ico.w9{background-position:0 -328px}
+.w_ico.w10{background-position:0 -369px}
+.w_ico.w11{background-position:0 -410px}
+.w_ico.w12{background-position:-51px 0}
+.w_ico.w13{background-position:-51px -41px}
+.w_ico.w14{background-position:-51px -82px}
+.w_ico.w15{background-position:-51px -123px}
+.w_ico.w16{background-position:-51px -164px}
+.w_ico.w17{background-position:-51px -205px}
+.w_ico.w18{background-position:-51px -246px}
+.w_ico.w19{background-position:-51px -287px}
+.w_ico.w20{background-position:-51px -358px}
+.w_ico.w21{background-position:-51px -369px}
+.w_ico.w22{background-position:-51px -410px}
+/* 하단 컨텐츠 */
+#content{overflow:hidden;clear:both;position:relative;width:980px;height:500px;margin-bottom:23px}
+.new_sub #content{margin:0}
+.cnt_lft{position:absolute;top:0;bottom:0;left:0;width:295px;margin-right:5px}
+.cnt_cen{margin:0 auto;width:380px;background:#1d2941}
+.cnt_rgt{position:absolute;top:0;bottom:0;right:0;width:295px}
+.kleague_area{margin-bottom:30px !important}
+.kleague_area .cnt_lft{width:300px;margin-right:0}
+.kleague_area .cnt_rgt{width:300px}
+/* 선발투수 */
+.h_player{width:296px;height:28px;margin-bottom:7px;padding:8px 0 0 10px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_h_player.gif) no-repeat 0 0;color:#fff;font-size:12px;letter-spacing:-1px}
+.p_info{overflow:hidden;clear:both;width:295px;margin-bottom:9px}
+.p_info .thumb{float:left;width:79px;height:101px;margin-right:11px;border:1px solid #d0d0d0}
+.p_info .thumb em{position:absolute;z-index:-1;font-size:11px}
+.p_info dl{float:left;width:201px;margin-top:2px}
+.p_info dt,.p_info dt a{color:#575757;font-size:16px;letter-spacing:-1px;font-weight:bold}
+.p_info dt{padding-bottom:3px}
+.p_info dt a{color:#355195 !important}
+.p_info dd{color:#999;font-size:11px}
+.p_info .s_info{margin-top:17px}
+.p_info .s_info span{display:inline-block;overflow:hidden;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_txt_result.gif) no-repeat 0 0;text-indent:-9000px}
+.p_info .s_info span.result{display:block;width:34px;height:10px;margin-bottom:-12px;background-position:0 0}
+.p_info .s_info span.result2{display:block;width:62px;height:10px;margin-bottom:-12px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_txt_result2.gif) no-repeat 0 0}
+.p_info .s_info span.r_txt{width:12px;height:13px;background-position:100% -26px}
+.p_info .s_info span.r_txt2{width:11px;height:13px;background-position:100% -53px}
+.p_info .s_info span.r_txt3{width:30px;height:13px;margin-right:-2px;background-position:100% -79px}
+.p_info .s_info span.r_bar{width:5px;height:17px;margin-right:8px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 100% 0}
+.p_info .s_info strong{color:#575757;font-family:verdana;font-size:22px;letter-spacing:-1px;font-weight:bold}
+.p_info .vs_info{*margin-top:4px;color:#636363;font-size:12px}
+.p_info .vs_info span{color:#ff0000;letter-spacing:-1px;font-weight:bold}
+.p_info .vs_info2{*margin-top:4px;color:#636363;font-size:11px}
+.p_info .vs_info2 span{color:#f00;font-weight:bold;letter-spacing:-1px}
+.p_info .vs_info2 span.ls{color:#636363;font-weight:normal;letter-spacing:-1px}
+.p_info .nolineup{float:left;margin-top:45px;padding-left:14px;width:161px;height:10px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/txt_nolineup.gif) no-repeat 14px 0}
+.p_info .nolineup span{position:absolute;left:-9999px;z-index:-1}
+.gc_type1 .p_info .s_info{margin-top:14px}
+.gc_type1 .p_info .s_info .nodata{margin:6px 0 31px}
+.gc_type1 .p_info dt{color:#383838}
+.gc_type1 .p_info dd .nodata{margin:1px 0 -1px;color:#c5c5c5;font-size:11px;letter-spacing:-1px}
+.gc_type1 .p_info .nolineup2{width:161px;height:10px;margin:48px 0 46px 60px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/txt_nolineup.gif) no-repeat 0 0}
+.gc_type1 .p_info .nolineup2 span{position:absolute;left:-9999px;z-index:-1}
+.gc_type1 .p_info .s_info2{margin:0;padding:0 0 7px;color:#636363;font-size:12px;line-height:15px}
+.gc_type1 .p_info .s_info2 strong{letter-spacing:0 !important}
+.gc_type1 .p_info .s_info2 .vs{margin:0 2px 0 4px;color:#f00;font-family:verdana;font-size:8px;font-weight:bold;letter-spacing:0}
+.gc_type1 .p_info .s_info2 .team{color:#f00;font-weight:bold}
+.gc_type1 .p_info .s_info2 .nodata{margin:1px 0 -1px}
+.gc_type1 .p_info2 dd .nodata{margin:1px 0 -1px;color:#c5c5c5;font-size:11px;letter-spacing:-1px}
+/* 시즌 성적 표 */
+.t_type1{clear:both;width:295px;margin-bottom:21px;border-bottom:1px solid #f8f8f8;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_table_th.gif) no-repeat 0 0;text-align:center}
+.t_type1 th{height:27px;padding:0 6px;color:#6e6e6e;font-size:11px;font-weight:normal;letter-spacing:-1px}
+.t_type1 td{padding:5px 0 4px;border-bottom:1px solid #f5f5f5;color:#444;font-size:11px}
+.t_type1 td span{font-size:11px;letter-spacing:-1px}
+.t_type1 td strong{font-size:11px}
+.t_type1 td.nodata{color:#707070}
+.t_type1 .first td{padding-top:7px}
+.t_type1 .last td{padding-bottom:7px;border-bottom:1px solid #d0d0d0}
+.t_type1 .t_npb_type1{padding-left:5px}
+.t_type1 .t_npb_type2{padding-right:5px}
+.t_type1 .t_npb_type3{padding-right:10px}
+.t_type1 .t_npb_type4{padding-left:1px}
+.t_type1 .mlb_rinfo .t_npb_type1{padding-left:10px}
+.gc_type1 .t_type1 td{padding:5px 0 4px;border-bottom:1px solid #f5f5f5;color:#444;font-size:11px}
+.gc_type1 .t_type1 td .nodata{display:inline-block;margin-left:-7px;color:#c5c5c5;font-size:11px;letter-spacing:-1px}
+.gc_type1 .t_type1 .first td{padding-top:7px;padding-bottom:6px}
+.gc_type1 .t_type1 .last td{padding-top:7px;padding-bottom:6px;border-bottom:1px solid #d0d0d0}
+/* 댓글 영역 */
+.section_cbox{clear:both;width:100%}
+.h_write{position:relative;height:18px}
+.h_write h3{float:left;padding-left:4px;color:#000;font-size:12px;letter-spacing:-1px}
+.h_write .c_total{position:absolute;top:1px;right:8px}
+.h_write .c_total span{letter-spacing:-1px}
+.h_write .c_total,.h_write span strong{color:#444;font-size:11px}
+.h_write .btn_rfsh{position:absolute;top:-4px;width:18px;height:19px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -365px -204px;cursor:pointer}
+.h_write .btn_rfsh span{position:absolute;left:-9999px;z-index:-1}
+.section_cbox2{clear:both;width:100%}
+.section_cbox2 .h_write{overflow:hidden;position:relative;height:45px;margin-top:-4px;line-height:17px}
+.section_cbox2 .h_write .thmb{display:inline;float:left;margin-left:0}
+.section_cbox2 .h_write .thmb img{vertical-align:top}
+.section_cbox2 .h_write h3{float:none;margin:2px 0;padding-left:0;color:#1a1a1b;font-size:14px;letter-spacing:-1px}
+.section_cbox2 .h_write .c_total{display:block;position:static;padding-left:46px}
+.section_cbox2 .h_write .c_total,.section_cbox2 .h_write span strong{color:#848484;font-size:11px;letter-spacing:-1px}
+.section_cbox2 .h_write span strong{color:#ea3b3b;letter-spacing:0}
+.section_cbox2 .h_write .btn_rfsh{position:absolute;top:17px;right:3px;width:52px;height:17px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/btn_refresh.gif) no-repeat 0 0;cursor:pointer}
+.section_cbox2 .h_write .btn_rfsh span{position:absolute;left:-9999px;z-index:-1}
+.section_cbox2 .bg_npb_YO{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_YO.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_JN{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_JN.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_HS{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_HS.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_HI{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_HI.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_YA{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_YA.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_YK{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_YK.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_NH{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_NH.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_SE{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_SE.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_SF{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_SF.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_JL{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_JL.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_OX{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_OX.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_RT{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_RT.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_CL{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_CL.gif) no-repeat 0 200px}
+.section_cbox2 .bg_npb_PL{background:#fafafa url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_npb_PL.gif) no-repeat 0 200px}
+.cbox_list_top{position:relative;width:100%;margin-bottom:1px;padding:12px 0 8px;border-bottom:2px solid #ebebeb;line-height:15px}
+.cbox_list_top .c_total{color:#848484;font-size:11px;letter-spacing:-1px}
+.cbox_list_top .c_total strong{color:#ea3b3b;letter-spacing:0}
+.cbox_list_top .block_id{position:absolute;top:13px;right:0;padding-right:5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_arr.gif) no-repeat 100% 4px;color:#848484;font-size:11px;letter-spacing:-1px}
+.cbox_list_top .block_id:hover{text-decoration:none}
+.ly_block_id{position:absolute;top:27px;left:-15px;z-index:10;width:293px;padding:0;border:1px solid #888;background:#fff}
+.ly_block_id h3{margin:10px 19px 12px 14px;padding-bottom:8px;border-bottom:1px solid #e6e6e6;color:#454545;font-size:12px;letter-spacing:-1px;line-height:15px}
+.ly_block_id .search_id{margin:0 19px 0 32px;color:#6f6f6f}
+.ly_block_id .search_id .input_text{width:103px;height:13px;margin-left:3px;padding:3px 0 0 4px;border:1px solid #b2b2b2;color:#6f6f6f;font-size:12px;vertical-align:middle;border-right-color:#c9c9c9;border-bottom-color:#c9c9c9}
+.ly_block_id .search_id a{vertical-align:middle}
+.ly_block_id .search_id a img{vertical-align:middle}
+.ly_block_id .box{overflow:hidden;width:258px;margin:0 19px 0 14px;border:1px solid #efefef;background:#fbfbfb}
+.ly_block_id .scrl{overflow:auto;height:103px;scrollbar-3dlight-color:#efefef;scrollbar-highlight-color:#fff;scrollbar-shadow-color:#fff;scrollbar-darkshadow-color:#efefef;scrollbar-arrow-color:#c7c7c7;scrollbar-face-color:#fff;scrollbar-track-color:#f3f3f3}
+.ly_block_id .box ul{overflow:hidden;margin-left:-5px;padding:13px 0 14px;zoom:1}
+.ly_block_id .box ul li{display:inline;float:left;margin-left:29px;padding-bottom:1px;color:#7d7d7d;font-size:11px;line-height:15px}
+.ly_block_id .box ul li span{display:inline-block;width:71px}
+.ly_block_id .box ul li a img{margin:1px 0 -1px;vertical-align:middle}
+.ly_block_id .btn{clear:both;margin:15px 19px 0 14px;padding:10px 0 12px;border-top:1px solid #e6e6e6;text-align:center}
+.ly_block_id .btn img{vertical-align:top}
+.ly_block_id .btn_ly_clse{display:block;position:absolute;top:4px;right:4px;width:18px;height:18px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/btn_ly_clse.gif) no-repeat 4px 4px;cursor:pointer}
+.ly_block_id .btn_ly_clse span{position:absolute;left:-9999px;z-index:-1}
+.ly_block_id .ly_info p{margin:8px 19px 0 17px;color:#6f6f6f;line-height:17px}
+.ly_block_id .ly_info p.frst{margin-top:0;color:#464646}
+.ly_block_id .ly_info p.last{margin:10px 19px -3px 17px;letter-spacing:-1px}
+.ly_block_id .ly_info p.none{padding:3px 0 1px 6px;text-align:center}
+.ly_block_id .ly_info p.btn_clear{margin:-3px 19px 6px 14px;text-align:right}
+.ly_block_id .ly_info p.btn_clear img{vertical-align:top}
+.ly_block_id .ly_info p strong{color:#000}
+.ly_block_id .ly_info p span{color:#000}
+.ly_block_id .cbx_page{clear:both;margin:0 0 -3px;padding:8px 0 0;border:none;text-align:center}
+.ly_block_id .cbx_page a,.ly_block_id .cbx_page strong{display:inline-block;padding:0 6px 0 4px;background:#fff;color:#333;font-size:11px;font-weight:normal;letter-spacing:-1px;text-decoration:none}
+.ly_block_id .cbx_page strong{color:#f63c00}
+.ly_block_id .cbx_page a:hover{text-decoration:underline}
+.ly_block_id .cbx_page a.cbx_prev{margin-left:0;padding:0 5px 0 4px;border:none;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 0 -50px;font-weight:normal;letter-spacing:-1px}
+.ly_block_id .cbx_page a.cbx_next{padding:0 5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 100% -69px;font-weight:normal;letter-spacing:-1px}
+.kbo_gc_type2 .h_write{overflow:hidden;position:relative;height:44px;margin:auto;line-height:17px}
+.kbo_gc_type2 .h_write .thmb{display:inline;float:left;margin-left:5px}
+.kbo_gc_type2 .h_write .thmb img{vertical-align:top}
+.kbo_gc_type2 .h_write h3{float:none;margin-top:2px;padding-left:52px;color:#1a1a1b;font-size:14px;letter-spacing:0}
+.kbo_gc_type2 .h_write .c_total{display:block;position:static;padding-left:52px}
+.kbo_gc_type2 .h_write .c_total,.kbo_gc_type2 .h_write span strong{color:#848484;font-size:11px;letter-spacing:-1px}
+.kbo_gc_type2 .h_write span strong{color:#ea3b3b;letter-spacing:0}
+.kbo_gc_type2 .h_write .btn_rfsh{position:absolute;top:18px;right:2px;width:52px;height:17px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/btn_refresh.gif) no-repeat 0 0;cursor:pointer}
+.kbo_gc_type2 .h_write .btn_rfsh span{position:absolute;left:-9999px;z-index:-1}
+/* 댓글 */
+.cbox_write_area{clear:both;padding:6px 7px;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;background:#f3f3f3}
+.cbox_txt{width:100%}
+.cbox_txt textarea{width:100%;height:48px;padding:4px 5px 0 6px;border:1px solid #d0d0d0;background:#fff ;color:#666;font-size:11px;letter-spacing:-1px;line-height:16px;word-break:break-all}
+.cbox_txt textarea.cbx_ipt_txt{background:#fff}
+.cbox_txt .cbox_btn input{margin-left:15px}
+.cbox_desc{float:left;clear:both;position:relative;width:100%;*margin-top:-1px;color:#969696;font-size:11px}
+.cbox_desc .cbx_chk{margin:1px 0 3px;*margin:-1px 0 0;vertical-align:middle}
+.cbox_desc label{margin-left:-3px;font-size:11px;letter-spacing:-1px}
+.cbox_desc a{position:absolute;right:2px;bottom:4px;_bottom:0;color:#999;letter-spacing:-1px;text-decoration:underline !important}
+.cbox_list_area{overflow:hidden;clear:both;height:1000px;padding:5px 15px 0;background:#fafafa}
+.cbox_list li{overflow:hidden;height:83px;border-bottom:1px solid #ebebeb}
+.cbox_list li.selected .cbx_cmt{color:#f4561c}
+.cbox_list li.last{border-bottom:none}
+.cbx_info{overflow:hidden;width:100%;margin-top:9px}
+.cbx_info .c_id{float:left;color:#ababab;font-size:11px}
+.cbx_info .c_date{display:inline;float:left;margin-left:8px;color:#ababab;font-family:tahoma;font-size:10px}
+.cbx_info .c_btn{float:right}
+.cbx_info .c_btn li{float:left;height:auto;padding:0 5px 0 4px;border-bottom:none;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 100% -29px;letter-spacing:-1px}
+.cbx_info .c_btn li a{color:#ababab;font-size:11px}
+.cbx_info .c_btn li.last{padding-right:0;background:none}
+.cbx_cmt{overflow:hidden;clear:both;margin-top:6px;color:#4b4b4b;line-height:16px;word-break:break-all;word-wrap:break-word}
+.cbx_page{clear:both;margin:9px 0 0;padding:9px 0 17px;border-top:2px solid #ebebeb;text-align:center}
+.cbx_page a,.cbx_page strong{display:inline-block;margin-left:-5px;padding:0 5px 0 4px;border-right:1px solid #e3e3e3;border-left:1px solid #e3e3e3;background:#fafafa;color:#333;font-size:11px;letter-spacing:-1px;text-decoration:none;font-weight:bold}
+.cbx_page strong{color:#f63c00}
+.cbx_page a:hover{text-decoration:underline}
+.cbx_page a.cbx_prev{margin-left:0;padding:0 5px 0 4px;border:none;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 0 -52px;font-weight:normal}
+.cbx_page a.cbx_next{padding:0 5px 0 4px;border:none;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 100% -71px;font-weight:normal}
+/* 미투데이 */
+.section_me2day{overflow:hidden;clear:both;width:293px;height:82px;border:1px solid #dcdcdc}
+.section_me2day dl{height:81px;border-top:1px solid #fff;border-left:1px solid #fff;background:#fcfcfc}
+.section_me2day dt{padding:13px 0 0 15px}
+.section_me2day dt img{vertical-align:middle}
+.section_me2day dt span{margin-left:3px;padding-left:7px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat -99px -30px;color:#8e8e8e;font-size:11px}
+.section_me2day dd{padding:10px 15px 0;line-height:16px}
+.section_me2day dd a{color:#5e5e5e}
+.section_me2day dd a:hover{text-decoration:none}
+/* 경기남은시간(광고배경) */
+.cnt_cen .ad_remain{position:relative;width:380px;height:27px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_timeremain.gif) no-repeat;color:#bfd6ef}
+.cnt_cen .ad_remain p span{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+.cnt_cen .ad_remain p em{position:absolute;top:5px;font-family:verdana;font-size:16px;font-weight:bold}
+.cnt_cen .ad_remain p .hour{right:61px}
+.cnt_cen .ad_remain p .min{right:20px}
+.cnt_cen .ad_remain p.default .hour{right:174px}
+.cnt_cen .ad_remain p.default .min{right:130px}
+/* 경기기록 기준일(광고배경) */
+.cnt_cen .critdate_area{position:relative;width:380px;height:27px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_critdate.gif) no-repeat}
+.cnt_cen .critdate_area p{padding:9px 18px 0 19px;font-size:11px;text-align:right;color:#5e7696}
+.cnt_cen .critdate_area p.default{text-align:center}
+.gc_type1 .cnt_cen .critdate_area p.default{padding-right:11px;text-align:right}
+/* 시즌성적 */
+.section_record{padding:2px 2px 0 2px}
+.section_record .record_area{width:100%;padding:0;border:1px solid #141c2e;table-layout:fixed}
+.section_record .record_area thead th{height:41px;padding-top:2px;border:1px solid #486499;background:#3f5787;color:#fff;font-size:18px;text-align:center}
+.section_record .record_area thead .vs{border-width:1px 0;background:#3f5787 url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_ico_preview.gif) no-repeat 28px 5px}
+.section_record .record_area thead .vs span{position:absolute;z-index:-1}
+.section_record .record_area thead .home{border-right:0}
+.section_record .record_area thead .away{border-left:0}
+.section_record .record_area tbody td,.section_record .record_area tbody th{height:25px;padding-top:2px;border:0;letter-spacing:-1px;text-align:center}
+.section_record .record_area tbody td{background:#26385c;color:#9ec7fd;font-size:14px;font-weight:bold}
+.section_record .record_area tbody th{background:#243659;color:#627ab6;font-size:11px;font-weight:normal}
+.section_record .record_area tbody .home{border-left:1px solid #2c406a}
+.section_record .record_area tbody .away{border-right:1px solid #2c406a}
+.section_record .record_area .frst th,.section_record .record_area .frst td{border-top:1px solid #1c2b4a}
+.section_record .record_area .frst td{color:#fff}
+.section_record .record_area .frst td span{font-weight:normal;font-size:12px}
+.section_record .record_area .last th{border-bottom:1px solid #283d64}
+.section_record .record_area .last td{border-bottom:1px solid #2c406a}
+.section_record .record_area tbody .row2 th{background:#223153}
+.section_record .record_area tbody .row2 td{background:#233355}
+.section_record .record_area tbody .row2 .home,.section_record .record_area tbody .row2 .away{border-color:#283b62}
+/* 맞대결 3경기 */
+.section_games{margin:1px 2px 0 2px;border:1px solid #141c2e}
+.section_games h3{position:relative;height:35px;padding:10px 0 0 13px;border:1px solid #486499;background:#3f5787;color:#fff;font-size:12px;letter-spacing:-1px}
+.section_games h3 span{position:absolute;top:10px;right:12px;color:#aac6f6;font-size:11px;letter-spacing:0;font-weight:normal}
+.section_games h3 span b{font-size:11px;letter-spacing:-1px;font-weight:normal}
+.section_games .record_area{width:100%;padding:0;background:#2d4068;table-layout:fixed}
+.section_games .record_area th,.section_games .record_area td{height:27px; text-align:center;}
+.section_games .record_area th{color:#627ab6;font-size:11px;font-weight:normal}
+.section_games .record_area .name{padding-top:2px;color:#9ec7fd;letter-spacing:-1px;line-height:14px;text-align:center;font-weight:bold}
+.section_games .record_area .score,.section_games .record_area .date{background:#253659}
+.section_games .record_area .frst .score,.section_games .record_area .last .score,.section_games .record_area .frst .date,.section_games .record_area .last .date{background:#283a5f}
+.section_games .record_area .frst td,.section_games .record_area .frst th{border-top:1px solid #223255}
+.section_games .record_area .frst .name{border-bottom:1px solid #344a77}
+.section_games .record_area .last th{border-bottom:1px solid #2e416c}
+.section_games .record_area .last td{border-bottom:1px solid #344a77}
+.section_games .record_area .line_lft{border-left:1px solid #344a77}
+.section_games .record_area .line_rgt{border-right:1px solid #344a77}
+.section_games .record_area .last .score{border-bottom:1px solid #2e416c}
+.section_games .record_area .score{height:26px;padding-top:1px;color:#fff;font-size:14px;letter-spacing:-1px;text-align:center;font-weight:bold}
+.section_games .record_area .result div{width:100%;height:100%;background:url(http://g01yrm06.dothome.co.kr/proj_img/mark.png) no-repeat}
+.section_games .record_area .lft .win{background-position:0 -258px}
+.section_games .record_area .rgt .win{background-position:9px -258px}
+.section_games .record_area .lft .draw{background-position:0 -307px}
+.section_games .record_area .rgt .draw{background-position:9px -307px}
+.section_games .record_area .lft .lose{background-position:0 -356px}
+.section_games .record_area .rgt .lose{background-position:9px -356px}
+.section_games .record_area .win span,.section_games .record_area .lose span,.section_games .record_area .draw span{position:absolute;z-index:-1}
+.section_games .record_area .nodata{color:#3f5787;font-size:11px;letter-spacing:-1px;text-align:center}
+.kbo_gc_type2 .section_games .record_area .frst .date a,.kbo_gc_type2 .section_games .record_area .last .date a{color:#627ab6;text-decoration:underline}
+.kbo_gc_type2 .section_games .record_area .date a{color:#627ab6;text-decoration:underline}
+.gc_type1 .section_games .record_area .frst .date a,.gc_type1 .section_games .record_area .last .date a{color:#627ab6;text-decoration:underline}
+.gc_type1 .section_games .record_area .date a{color:#627ab6;text-decoration:underline}
+/* 최근 3경기 */
+.section_recent{margin:1px 2px 0 2px;border:1px solid #141c2e}
+.section_recent h3{position:relative;height:35px;padding:10px 0 0 13px;border:1px solid #486499;background:#3f5787;color:#fff;font-size:12px;letter-spacing:-1px}
+.section_recent h3 span{position:absolute;top:10px;right:12px;color:#aac6f6;font-size:11px;letter-spacing:0;font-weight:normal}
+.section_recent h3 span b{font-size:11px;letter-spacing:-1px;font-weight:normal}
+.section_recent .record_area{width:100%;padding:0;border:0;background:#243353;table-layout:fixed}
+.section_recent .record_area th{height:30px;border:0;color:#9ec7fd}
+.section_recent .record_area .home{border:1px solid #1b2742;border-color:#1b2742 #202e4b #1f2d49 #293b5f;text-align:right}
+.section_recent .record_area .home span{padding-right:53px}
+.section_recent .record_area .away{border:1px solid #1b2742;border-left:0;border-color:#1b2742 #293b5f #1f2d49 #202e4b;text-align:left}
+.section_recent .record_area .away span{padding-left:56px}
+.section_recent .record_area td{height:43px;border:0;background:#283a60;color:#a0c9ff;font-size:11px}
+.section_recent .record_area td em{font-size:11px;letter-spacing:0;font-weight:bold}
+.section_recent .record_area td em .bar{margin-left:1px;font-size:11px;font-weight:normal}
+.section_recent .record_area .date{color:#657bb4;font-size:11px;letter-spacing:0;line-height:17px}
+.section_recent .record_area .frst td{background:#2d4068}
+.section_recent .record_area .last td{border-bottom:1px solid #344b77;background:#2d4068}
+.section_recent .record_area .tl{border-right:1px solid #344a77;text-align:left}
+.section_recent .record_area .tr{border-left:1px solid #344a77;text-align:right}
+.section_recent .record_area .line_rgt{border-right:1px solid #243455}
+.section_recent .record_area .frst .line_rgt,.section_recent .record_area .last .line_rgt{border-right-color:#27395d}
+.section_recent .record_area .result div{width:100%;height:100%;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_ico_preview.gif) no-repeat}
+.section_recent .record_area .lft .win{background-position:12px -63px}
+.section_recent .record_area .rgt .win{background-position:21px -63px}
+.section_recent .record_area .lft .draw{background-position:12px -126px}
+.section_recent .record_area .rgt .draw{background-position:21px -126px}
+.section_recent .record_area .lft .lose{background-position:12px -189px}
+.section_recent .record_area .rgt .lose{background-position:21px -189px}
+.section_recent .record_area .win span,.section_recent .record_area .lose span,.section_recent .record_area .draw span{position:absolute;z-index:-1}
+.section_recent .record_area .nodata{color:#465e8f;font-size:11px;letter-spacing:-1px;text-align:center}
+.section_recent .scrl_area{overflow:auto;height:130px;scrollbar-3dlight-color:#4769b0;scrollbar-darkshadow-color:#4769b0;scrollbar-highlight-color:#2e4c82;scrollbar-shadow-color:#2e4c82;scrollbar-arrow-color:#6986ae;scrollbar-face-color:#2e4c82;scrollbar-track-color:#395489}
+.section_recent .scrl_area .record_area{overflow:hidden;width:357px}
+.section_recent .scrl_area .record_area .bg_row td{background:#2d4068}
+.kbo_gc_type2 .section_recent .record_area td a{color:#a0c9ff;text-decoration:underline}
+.kbo_gc_type2 .section_recent .record_area td em .bar{margin:0 -5px 0 -4px;font-size:11px;font-weight:normal}
+.gc_type1 .section_recent .record_area td{height:49px}
+.gc_type1 .section_recent .record_area .last td{height:48px}
+.gc_type1 .section_recent .record_area .lft_nodata{border-right:1px solid #243455;border-left:1px solid #344a77;color:#465e8f;font-size:11px;letter-spacing:-1px;text-align:center}
+.gc_type1 .section_recent .record_area .rgt_nodata{border-right:1px solid #344a77;color:#465e8f;font-size:11px;letter-spacing:-1px;text-align:center}
+.gc_type1 .section_recent.play_off .record_area td{height:44px}
+.gc_type1 .section_recent.play_off .record_area .last td{height:43px}
+.gc_type1 .section_recent.play_off .record_area td a{color:#a0c9ff;text-decoration:underline}
+.gc_type1 .section_recent.play_off .record_area td em .bar{margin:0 -5px 0 -4px;font-size:11px;font-weight:normal}
+.gc_type1 .section_recent.play_off .record_area .lft .win{background-position:3px -63px}
+.gc_type1 .section_recent.play_off .record_area .rgt .win{background-position:5px -63px}
+.gc_type1 .section_recent.play_off .record_area .lft .draw{background-position:3px -126px}
+.gc_type1 .section_recent.play_off .record_area .rgt .draw{background-position:5px -126px}
+.gc_type1 .section_recent.play_off .record_area .lft .lose{background-position:3px -189px}
+.gc_type1 .section_recent.play_off .record_area .rgt .lose{background-position:5px -189px}
+/* 양팀타자성적 */
+.section_batter{margin:1px 2px 0 2px;border:1px solid #141c2e}
+.section_batter h3{position:relative;height:35px;padding:10px 0 0 13px;border:1px solid #486499;background:#3f5787;color:#fff;font-size:12px;letter-spacing:-1px}
+.section_batter h3 span{position:absolute;top:10px;right:12px;color:#aac6f6;font-size:11px;letter-spacing:0;font-weight:normal}
+.section_batter h3 span b{font-size:11px;letter-spacing:-1px;font-weight:normal}
+.section_batter .tab_team{overflow:hidden;width:374px;height:32px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_tab_team.gif) no-repeat 0 -32px}
+.section_batter .tab_team li{float:left}
+.section_batter .tab_team li a{display:block;position:relative;width:187px;height:32px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_tab_team.gif) no-repeat;color:#9dc8fd;font-family:돋움;font-size:11px;letter-spacing:-1px;line-height:32px;text-align:center;cursor:pointer}
+.section_batter .tab_team li a:hover{text-decoration:none}
+.section_batter .tab_team .lft a{background-position:0 -32px}
+.section_batter .tab_team .rgt a{background-position:187px -32px}
+.section_batter .tab_team .lft a.on{background-position:0 0}
+.section_batter .tab_team .rgt a.on{background-position:-187px 0}
+.section_batter .tab_sort{overflow:hidden;width:372px;height:26px;padding-top:2px;border:1px solid #1f2d48;border-color:#2d4068 #344b77 #1f2d48 #344b77;background:#2d4068}
+.section_batter .tab_sort li{float:left;width:41px;height:25px;padding-top:1px;color:#728dbc;font-size:11px;letter-spacing:-1px;text-align:center}
+.section_batter .tab_sort .name{width:67px;padding:7px 0 0 8px}
+.section_batter .tab_sort .ratio{width:53px}
+.section_batter .tab_sort a{display:block;position:relative;width:100%;height:25px;margin:-1px 0 0;padding:0;border:0;background:#2d4068 url(https://imgnews.pstatic.net/image/sports/nsports/2010/bu_preview.gif) no-repeat 32px 10px;color:#728dbc;font-family:돋움;font-size:11px;letter-spacing:-1px;line-height:25px;cursor:pointer}
+.section_batter .tab_sort a:hover{text-decoration:none}
+.section_batter .tab_sort .bu a{background-position:43px 10px}
+.section_batter .tab_sort .bu2 a{background-position:38px 10px}
+.section_batter .tab_sort .on{background-position:32px -24px}
+.section_batter .tab_sort .bu .on{background-position:43px -24px}
+.section_batter .tab_sort .bu2 .on{background-position:38px -24px}
+.section_batter .scrl_area{overflow:auto;height:285px;border-left:1px solid #486499;border-bottom:1px solid #3f5994;background:#374e82;scrollbar-3dlight-color:#4769b0;scrollbar-darkshadow-color:#4769b0;scrollbar-highlight-color:#2e4c82;scrollbar-shadow-color:#2e4c82;scrollbar-arrow-color:#6986ae;scrollbar-face-color:#2e4c82;scrollbar-track-color:#395489}
+.section_batter .record_area{overflow:hidden;width:355px;margin-top:3px;padding:0;border:0;table-layout:fixed}
+.section_batter .record_area td{height:22px;padding-top:1px;border:0;background:#374e82;color:#a0c9ff;font-size:12px;text-align:center}
+.section_batter .record_area .bg_row td{background:#324877}
+.section_batter .record_area .name{display:inline-block;padding:1px 0 0 11px;color:#fff}
+.section_batter .record_area .bta{padding-right:10px}
+.section_batter .scrl_area .nodata{height:330px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_nodata.gif) no-repeat}
+.section_batter .scrl_area .nodata p{padding-top:122px;color:#7991c4;font-size:11px;letter-spacing:-1px;line-height:15px;text-align:center}
+.kbo_gc_type2 .section_batter .scrl_area{height:388px}
+/* 경기기록없음 */
+.section_norecord{width:376px;margin:1px auto}
+.section_norecord img{display:block}
+/* 오늘의승리팀 */
+.section_poll{position:relative;height:95px;margin-top:1px;border:1px solid #151c2f;border-color:#151c2f #151c2e #102041 #151c2e;background:#1f2e4f}
+.section_poll h3{position:absolute;top:14px;left:16px;color:#fff;font-size:12px;letter-spacing:-1px}
+.section_poll dl{position:absolute;top:43px;left:1px;width:376px;height:35px}
+.section_poll dl dt{position:absolute;top:-4px;left:0}
+.section_poll dl dt.away{left:301px}
+.section_poll dl.mlb dt{left:4px}
+.section_poll dl.mlb dt.away{left:297px}
+.section_poll dl dd{position:absolute;top:16px;left:77px;width:110px;color:#feb938;font-size:11px}
+.section_poll dl dd.away{left:189px;color:#fb080c;text-align:right}
+.section_poll dl.mlb dd{left:85px}
+.section_poll dl.mlb dd.away{left:181px}
+.section_poll dl dd .vdn{margin-right:3px;font-family:arial;font-size:14px}
+.section_poll dl dd.away .vdn{margin-right:0;margin-left:3px}
+.section_poll dl .grph{top:0 !important;left:76px;z-index:10;width:224px;height:13px}
+.section_poll dl .grph span{display:block;height:13px;background:#feb938 url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_poll.gif) repeat-x}
+.section_poll dl .grph_away{top:0 !important;left:76px;width:224px;height:13px}
+.section_poll dl .grph_away span{display:block;height:13px;background:#fb080c url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_poll.gif) repeat-x}
+.section_poll dl.mlb .grph{left:84px;width:208px}
+.section_poll dl.mlb .grph_away{left:84px;width:208px}
+.section_poll dl a{display:block;position:relative;width:75px;height:19px;padding-top:5px;border:0;color:#fff;font-family:돋움;font-size:12px;letter-spacing:-1px;text-align:center;text-decoration:none;font-weight:bold}
+.section_poll dl a:hover{text-decoration:underline}
+/* 중앙 하단 광고 */
+.cnt_cen .ad_btm{overflow:hidden;width:380px;height:30px}
+/* 스코어보드 */
+.section_scoreboard{overflow:hidden;clear:both;position:relative;height:96px;padding-top:17px;text-align:center}
+.section_scoreboard table{margin:0 auto;padding:0;border:none}
+.section_scoreboard .team_lft{padding-right:18px}
+.section_scoreboard .team_cen{text-align:center}
+.section_scoreboard .team_rgt{padding-left:19px}
+.section_scoreboard .team_rgt .t_logo{margin-right:0;margin-left:11px}
+.section_scoreboard .t_logo{float:left;margin-right:11px}
+.section_scoreboard .t_name{margin-top:11px}
+.score_lft{padding-right:12px}
+.score_rgt{padding-left:11px}
+.section_scoreboard2,.section_vs2{position:relative;height:123px}
+.section_scoreboard2 .t_name,.section_vs2 .t_name{margin-top:33px}
+.section_scoreboard2 .t_name_txt,.section_vs2 .t_name_txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;font-size:18px;font-weight:800;letter-spacing:-1.5px;color:#000;font-family:'맑은고딕',malgun gothic,'나눔고딕',nanum gothic,'돋움',Dotum,Helvetica,sans-serif}
+.section_scoreboard2 .t_record,.section_vs2 .t_record{clear:both;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;font-size:12px;color:#767676;line-height:21px;vertical-align:top;font-family:'맑은고딕',malgun gothic,'나눔고딕',nanum gothic,'돋움',Dotum,Helvetica,sans-serif;letter-spacing:-1px}
+.section_scoreboard2 .team_lft,.section_scoreboard2 .team_rgt,.section_vs2 .team_lft,.section_vs2 .team_rgt{top:3px;width:auto}
+.section_scoreboard2 .team_lft:after,.section_scoreboard2 .team_rgt:after,.section_vs2 .team_lft:after,.section_vs2 .team_rgt:after{display:table;clear:both;content:''}
+.section_scoreboard2 .team_lft .t_name,.section_vs2 .team_lft .t_name{margin-left:-4px;text-align:left}
+.section_scoreboard2 .team_lft .t_rank,.section_scoreboard2 .team_lft .t_win,.section_scoreboard2 .team_lft .t_lose,.section_vs2 .team_lft .t_rank,.section_vs2 .team_lft .t_win,.section_vs2 .team_lft .t_lose{float:left;margin:2px 8px 0 0}
+.section_scoreboard2 .team_rgt .t_name,.section_vs2 .team_rgt .t_name{margin-right:-4px;text-align:right}
+.section_scoreboard2 .team_rgt .t_rank,.section_scoreboard2 .team_rgt .t_win,.section_scoreboard2 .team_rgt .t_lose,.section_vs2 .team_rgt .t_rank,.section_vs2 .team_rgt .t_win,.section_vs2 .team_rgt .t_lose{float:right;margin:2px 0 0 8px}
+.section_scoreboard2 .t_name{width:142px}
+.section_scoreboard2 .p_score{padding:0;width:72px;font-size:50px;letter-spacing:-1px;color:#000;text-align:center;line-height:55px;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,Apple SD Gothic Neo,Helvetica,Sans-serif;font-weight:bold}
+.section_scoreboard2 .team_lft{left:0}
+.section_scoreboard2 .team_rgt{right:0}
+.section_vs2 .t_name,.section_vs2.premier12 .t_name{width:auto;max-width:160px}
+.section_vs2 .team_cen img{padding-top:36px}
+.section_vs2 .team_cen p{width:100px;margin:5px auto 0;font-size:11px;letter-spacing:-1;color:#999}
+.section_vs2 .team_rgt{right:auto;left:648px}
+.section_vs2 .team_lft{left:auto;right:648px}
+.extra_time .t_score{width:348px}
+.extra_time .t_name{width:125px}
+.extra_time .t_score thead th.first{width:53px;padding-left:4px}
+.extra_time_btn_type .t_score thead th.first{width:53px;padding-left:4px}
+.premier12 .t_name{width:132px}
+.premier12.extra_time .t_name{width:118px}
+.gc_type1 .section_scoreboard2{height:115px}
+.gc_type1 .section_scoreboard2 .team_lft{top:25px;right:669px}
+.gc_type1 .section_scoreboard2 .team_rgt{top:25px;left:669px}
+.gc_type1 .section_scoreboard2 .team_cen{position:static;width:334px;margin:0 auto;padding-top:22px}
+.gc_type1 .section_scoreboard2 .team_lft .p_score{margin-top:9px;padding-left:18px}
+.gc_type1 .section_scoreboard2 .team_rgt .p_score{margin-top:9px;padding-right:18px}
+.gc_type1 .extra_type1 .team_lft{right:679px}
+.gc_type1 .extra_type1 .team_rgt{left:679px}
+.gc_type1 .extra_type1 .team_cen{position:static;width:354px;margin:0 auto;padding-top:19px}
+.gc_type1 .extra_type2 .team_lft{right:689px}
+.gc_type1 .extra_type2 .team_rgt{left:689px}
+.gc_type1 .extra_type2 .team_cen{position:static;width:374px;margin:0 auto;padding-top:19px}
+.gc_type1 .extra_type3 .team_lft{right:699px}
+.gc_type1 .extra_type3 .team_rgt{left:699px}
+.gc_type1 .extra_type3 .team_cen{position:static;width:394px;margin:0 auto;padding-top:19px}
+.gc_type1 .extra_type4 .team_lft{right:701px}
+.gc_type1 .extra_type4 .team_rgt{left:701px}
+.gc_type1 .extra_type4 .team_cen{position:static;width:398px;margin:0 auto;padding-top:19px}
+.t_score{width:316px;margin:20px auto 0;border:0;border-bottom:1px solid #d8d8d8;border-collapse:separate;*border-collapse:collapse;table-layout:fixed}
+.t_score thead th{position:relative;padding:8px 2px 6px 2px;border:1px solid #d8d8d8;border-right:0;background:#f5f5f5;border-left-color:#eee}
+.t_score thead th span[class^=i]{display:block;width:13px;height:10px;margin:0 auto;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_scoreboard.gif) no-repeat}
+.t_score thead th span em{position:relative;z-index:-1;color:#5f636e}
+.t_score thead th span.i1{background-position:0 0}
+.t_score thead th span.i2{background-position:0 -30px}
+.t_score thead th span.i3{background-position:0 -60px}
+.t_score thead th span.i4{background-position:0 -90px}
+.t_score thead th span.i5{background-position:0 -120px}
+.t_score thead th span.i6{background-position:0 -150px}
+.t_score thead th span.i7{background-position:0 -180px}
+.t_score thead th span.i8{background-position:0 -210px}
+.t_score thead th span.i9{background-position:0 -240px}
+.t_score thead th span.i10{background-position:0 -270px}
+.t_score thead th span.i11{background-position:0 -300px}
+.t_score thead th span.i12{background-position:0 -330px}
+.t_score thead th span.i13{background-position:0 -736px}
+.t_score thead th span.i14{background-position:0 -766px}
+.t_score thead th span.i15{background-position:0 -796px}
+.t_score thead th span.i16{background-position:0 -826px}
+.t_score thead th span.i17{background-position:0 -856px}
+.t_score thead th span.i18{background-position:0 -886px}
+.t_score thead th span.i19{background-position:0 -916px}
+.t_score thead th span.i20{background-position:0 -946px}
+.t_score thead th span.i21{background-position:0 -976px}
+.t_score thead th span.i22{background-position:0 -1006px}
+.t_score thead th span.i23{background-position:0 -1036px}
+.t_score thead th span.i24{background-position:0 -1066px}
+.t_score thead th span.i25{background-position:0 -1096px}
+.t_score thead th span.i26{background-position:0 -1126px}
+.t_score thead th span.i27{background-position:0 -1156px}
+.t_score thead th span.i28{background-position:0 -1186px}
+.t_score thead th span.i29{background-position:0 -1216px}
+.t_score thead th span.i30{background-position:0 -1246px}
+.t_score thead th span.o31{background:none}
+.t_score thead th span.o31 em{z-index:1;color:#5f636e;font-size:11px}
+.t_score thead th span.iR{background-position:0 -360px}
+.t_score thead th span.iH{background-position:0 -390px}
+.t_score thead th span.iE{background-position:0 -420px}
+.t_score thead th span.iB{background-position:0 -450px}
+.t_score thead th.first{width:73px;padding:2px 0 0 9px;border-left:0;text-align:left;font-weight:normal;color:#868686;font-size:11px;letter-spacing:-1px}
+.t_score thead th.prev{border-left:0}
+.t_score tbody th{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:45px;padding:0 2px 0 6px;border:0;border-bottom:1px solid #ededed;color:#4a4a4a;text-align:left;font-size:11px}
+.t_score td{padding:7px 0 4px 0;min-width:10px;border:1px solid #ededed;border-width:0 0 1px 1px;color:#494949;font-size:12px;letter-spacing:-1px;text-align:center;text-indent:-1px}
+.t_score td span{color:#e0e1dc}
+.t_score td em{color:#000;font-weight:bold}
+.t_score td strong{color:#f4561c}
+.t_score .away td,.t_score .away th{border-bottom:none}
+.t_score thead th.btn{width:11px;padding:0}
+.t_score tbody td.btn{width:9px;height:47px;margin:0;padding:0;border-bottom:none}
+.t_score tbody td.btn .inner{position:relative;width:10px;height:51px}
+.t_score tbody td.btn a,.t_score tbody td.btn span{position:absolute;left:0;top:0;width:100%;height:100%;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_scoreboard.gif) no-repeat}
+.t_score tbody td.prev a,.t_score tbody td.prev span{background-position:2px -589px}
+.t_score tbody td.next a,.t_score tbody td.next span{background-position:3px -648px}
+.t_score tbody td.prev a.on{background-position:2px -471px}
+.t_score tbody td.next a.on{background-position:3px -530px}
+/* 경기중선수정보 */
+.h_player{position:relative}
+.h_player .btn_lineup{position:absolute;top:3px;right:6px;width:90px;height:21px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/btn_lineup.gif) no-repeat 4px 5px;cursor:pointer}
+.h_player .btn_lineup span{position:absolute;left:-9999px;z-index:-1}
+.p_info2{clear:both;position:relative;z-index:10;width:295px;margin-bottom:9px;_zoom:1}
+.p_info2:after{display:block;clear:both;content:''}
+.p_info2 .thumb{float:left;width:79px;height:101px;margin-right:11px}
+.p_info2 .thumb a{display:block;overflow:hidden;width:79px;height:101px;border:1px solid #d0d0d0}
+.p_info2 .thumb a img{margin-left:-1px}
+.p_info2 dl{float:left;position:relative;z-index:10;width:201px;margin-top:2px}
+.p_info2 dt,.p_info dt a{color:#575757;font-size:16px;letter-spacing:-1px;font-weight:bold}
+.p_info2 dt{position:relative;padding-bottom:3px}
+.p_info2 dt .btn_detail{position:absolute;top:2px;right:8px;color:#878787 !important;font-family:돋움;font-size:11px;letter-spacing:-2px;text-decoration:underline;font-weight:normal;cursor:pointer}
+.p_info2 dt a{color:#344f94 !important;font-size:16px}
+.p_info2 dd{color:#999;font-size:11px}
+.p_info2 .vs_info{color:#333;font-size:11px;letter-spacing:-1px}
+.p_info2 .vs_info em{font-size:11px;letter-spacing:0}
+.p_info2 .vs_info span{color:#ff0000;font-weight:bold}
+.p_info2 .ly_detail{position:absolute;top:15px;right:7px;padding:9px 18px 0 10px;border:1px solid #888;background:#fff}
+.p_info2 .ly_detail ul{_width:76px;padding-right:10px;min-width:76px}
+.p_info2 .ly_detail ul li{margin-bottom:8px;color:#6f6f6f;font-size:11px;letter-spacing:-1px;white-space:nowrap}
+.p_info2 .ly_detail ul li em{letter-spacing:0}
+.p_info2 .ly_detail ul li strong{color:#343434;font-size:11px;font-weight:normal}
+.p_info2 .ly_detail ul li .bar{margin:0 1px;color:#e3e3e3;font-size:10px}
+.p_info2 .ly_detail .btn_ly_clse{display:block;position:absolute;top:4px;right:4px;width:18px;height:18px;margin:0;padding:4px 0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/btn_ly_clse.gif) no-repeat 4px 4px;cursor:pointer}
+.p_info2 .ly_detail .btn_ly_clse span{position:absolute;left:-9999px;z-index:-1}
+.p_info2 .status_area{clear:both;position:absolute;top:39px;left:88px;width:207px;border:1px solid #ececec;border-width:1px 0 1px 0;border-collapse:separate}
+.p_info2 .status_area td,.p_info2 .status_area th{margin:0;padding:0;border:0}
+.p_info2 .status_area th{height:21px}
+.p_info2 .status_area th span{padding-left:6px;color:#6d6d6d;font-size:11px;letter-spacing:-1px;font-weight:normal}
+.p_info2 .status_area td{color:#353535;font-size:11px;letter-spacing:-1px;text-align:center;font-weight:bold}
+.p_info2 .status_area .mid th,.p_info2 .status_area .mid td{background:#f6f6f6}
+.p_info2 .status_area .mid th{height:20px}
+.p_info2 .status_area td .bar{margin:0 3px;color:#dbdbdb;font-size:10px;font-weight:normal}
+.p_info2 .status_area td .detail{color:#575757;font-size:11px;letter-spacing:-1px;font-weight:normal}
+.p_next_bat{height:16px;margin-bottom:20px;padding-top:5px;border-bottom:1px solid #d0d0d0;background:#fbfbfb;color:#4c4c4c;font-size:11px;letter-spacing:-1px}
+.p_next_bat strong{padding:0 8px 0 12px;font-size:11px}
+.p_next_bat em{margin-left:12px;font-size:11px;letter-spacing:0}
+.p_next_bat .bar{margin-right:3px;color:#c5c5c5;font-size:11px}
+.p_next_bat a{color:#375194;font-size:11px}
+.gc_type1 .h_player .btn_lineup{top:4px}
+.gc_type1 .p_info dt{padding-bottom:4px}
+.gc_type1 .p_info2 dt{padding-bottom:4px;color:#383838}
+.gc_type1 .p_info dt .nodata{color:#000}
+.gc_type1 .p_info2 dt .nodata{color:#000}
+.gc_type1 .p_next_bat{height:17px;margin-bottom:22px;padding-top:6px;border-bottom:1px solid #d0d0d0;background:#fbfbfb;color:#4c4c4c;font-size:11px;letter-spacing:-1px}
+/* 라인업레이어 */
+.ly_lineup{clear:both;position:absolute;top:0;z-index:20;width:678px;border:1px solid #2e323d;background:#fff}
+.lft_lineup{left:300px}
+.rgt_lineup{right:300px}
+.ly_lineup .h_player{position:relative;width:668px;height:19px;margin:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_h_lineup.gif) repeat;letter-spacing:-1px}
+.ly_lineup .h_player .btn_clse{position:absolute;top:3px;right:5px;width:18px;height:19px;margin:0;padding:5px 0;border:0;background:none;cursor:pointer}
+.ly_lineup .anc_info{position:relative}
+.ly_lineup .ly_playerinfo{display:none;overflow:hidden;position:absolute;bottom:0;left:65px;z-index:10;width:145px;padding:8px;border:1px solid #888;background:#fff;text-align:left}
+.ly_lineup .ly_playerinfo .thmb{float:left;width:54px;height:69px;margin-right:7px;border:1px solid #e6e7e8}
+.ly_lineup .ly_playerinfo dl{float:left;width:80px}
+.ly_lineup .ly_playerinfo dl dt,.ly_lineup .ly_playerinfo dl dt a{color:#365094;font-size:12px;font-weight:bold;letter-spacing:-1px}
+.ly_lineup .ly_playerinfo dl dt{padding:7px 0 4px}
+.ly_lineup .ly_playerinfo dl dd{color:#5d5d5d;font-size:11px;letter-spacing:0;line-height:14px}
+.ly_lineup .anc_btm{bottom:0;_bottom:7px}
+.ly_lineup .scrl_area{overflow:auto;position:relative;width:652px;max-height:453px;padding:20px 12px 0;border:1px solid #404653;scrollbar-3dlight-color:#cbcacf;scrollbar-darkshadow-color:#cbcacf;scrollbar-highlight-color:#fff;scrollbar-shadow-color:#fff;scrollbar-arrow-color:#a5a5a5;scrollbar-face-color:#fff;scrollbar-track-color:#dddddf}
+.ly_lineup h4{padding-bottom:5px;color:#000;font-size:12px;letter-spacing:-1px}
+.ly_lineup .lineup_area{width:634px;margin-bottom:10px;padding:0;border:0;border-collapse:separate}
+.ly_lineup .lineup_area th,.ly_lineup .lineup_area td{border:0}
+.ly_lineup .lineup_area .ovr{position:relative;z-index:10}
+.ly_lineup .lineup_area .ovr a{text-decoration:underline}
+.ly_lineup .lineup_area th{height:32px;border:1px solid #e4e4e4;background:#fcfcfc;color:#909193;font-size:11px;font-weight:normal;letter-spacing:-1px;line-height:14px;text-align:center;border-width:1px 0}
+.ly_lineup .lineup_area td{height:25px;color:#383838;font-size:11px;text-align:center}
+.ly_lineup .lineup_area td .frst{padding-left:9px}
+.ly_lineup .lineup_area td .last{padding-right:9px}
+.ly_lineup .lineup_area td a{display:inline-block;color:#365094;font-size:12px;font-weight:bold}
+.ly_lineup .lineup_area td em{color:#383838;font-weight:bold}
+.ly_lineup .lineup_area td div{font-size:11px}
+.ly_lineup .lineup_area td .subout{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_lineup.gif) no-repeat 9px 1px}
+.ly_lineup .lineup_area td .subin{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_lineup.gif) no-repeat 9px -27px}
+.ly_lineup .lineup_area td .subout span,.ly_lineup .lineup_area td .subin span{position:absolute;left:-9999px;z-index:-1}
+.ly_lineup .lineup_area .bg td{background:#f7f7f7}
+.ly_lineup .lineup_area td .p_name{font-size:12px}
+/* 문자중계탭 */
+.tab_livecast{overflow:hidden;width:380px;height:27px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -27px}
+.tab_livecast li{float:left;width:190px}
+.tab_livecast li button{width:100%;height:27px;margin:0;padding:0;border:0;background:none;cursor:pointer}
+.tab_livecast li button span{position:relative;z-index:-1}
+.tab_livecast .btn_cast .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat}
+.tab_livecast .btn_info .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -190px 0}
+/* 문자중계 */
+button.def{cursor:default !important}
+.cast_flash_area{margin-bottom:1px;border-bottom:1px solid #141c2f}
+.section_cast{position:relative}
+.section_cast .tab_game{overflow:hidden;width:376px;height:33px;margin:0 auto;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -154px}
+.section_cast .tab_game li{float:left;width:77px;margin-right:-1px}
+.section_cast .tab_game li button{width:77px;height:33px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat;cursor:pointer}
+.section_cast .tab_game li button span{position:relative;z-index:-1}
+.section_cast .tab_game .btn_game button{background-position:0 -154px}
+.section_cast .tab_game .btn_score button{background-position:-76px -154px}
+.section_cast .tab_game .btn_game .on{background-position:0 -187px}
+.section_cast .tab_game .btn_score .on{background-position:-76px -187px}
+.section_cast .time_refresh{position:absolute;top:11px;right:152px;color:#7494bb;font-size:11px;letter-spacing:-1px}
+.section_cast .btn_refresh{position:absolute;top:7px;right:86px;width:62px;height:18px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -240px;cursor:pointer}
+.section_cast .btn_refresh span{position:absolute;left:-9999px;z-index:-1}
+.section_cast .btn_minicast{overflow:hidden;display:block;position:absolute;top:7px;right:10px;width:71px;height:18px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -62px -240px}
+.section_cast .btn_minicast span{position:absolute;left:-9999px;z-index:1}
+.section_cast .tab_inning{overflow:hidden;width:370px;height:22px;margin:0 auto;padding:2px 0 0 6px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -74px}
+.section_cast .tab_inning li{float:left;width:33px;height:18px}
+.section_cast .tab_inning li button{width:33px;height:18px;margin:0;padding:0;border:0;background:none;cursor:pointer}
+.section_cast .tab_inning li button span{position:relative;z-index:-1}
+.section_cast .tab_inning .i1 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -116px}
+.section_cast .tab_inning .i2 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -33px -116px}
+.section_cast .tab_inning .i3 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -66px -116px}
+.section_cast .tab_inning .i4 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -99px -116px}
+.section_cast .tab_inning .i5 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -132px -116px}
+.section_cast .tab_inning .i6 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -165px -116px}
+.section_cast .tab_inning .i7 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -198px -116px}
+.section_cast .tab_inning .i8 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -231px -116px}
+.section_cast .tab_inning .i9 .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -264px -116px}
+.section_cast .tab_inning .ext .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -297px -116px}
+.section_cast .tab_inning .all .ovr{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -330px -116px}
+.section_cast .tab_inning .i1 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -98px}
+.section_cast .tab_inning .i2 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -33px -98px}
+.section_cast .tab_inning .i3 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -66px -98px}
+.section_cast .tab_inning .i4 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -99px -98px}
+.section_cast .tab_inning .i5 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -132px -98px}
+.section_cast .tab_inning .i6 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -165px -98px}
+.section_cast .tab_inning .i7 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -198px -98px}
+.section_cast .tab_inning .i8 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -231px -98px}
+.section_cast .tab_inning .i9 .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -264px -98px}
+.section_cast .tab_inning .ext .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -297px -98px}
+.section_cast .tab_inning .all .on{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -330px -98px}
+.section_cast .scrl_ad{position:relative;width:374px;height:595px;margin:0 2px;border:1px solid #141c2f;border-right:0;background-color:#24385d;background-position:50% 50%;background-repeat:no-repeat;border-top-color:#213357}
+.section_cast .scrl_area{overflow:auto;position:relative;width:355px;height:595px;padding-left:18px;border-left:1px solid #273e67;scrollbar-3dlight-color:#182a50;scrollbar-darkshadow-color:#182a50;scrollbar-highlight-color:#354d84;scrollbar-shadow-color:#354d84;scrollbar-arrow-color:#5f88ce;scrollbar-face-color:#354d84;scrollbar-track-color:#1f3667}
+.section_cast .scrl_area h4{padding-top:20px;color:#fff;font-size:12px}
+.section_cast .scrl_area h5{padding:16px 0 8px;color:#6b98f5;font-size:12px}
+.section_cast .scrl_area h5 .bar{color:#3c5279;font-size:12px;font-weight:normal}
+.section_cast .scrl_area strong{color:#fe4215}
+.section_cast .scrl_area .now h5,.section_cast .scrl_area .now p{color:#ffa300}
+.section_cast .scrl_area p{padding-bottom:4px;color:#a8beed}
+.section_cast .scrl_area .now h5{padding-top:20px}
+.delay_data{height:45px;border-left:1px solid #273e67}
+.delay_data p{padding:17px 0 0 18px;color:#6078ac;font-size:11px;letter-spacing:-1px;line-height:14px}
+.kbo_gc_type2 .section_cast .scrl_ad{height:667px;*height:656px}
+.kbo_gc_type2 .section_cast .scrl_area{height:667px;*height:656px}
+.cast_support{position:relative;width:380px;height:285px;background:url(https://imgsports.pstatic.net/images/section/worldbaseball/end_ios.png) no-repeat 0 0}
+/* 미니중계 */
+.pop_minicast{position:relative;width:390px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_minicast.gif) repeat}
+.pop_minicast:after{display:block;clear:both;content:""}
+.section_pop_score{position:relative;height:83px;border-top:1px solid #0d1b35}
+.section_pop_score .team_lft{position:absolute;top:24px;right:213px;padding-right:0;left:initial;width:initial}
+.section_pop_score .team_lft .t_name{float:left;margin-top:3px;padding-right:10px;text-align:center;width:initial}
+.section_pop_score .score_lft{float:left;margin-top:5px;padding-right:13px}
+.section_pop_score .t_name dd{padding-top:5px;margin:0;color:#839cd2;font-size:11px;font-weight:bold}
+.section_pop_score .team_cen{position:absolute;top:32px;left:177px;text-align:center;width:initial;height:initial}
+.section_pop_score .team_rgt{position:absolute;top:24px;left:219px;padding-left:0;right:initial;width:initial;text-align:initial}
+.section_pop_score .score_rgt{float:left;margin-top:5px;padding-left:13px}
+.section_pop_score .team_rgt .t_name{float:left;margin-top:3px;padding-left:10px;text-align:center;width:initial}
+.section_pop_score .p_inning{width:42px;height:16px;padding-top:6px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -146px -333px;color:#62769b;font-size:11px;letter-spacing:-1px;text-align:center}
+.section_pop_score .p_score{position:static;top:0;float:left;width:100%;text-align:center}
+.section_pop_score .p_score span{display:inline-block;z-index:-1;height:29px;padding:0 2px 0 2px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_num_score5.gif) no-repeat}
+.section_pop_score .p_score span.n0{width:18px;background-position:2px 0}
+.section_pop_score .p_score span.n1{width:12px;background-position:2px -44px}
+.section_pop_score .p_score span.n2{width:18px;background-position:2px -88px}
+.section_pop_score .p_score span.n3{width:19px;background-position:2px -132px}
+.section_pop_score .p_score span.n4{width:20px;background-position:2px -176px}
+.section_pop_score .p_score span.n5{width:18px;background-position:2px -220px}
+.section_pop_score .p_score span.n6{width:18px;background-position:2px -264px}
+.section_pop_score .p_score span.n7{width:18px;background-position:2px -308px}
+.section_pop_score .p_score span.n8{width:18px;background-position:2px -352px}
+.section_pop_score .p_score span.n9{width:18px;background-position:2px -396px}
+.section_pop_score .p_score span em{position:relative;z-index:-1}
+.pop_minicast .section_count{float:right;width:77px;height:115px;margin:10px 15px;border:1px solid #0f1b31;background:#192842}
+.pop_minicast .section_count .p_runner{overflow:hidden;position:relative;width:77px;height:77px;padding:0;border-bottom:1px solid #0f1b31;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat 0 -278px}
+.pop_minicast .section_count .p_runner span{display:block;position:absolute;width:7px;height:7px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -97px -278px}
+.pop_minicast .section_count .p_runner span.r1{top:34px;right:10px}
+.pop_minicast .section_count .p_runner span.r2{top:9px;left:35px}
+.pop_minicast .section_count .p_runner span.r3{top:34px;left:10px}
+.pop_minicast .section_count .p_runner span em{position:absolute;left:-9999px;z-index:-1}
+.pop_minicast .section_count .p_ballcount{overflow:hidden;position:relative;width:77px;height:37px;padding:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -146px -278px}
+.pop_minicast .section_count .p_ballcount span{display:block;position:absolute;left:21px;height:7px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat}
+.pop_minicast .section_count .p_ballcount span.s0,.pop_minicast .section_count .p_ballcount span.b0,.pop_minicast .section_count .p_ballcount span.o0{width:0}
+.pop_minicast .section_count .p_ballcount span.s1{top:15px;width:7px;background-position:-97px -300px}
+.pop_minicast .section_count .p_ballcount span.s2{top:15px;width:18px;background-position:-97px -300px}
+.pop_minicast .section_count .p_ballcount span.b1{top:4px;width:7px;background-position:-97px -322px}
+.pop_minicast .section_count .p_ballcount span.b2{top:4px;width:18px;background-position:-97px -322px}
+.pop_minicast .section_count .p_ballcount span.b3{top:4px;width:29px;background-position:-97px -322px}
+.pop_minicast .section_count .p_ballcount span.o1{top:26px;width:7px;background-position:-97px -344px}
+.pop_minicast .section_count .p_ballcount span.o2{top:26px;width:18px;background-position:-97px -344px}
+.pop_minicast .section_count .p_ballcount span em{position:absolute;left:-9999px;z-index:-1}
+.pop_minicast .section_cast{padding-bottom:7px}
+.pop_minicast .section_cast .scrl_ad{height:347px;margin-right:auto;margin-left:auto;border-right:1px solid #141c2f}
+.pop_minicast .section_cast .scrl_area{height:347px}
+.pop_minicast .section_cast .btn_minicast{top:8px;right:13px;width:62px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -133px -240px}
+.pop_minicast .section_cast .btn_refresh{top:8px;right:80px}
+.pop_minicast .section_cast .time_refresh{top:12px;right:146px}
+.pop_minicast .other_score{float:left;width:363px;margin-top:0}
+.pop_minicast .other_score li{display:inline;float:left;position:relative;width:120px;height:48px;margin:0;margin-right:-1px;border:1px solid #141c2f;background:#1d2f4e url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score2.gif) no-repeat 0 0;border-right-color:#141b2e}
+/* .pop_minicast .other_score li.g_ovr{border:1px solid #141c2f;border-left:0;border-right-color:#141b2e} */
+.pop_minicast .other_score li.g_prev{background:#1d2f4e url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score2.gif) no-repeat 0 -48px}
+.pop_minicast .g_cast{position:relative;top:0;left:0;z-index:10}
+.pop_minicast .g_cast .bg_bx2{position:absolute;top:0;left:0;width:129px;height:48px;background:url(https://imgsports.pstatic.net/images/2015/PC/common/bg_game_cast.png) no-repeat}
+.pop_minicast .g_cast .btn{overflow:hidden;position:absolute;top:0;left:0;z-index:12;width:128px;height:49px}
+.pop_minicast .g_cast span{visibility:hidden;position:absolute;left:-9000px;z-index:-1}
+.pop_minicast .g_score{float:left;width:68px;margin-top:5px;*margin-top:6px}
+.pop_minicast .g_score dt{float:left;width:24px;margin:3px 0 4px;padding:0 12px;color:#617293;font-size:11px;letter-spacing:-1px}
+.pop_minicast .g_score dt em{letter-spacing:0}
+.pop_minicast .g_score dd{float:left;width:12px;margin:2px 0;*margin:1px 0;padding:0;color:#bcc1ca;font-family:tahoma;font-size:11px;font-weight:bold;letter-spacing:-1px;text-align:center}
+.pop_minicast .g_score dt span{margin:0 1px;color:#c4d1f6;font-size:11px}
+.pop_minicast .g_base{float:right;position:relative;width:43px;height:48px;padding:0;text-align:center}
+.pop_minicast .g_base p{position:absolute;width:5px;height:5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_base2.gif) no-repeat 0 0}
+.pop_minicast .g_base p span{display:none}
+.pop_minicast .g_base .b1{top:15px;right:12px}
+.pop_minicast .g_base .b2{top:8px;right:18px}
+.pop_minicast .g_base .b3{top:15px;right:25px}
+.pop_minicast .g_base em{position:absolute;top:29px;left:0;width:43px;color:#446296;font-family:dotum;font-size:11px;text-align:center;letter-spacing:-1px}
+.pop_minicast .g_prev .g_score{float:none;width:129px;margin-top:10px;*margin-top:11px}
+.pop_minicast .g_prev .g_score dt,.pop_minicast .g_prev .g_score dd{float:none;width:auto;margin:0;padding:0;text-align:center}
+.pop_minicast .g_prev .g_score dt span{margin:0 3px;color:#617293}
+.pop_minicast .g_prev .g_score dd{margin-top:5px;padding-left:0;color:#617293;font-family:'돋움',dotum;font-weight:normal}
+.pop_minicast .g_prev .g_score dd span{margin:0 1px 0 -3px;letter-spacing:0}
+.pop_minicast .g_prev .g_cast .bg_bx2{position:absolute;top:0;left:0;width:129px;height:48px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast5.png) no-repeat}
+.pop_minicast .g_prev.g_ovr{border:1px solid #141c2f !important;border-left:0 !important;background-color:#1d2f4e !important;border-right-color:#141b2e !important}
+.pop_minicast .other_score .g_none{border:1px solid #141c2f;background:url(https://imgsports.pstatic.net/images/2015/PC/common/none.gif) no-repeat 0 0 !important;text-indent:-9000px;cursor:default !important;border-right-color:#141b2e}
+.pop_minicast .other_area{overflow:hidden;position:relative;margin:0;zoom:1}
+.pop_minicast .other_area .btn_prev{display:inline;overflow:hidden;float:left;width:13px;height:48px;margin:0;border:1px solid #141c2f;border-right:0;border-left:0}
+.pop_minicast .other_area .btn_prev a{display:block;overflow:hidden;width:13px;height:48px}
+.pop_minicast .other_area .btn_prev a:hover{background:none}
+.pop_minicast .other_area .btn_prev a:hover img{margin-top:-50px}
+.pop_minicast .other_area .btn_next{overflow:hidden;float:left;width:12px;height:48px;margin:0;border:1px solid #141c2f;border-right-color:#141b2e;border-left-color:#141b2e}
+.pop_minicast .other_area .btn_next a{display:block;overflow:hidden;width:12px;height:48px}
+.pop_minicast .other_area .btn_next a:hover{background:none}
+.pop_minicast .other_area .btn_next a:hover img{margin-top:-50px}
+.npb_minicast .team_lft{position:absolute;top:24px;right:213px;padding-right:0}
+.npb_minicast .team_cen{position:absolute;top:32px;left:177px;text-align:center}
+.npb_minicast .team_rgt{position:absolute;top:24px;left:219px;padding-left:0}
+.npb_minicast .score_lft{float:left;margin-top:5px;padding-right:13px}
+.npb_minicast .score_rgt{float:left;margin-top:5px;padding-left:13px}
+.npb_minicast .team_lft .t_name{float:left;margin-top:3px;padding-right:10px;text-align:center}
+.npb_minicast .team_rgt .t_name{float:left;margin-top:3px;padding-left:10px;text-align:center}
+.npb_minicast .t_name dd{padding-top:5px}
+.npb_minicast .section_cast .scrl_area{height:302px}
+.npb_minicast .other_area{overflow:hidden;position:relative;margin:0;zoom:1}
+.npb_minicast .other_area .btn_prev{display:inline;overflow:hidden;float:left;width:13px;height:58px;margin:0;border:1px solid #141c2f;border-right:0;border-left:0}
+.npb_minicast .other_area .btn_prev a{display:block;overflow:hidden;width:13px;height:58px}
+.npb_minicast .other_area .btn_prev a:hover{background:none}
+.npb_minicast .other_area .btn_prev a:hover img{margin-top:-58px}
+.npb_minicast .other_area .btn_next{overflow:hidden;float:left;width:12px;height:58px;margin:0;border:1px solid #141c2f;border-right-color:#141b2e;border-left-color:#141b2e}
+.npb_minicast .other_area .btn_next a{display:block;overflow:hidden;width:12px;height:58px}
+.npb_minicast .other_area .btn_next a:hover{background:none}
+.npb_minicast .other_area .btn_next a:hover img{margin-top:-58px}
+.npb_minicast .other_score2{float:left;width:363px;margin-top:0}
+.npb_minicast .other_score2 li{display:inline;float:left;position:relative;width:120px;height:58px;margin-right:0;border:1px solid #141c2f;border-right:0;background:#1d2f4e url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score3.gif) no-repeat 0 0;border-left-color:#141b2e}
+.npb_minicast .other_score2 li.g_ovr{border:1px solid #141c2f;border-right:0;background:#1d2f4e url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score3.gif) no-repeat 0 0;border-left-color:#141b2e}
+.npb_minicast .other_score2 li.g_prev{background:#1d2f4e url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score3.gif) no-repeat 0 0}
+.npb_minicast .other_score2 .g_score{float:left;width:120px;margin-top:10px}
+.npb_minicast .other_score2 .g_score dt{float:left;width:60px;height:14px;margin:0;padding-left:18px;color:#7e91b5;font-size:11px;letter-spacing:-1px;text-align:left}
+.npb_minicast .other_score2 .g_score dd{float:right;width:20px;height:14px;margin:-2px 0 0;padding-right:10px;color:#bcc1ca;font-family:tahoma;font-size:11px;font-weight:bold;letter-spacing:-1px;text-align:right}
+.npb_minicast .other_score2 .g_score dd.ini{float:left;width:100px;margin:0;padding:3px 0 0 18px;color:#4d5e7c;font-family:'돋움';font-size:11px;font-weight:normal;letter-spacing:-1px;text-align:left}
+.npb_minicast .other_score2 .g_score dd.ini em{letter-spacing:0}
+.npb_minicast .other_score2 .g_score dt span{margin:0 1px;color:#c4d1f6;font-size:11px}
+.npb_minicast .other_score2 .g_cast{position:relative;top:0;left:0;z-index:10}
+.npb_minicast .other_score2 .g_cast .bg_bx2{position:absolute;top:0;left:0;width:120px;height:58px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast8.png) no-repeat}
+.npb_minicast .other_score2 .g_cast a.btn{overflow:hidden;position:absolute;top:0;left:0;z-index:12;width:120px;height:58px}
+.npb_minicast .other_score2 .g_cast span{visibility:hidden;position:absolute;left:-9000px;z-index:-1}
+.npb_minicast .other_score2 .g_prev .g_cast .bg_bx2{position:absolute;top:0;left:0;width:120px;height:58px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast9.png) no-repeat}
+.npb_minicast .other_score2 .g_prev.g_ovr{border:1px solid #141c2f !important;border-right:0 !important;background-color:#1d2f4e !important;border-left-color:#141b2e !important}
+.npb_minicast .other_score2 .g_none{border:1px solid #141c2f;border-right:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score3.gif) no-repeat 0 -58px !important;text-indent:-9000px;cursor:default !important;border-left-color:#141b2e}
+/* 경기결과탭 */
+.p_winlosesave{position:absolute;top:17px;*top:18px;right:14px}
+.p_winlosesave em{color:#fd1918}
+.p_winlosesave strong{color:#2e344a}
+.p_winlosesave .bar{margin:0 3px;color:#dcdcdc;font-size:11px}
+.p_winlosesave .stadium{margin-left:9px}
+/* 경기결과 */
+.result_area{position:relative;padding:25px 44px 44px 44px;background-color:#fff;_zoom:1}
+.result_area .prep{position:absolute;top:3px;left:61px;width:102px;height:21px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat 0 -461px}
+.result_area .tab_result{overflow:hidden;position:relative;height:18px;margin-bottom:26px}
+.result_area .tab_result li{float:left;padding:0 14px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat 0 -99px}
+.result_area .tab_result li button{overflow:hidden;height:18px;margin:0;*margin:-2px 0 0;padding:0;border:0;background:#fff url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat;cursor:pointer}
+.result_area .tab_result li button span{position:relative;z-index:-1;font-size:11px}
+.result_area .tab_result .mov button{width:27px;margin-left:-15px;background-position:1px -66px}
+.result_area .tab_result .news button{width:26px;background-position:-44px -66px}
+.result_area .tab_result .score button{width:61px;background-position:-88px -66px}
+.result_area .tab_result .chart button{width:50px;background-position:-167px -66px}
+.result_area .tab_result .news span{display:inline-block;overflow:hidden;width:26px;height:18px;background:#fff url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat -235px -66px}
+.result_area .tab_result .mov .on{background-position:1px -33px}
+.result_area .tab_result .news .on{background-position:-44px -33px}
+.result_area .tab_result .score .on{background-position:-88px -33px}
+.result_area .tab_result .chart .on{background-position:-167px -33px}
+.ad_result_skin{display:table;table-layout:fixed;width:100%;background:url(https://imgnews.pstatic.net/image/sports/2011/gamecenter/bg_gamecenter.gif) repeat-y}
+.ad_result_skin .article{display:table-cell;-webkit-box-sizing:border-box;box-sizing:border-box;width:780px;vertical-align:top;border-left:1px solid #afb2ba;background:#fff}
+.ad_result_skin .inner{padding:35px 35px 45px 35px;_padding:35px 33px 45px 35px}
+.ad_result_skin .aside{display:table-cell;vertical-align:top;-webkit-box-sizing:border-box;box-sizing:border-box;width:200px}
+.ad_result_skin h3{margin:0 0 7px -1px;font-size:14px;letter-spacing:-1px;color:#3b4865}
+.game_review{margin-bottom:34px}
+.game_review .t_ht,.game_review .t_sk,.game_review .t_wo,.game_review .t_ob,.game_review .t_lt,.game_review .t_ss,.game_review .t_hh,.game_review .ico_home{display:inline-block;width:100px;height:19px;background:url(https://imgsports.pstatic.net/images/2018/pc/baseball/spr_ngamectr_v5.png) no-repeat;vertical-align:middle}
+.game_review .t_ht{background-position:0 -160px}
+.game_review .t_lg{width:84px;background-position:-120px -160px}
+.game_review .t_sk{width:90px;background-position:-220px -160px}
+.game_review .t_wo{background-position:0 -180px}
+.game_review .t_ob{width:88px;background-position:-120px -180px}
+.game_review .t_lt{width:98px;background-position:-220px -180px}
+.game_review .t_ss{width:101px;background-position:0 -200px}
+.game_review .t_hh{width:90px;background-position:-120px -200px}
+.game_review .ico_home{width:10px;height:9px;margin:2px 0 0 4px;background-position:-360px 0}
+.game_review .box p{padding:16px 20px 20px;color:#666;line-height:19px}
+.game_review .tb_wrap{border:1px solid #ccc}
+.game_review table{width:707px}
+.game_review caption{display:none}
+.game_review th{height:35px;*height:35px;padding-bottom:1px;text-align:center;border-bottom:1px solid #dbdbdb;background:url(https://imgnews.pstatic.net/image/sports/2011/gamecenter/bg_gamereview.gif) repeat-x}
+.game_review tbody td{padding:12px 20px 20px;color:#666;line-height:19px;text-align:justify;border-bottom:1px solid #dbdbdb;vertical-align:top}
+.game_review .lft{border-right:1px solid #e0e0e0}
+.game_review tfoot td{height:32px;padding:0 19px 2px 19px;font-size:11px;color:#242424;letter-spacing:-1px}
+.game_review .info{float:left;display:inline-block}
+.game_review .h_bar{margin:0 7px;color:#d0d0d0;font-size:11px}
+.game_review .t_date{margin-right:2px;font-family:Verdana,Geneva,sans-serif;font-weight:bold;letter-spacing:normal}
+.game_review .t_team{margin-left:10px}
+.game_review .place{float:right;margin-top:2px;color:#999}
+/* 결과영상 */
+.movie_area{position:relative;height:505px}
+.movie_area h3{position:absolute;top:432px;left:0;width:493px;height:53px;padding:19px 0 0 19px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat 0 -133px;color:#fff;font-size:14px;letter-spacing:-1px;line-height:18px}
+.movie_area h3 .bar{display:inline-block;margin:0 -1px 0 2px;color:#454545;font-size:11px;font-weight:normal;vertical-align:middle}
+.movie_area h3 em{display:inline-block;margin:-1px 0 1px 3px;color:#808080;font-family:tahoma;font-size:11px;font-weight:bold;letter-spacing:0;vertical-align:middle}
+.movie_area .vert_wrap{overflow:hidden;position:absolute;top:0;left:516px;width:164px;height:504px}
+.movie_area ol li{margin-bottom:4px}
+.movie_area ol li img{border:1px solid #000;vertical-align:top}
+.movie_area ol li.no_mov img{border:1px solid #d7d7d7}
+.movie_area ol li a{display:block;position:relative;width:164px;height:123px;text-decoration:none}
+.movie_area ol li a .play{display:block;position:absolute;top:51px;left:6px;width:28px;height:28px;background:url(https://imgnews.pstatic.net/image/sports/2008/post_season/headline/btn_season_play3.png) no-repeat;cursor:pointer}
+.movie_area ol li a .bg{display:block;position:absolute;top:81px;left:0;z-index:-1;width:164px;height:42px;background:#000;opacity:0.75;filter:alpha(opacity=75)}
+.movie_area ol li a em{display:none;overflow:hidden;position:absolute;left:0;bottom:0;z-index:10;width:144px;height:28px;_height:26px;padding:7px 10px;_padding-top:9px;color:#d6d6d6;font-size:11px;letter-spacing:-1px;line-height:14px;cursor:pointer;text-overflow:ellipsis;text-decoraiton:none}
+.movie_area ol li a:hover{text-decoration:none;zoom:1}
+.movie_area ol li a .bg{z-index:1}
+.movie_area ol li a em{display:block}
+.movie_area button{position:absolute;top:-23px;width:18px;height:17px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat;cursor:pointer}
+.movie_area button span{position:absolute;left:-9999px;z-index:-1}
+.movie_area button.btn_prev{right:17px;background-position:-477px -101px}
+.movie_area button.btn_next{right:0;background-position:-494px -101px}
+.movie_area .player_b{width:512px;height:432px}
+.movie_area .player_b .player_svl{position:absolute;top:0;left:0;width:512px;margin:0;background:none}
+.vod_lst{width:709px}
+.video_lst{position:relative;margin:0 -50px 9px 0;*zoom:1}
+.video_lst:after{display:block;clear:both;content:""}
+.video_lst li{float:left;position:relative;display:inline-block;width:165px;margin-right:16px}
+.video_lst li a{cursor:pointer}
+.video_lst .txt{height:72px;margin-bottom:16px}
+.video_lst .cate{display:block;margin:2px 0 -1px 0;color:#6274a0;font-size:11px;letter-spacing:-1px;line-height:18px}
+.video_lst .mask{position:absolute;top:0;left:0;display:inline-block;width:163px;height:90px;border:1px solid #000;opacity:0.25;filter:alpha(opacity=25)}
+.video_lst p{margin-left:1px;letter-spacing:-1px}
+.video_lst p a{color:#485677;font-weight:bold;line-height:16px}
+.video_lst .info{padding-top:8px;color:#acb0bc;font-family:tahoma,geneva,sans-serif;font-size:9px;letter-spacing:0}
+.video_lst p span{display:inline-block;margin:0 5px 0 4px;color:#dcdcdc;font-size:9px}
+.video_lst2 .txt{height:48px;padding-top:4px}
+.video_lst2 .txt p{overflow:hidden;max-height:34px}
+.video_lst2 li{width:165px;height:160px;overflow:hidden}
+.vod_lst .head{position:relative;width:709px}
+.vod_lst .head a{position:absolute;top:3px;right:4px;font-size:11px;color:#485677;letter-spacing:-1px}
+.vod_lst .head a:after{content:'';display:inline-block;width:3px;height:5px;margin:3px 0 0 2px;vertical-align:top;background:url(https://imgsports.pstatic.net/images/2018/pc/baseball/spr_ngamectr_v5.png) no-repeat 100% 0}
+.paginate{clear:both;margin-top:7px;font-family:'돋움',dotum,'굴림',gulim,applegothic,sans-serif;text-align:center}
+.paginate a,.paginate strong{display:inline-block;margin-right:-6px;padding:3px 10px 2px 9px;background:#fff url(https://ssl.pstatic.net/static/common/paginate/line_pg4.gif) no-repeat 0 4px;color:#333;font-size:12px;font-weight:bold;line-height:12px;text-decoration:none !important}
+.paginate strong{position:static !important;margin-left:0 !important;border:0 !important;color:#f06306 !important}
+.paginate strong em{padding-right:10px;background:#fff url(https://ssl.pstatic.net/static/common/paginate/line_pg4.gif) no-repeat 100% 1px}
+.paginate a:hover,.paginate a:active,.paginate a:focus{background-color:#f7f7f7}
+.paginate a.pre,.paginate a.pre_end,.paginate a.next,.paginate a.next_end{font-family:'돋움',dotum,'굴림',gulim,applegothic,sans-serif;font-size:12px;font-weight:normal}
+.paginate a.pre{padding:4px 10px 2px 17px;background:url(https://ssl.pstatic.net/static/common/paginate/bu_pg4_l1.gif) no-repeat 100% 5px !important}
+.paginate a.pre_end{padding:4px 10px 2px 16px;background:url(https://ssl.pstatic.net/static/common/paginate/bu_pg4_l2.gif) no-repeat 100% 5px !important}
+.paginate a.next{padding:4px 18px 2px 10px;background:url(https://ssl.pstatic.net/static/common/paginate/bu_pg4_r1.gif) no-repeat 0 5px !important}
+.paginate a.next_end{padding:4px 16px 2px 9px;background:url(https://ssl.pstatic.net/static/common/paginate/bu_pg4_r2.gif) no-repeat 0 5px !important}
+/* 뉴스리스트 */
+.list_news{width:680px;margin:0 0 24px 5px;padding-top:3px}
+.list_news li{position:relative;padding:0 80px 10px 10px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat -509px 4px}
+:root .list_news li{background-position:-509px 6px}
+.list_news li a{color:#060467;font-size:14px;letter-spacing:-1px;font-weight:bold}
+.list_news li img{position:relative;margin:1px 2px 0 2px;vertical-align:top}
+:root .list_news li img{margin-top:2px}
+.list_news li em{margin-left:5px;color:#9b9b9b;font-size:11px}
+.list_news li .h_bar{color:#d4d4d4;font-size:10px}
+.list_news li .author{color:#788eb7;font-size:11px;letter-spacing:-1px}
+.tab_result_cont{width:680px}
+.article_area .box_articlehead{overflow:hidden;_height:1%;padding:26px 0 19px;border:1px solid #efefef;border-width:1px 0}
+.article_area .box_articlehead .logo_cp{float:left;width:98px;text-align:center}
+.article_area .box_articlehead .articlehead{float:left;width:560px;padding-left:16px;border-left:1px solid #efefef}
+.article_area .box_articlehead .articlehead .tit_article{font-size:16px;line-height:20px}
+.article_area .box_articlehead .articlehead .info_article{padding-top:7px;color:#929292;font-size:11px}
+.article_area .box_articlehead .articlehead .info_article .bar{color:#c1c1c1}
+.article_area .box_articlehead .articlehead .info_article .info{letter-spacing:-1px}
+.article_area .box_articlehead .articlehead .info_article img{position:relative;top:-4px;vertical-align:top}
+.article_area .article{width:680px;padding-top:25px;color:#2d2c2d;font-family:gulim;font-size:16px;line-height:1.6}
+/* 게임차트 */
+.section_chart{width:707px;height:500px;overflow:hidden;border:1px solid #ccc}
+.section_chart .lst{float:left;width:110px}
+.section_chart h4{height:33px;padding:7px 0 0 19px;font-size:14px;color:#333;border-bottom:1px solid #d4d4d4;background:#f5f5f5}
+.section_chart .select_area li{height:32px;padding:1px 0 0 13px;line-height:33px;border-bottom:1px solid #e4e4e4;background:#fcfcfc}
+.section_chart .select_area li a,.section_chart .select_area li span{color:#363638;font-weight:bold}
+.section_chart .select_area .on a{color:#ff3f34}
+.section_chart .select_area .view_player{height:323px;overflow-y:auto;border-bottom:none}
+.section_chart .select_area .view_player ul{margin-top:-1px}
+.section_chart .select_area li li{height:auto;padding:0;line-height:22px;border-bottom:none}
+.section_chart .select_area li li a{font-weight:normal}
+.t_nm{display:inline-block;margin:5px 0 0 3px;vertical-align:top}
+.tl_ht,.tl_lg,.tl_sk,.tl_wo,.tl_ob,.tl_lt,.tl_ss,.tl_hh,.tl_nc,.tl_kt{display:inline-block;width:25px;height:19px;margin-bottom:-4px;background:url("https://imgsports.pstatic.net/images/2018/pc/baseball/spr_ngamectr_v5.png") no-repeat;vertical-align:middle}
+.tl_ht{background-position:-360px -20px}
+.tl_lg{background-position:-360px -40px}
+.tl_sk{background-position:-360px -60px}
+.tl_wo{background-position:-360px -80px}
+.tl_ob{background-position:-360px -100px}
+.tl_lt{background-position:-360px -120px}
+.tl_ss{background-position:-360px -140px}
+.tl_hh{background-position:-360px -160px}
+.tl_nc{background-position:-360px -180px}
+.tl_kt{background-position:-360px -200px}
+.section_chart .data_wrap{float:left;height:487px;padding:13px 20px 0;border-left:1px solid #e0e1e4;border-right:1px solid #e0e1e4}
+.section_chart .ground_area{position:relative;width:445px;height:459px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_ground.jpg) no-repeat}
+.section_chart .ground_area .ovr{z-index:10}
+.section_chart .ground_area .note{position:absolute;top:436px;left:12px;padding:1px 0 0 26px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat 0 -272px;color:#838383;font-size:11px;letter-spacing:-1px;line-height:17px}
+.section_chart .ground_area .legend{position:absolute;top:316px;left:20px}
+.section_chart .ground_area .legend p{height:20px;color:#616161;font-size:11px;letter-spacing:-1px;vertical-align:top}
+.section_chart .ground_area .legend p span{display:inline-block;position:relative;top:1px;width:12px;height:10px;background:#f9f9fb url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat}
+.section_chart .ground_area .legend p span em{position:absolute;left:-9999px;z-index:-1}
+.section_chart .ground_area .legend p .hit{background-position:0 -235px}
+.section_chart .ground_area .legend p .out{background-position:-52px -235px}
+.section_chart .ground_area .legend p .run{background-position:-104px -235px}
+.section_chart .ground_area .ico{position:absolute}
+.section_chart .ground_area .ico p{width:12px;_height:12px;min-height:12px}
+.section_chart .ground_area .ico p em{position:absolute;left:-9999px;z-index:-1}
+.section_chart .ground_area .hit p{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_hit.png) no-repeat}
+.section_chart .ground_area .out p{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_out.png) no-repeat}
+.section_chart .ground_area .run p{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/ico_chart_run.png) no-repeat}
+.section_chart .ground_area .tooltip{position:absolute;left:-46px;bottom:14px;z-index:10;width:105px;color:#a0a0a0;font-size:11px;letter-spacing:-1px;line-height:14px}
+.section_chart .ground_area .tooltip em{display:block;color:#2162c6}
+.section_chart .ground_area .tooltip strong{display:block;color:#575757;font-weight:normal}
+.section_chart .ground_area .tooltip .bg_top{position:relative;width:87px;_height:58px;padding:6px 8px 7px 8px;border:1px solid #575757;border-bottom:0;background:#fff;min-height:58px}
+.section_chart .ground_area .tooltip .bg_btm{width:105px;height:6px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_btm_tooltip.png) no-repeat}
+.section_chart .ground_area .tooltip2{position:absolute;top:15px;left:-46px;z-index:10;width:105px;color:#a0a0a0;font-size:11px;letter-spacing:-1px;line-height:14px}
+.section_chart .ground_area .tooltip2 em{display:block;color:#2162c6}
+.section_chart .ground_area .tooltip2 strong{display:block;color:#575757;font-weight:normal}
+.section_chart .ground_area .tooltip2 .bg_top{position:relative;width:87px;_height:58px;margin:3px 0 2px;padding:6px 8px 7px 8px;border:1px solid #575757;border-top:0;background:#fff;min-height:58px}
+.section_chart .ground_area .tooltip2 .bg_arr{position:absolute;top:0;left:0;width:105px;height:6px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_arr_tooltip.gif) no-repeat -7px 0}
+.section_chart .ground_area .tooltip2 .bg_btm{position:absolute;left:0;bottom:0;width:105px;height:2px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_btm_tooltip2.png) no-repeat}
+.section_chart .ground_area .tooltip3{position:absolute;top:-29px;left:16px;z-index:10;width:105px;color:#a0a0a0;font-size:11px;letter-spacing:-1px;line-height:14px}
+.section_chart .ground_area .tooltip3 em{display:block;color:#2162c6}
+.section_chart .ground_area .tooltip3 strong{display:block;color:#575757;font-weight:normal}
+.section_chart .ground_area .tooltip3 .bg_top{position:relative;width:87px;_height:58px;margin:0 0 2px 3px;padding:6px 8px 7px 8px;border:1px solid #575757;background:#fff;min-height:58px}
+.section_chart .ground_area .tooltip3 .bg_arr{position:absolute;top:0;left:0;width:4px;height:71px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_arr_tooltip.gif) no-repeat}
+.section_chart .ground_area .tooltip3 .bg_btm{position:absolute;left:3px;bottom:0;width:105px;height:2px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_btm_tooltip2.png) no-repeat}
+.section_chart .ground_area .tooltip4{position:absolute;top:-29px;right:18px;z-index:10;width:105px;color:#a0a0a0;font-size:11px;letter-spacing:-1px;line-height:14px}
+.section_chart .ground_area .tooltip4 em{display:block;color:#2162c6}
+.section_chart .ground_area .tooltip4 strong{display:block;color:#575757;font-weight:normal}
+.section_chart .ground_area .tooltip4 .bg_top{position:relative;width:87px;_height:58px;margin:0 3px 2px 0;_margin-right:0;padding:6px 8px 7px 8px;border:1px solid #575757;background:#fff;min-height:58px}
+.section_chart .ground_area .tooltip4 .bg_arr{position:absolute;top:0;right:-3px;_right:-4px;width:4px;height:71px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_arr_tooltip.gif) no-repeat -116px 0}
+.section_chart .ground_area .tooltip4 .bg_btm{position:absolute;left:0;bottom:0;width:105px;height:2px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_btm_tooltip2.png) no-repeat}
+/* 투데이주요기록 */
+.h_boxscore{position:relative;width:100%;margin-bottom:7px;color:#333;font-size:14px;letter-spacing:-1px}
+.h_boxscore .txt{position:absolute;right:0;bottom:-2px;color:#505050;font-size:11px;letter-spacing:-1px;font-weight:normal}
+.h_boxscore .txt em{letter-spacing:0}
+.section_todayrec{position:relative;width:707px;height:197px;margin-bottom:35px;border:1px solid #ccc}
+.section_todayrec .home,.section_todayrec .away{position:absolute;top:0;width:364px;height:197px}
+.section_todayrec .home{left:0;padding-left:14px;background:#fff}
+.section_todayrec .away{right:0;padding-right:17px;background:#fff}
+.section_todayrec h4{position:absolute;top:20px;font-size:14px;letter-spacing:-1px}
+.section_todayrec .home h4{right:53px;color:#fea724}
+.section_todayrec .away h4{left:50px;color:#ff3d33}
+.section_todayrec dl{overflow:hidden;position:absolute;top:43px}
+.section_todayrec dl dt{overflow:hidden;width:50px;height:13px;margin-top:6px;color:#4c4c4c;font-size:12px;text-align:center;font-weight:bold}
+.section_todayrec dl dd{overflow:hidden;width:310px;height:13px;margin-top:6px}
+.section_todayrec dd span{height:10px;font-size:1px}
+.section_todayrec dd em{position:relative;top:-2px;font-family:verdana;font-size:11px;letter-spacing:-1px;vertical-align:top;font-weight:bold}
+.section_todayrec .home dl{right:0}
+.section_todayrec .away dl{left:0}
+.section_todayrec .home dt,.section_todayrec .home dd{float:right}
+.section_todayrec .away dt,.section_todayrec .away dd{float:left}
+.section_todayrec .home dd,.section_todayrec .away dd{overflow:hidden}
+.section_todayrec .home dd span,.section_todayrec .home dd em{float:right}
+.section_todayrec .away dd span,.section_todayrec .away dd em{float:left}
+.section_todayrec .home dd span{background-color:#ffa624}
+.section_todayrec .away dd span{background-color:#ff3f34}
+.section_todayrec .home dd em{padding-right:10px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat right -316px;color:#fea724}
+.section_todayrec .away dd em{padding-left:10px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat left -316px;color:#ff3f34}
+.section_todayrec dt.t1{height:30px;margin:0;font-size:14px;line-height:20px}
+.section_todayrec dd.t1{height:30px;margin:0}
+.section_todayrec dd.t1 span{height:20px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) repeat-x}
+.section_todayrec dd.t1 em{top:-4px;height:24px;font-size:22px}
+.section_todayrec .home dd.t1 span{background-position:0 -368px}
+.section_todayrec .away dd.t1 span{background-position:0 -398px}
+.section_todayrec .home dd.t1 em{padding-right:14px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat right -334px;color:#fea724}
+.section_todayrec .away dd.t1 em{padding-left:14px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_result2.gif) no-repeat left -334px;color:#ff3f34}
+.section_todayrec dd span.n0{width:12px}
+.section_todayrec dd span.n1{width:24px}
+.section_todayrec dd span.n2{width:36px}
+.section_todayrec dd span.n3{width:48px}
+.section_todayrec dd span.n4{width:60px}
+.section_todayrec dd span.n5{width:72px}
+.section_todayrec dd span.n6{width:84px}
+.section_todayrec dd span.n7{width:96px}
+.section_todayrec dd span.n8{width:108px}
+.section_todayrec dd span.n9{width:120px}
+.section_todayrec dd span.n10{width:132px}
+.section_todayrec dd span.n11{width:144px}
+.section_todayrec dd span.n12{width:156px}
+.section_todayrec dd span.n13{width:168px}
+.section_todayrec dd span.n14{width:180px}
+.section_todayrec dd span.n15{width:192px}
+.section_todayrec dd span.n16{width:204px}
+.section_todayrec dd span.n17{width:216px}
+.section_todayrec dd span.n18{width:228px}
+.section_todayrec dd span.n19{width:240px}
+.section_todayrec dd span.n20{width:252px}
+.section_todayrec dd span.n21{width:264px}
+/* 경기결과 스코어보드 */
+.t_result_board{width:100%;border:0;table-layout:fixed;*border-collapse:collapse}
+.t_result_board th,.t_result_board td{border:0;text-align:center}
+.t_result_board td{font-size:11px}
+.t_result_board thead th{padding:8px 0;border:1px solid #50545f;background:#595d69;color:#fff;font-size:11px;font-weight:normal;letter-spacing:-1px;border-width:1px 0}
+.t_result_board tbody th,.t_result_board td{padding:8px 0;border-bottom:1px solid #e5e5e5;color:#484848;text-align:center}
+.t_result_board strong.sc{color:#294dad}
+.t_result_board .last{padding-right:15px}
+.list_gameevent{margin-bottom:34px;padding-top:1px;color:#444;letter-spacing:-1px}
+.list_gameevent li{margin-top:10px}
+.t_result_board2{width:100%;margin-bottom:35px;border:0;table-layout:fixed;*border-collapse:collapse}
+.t_result_board2 th,.t_result_board2 td{border:0;text-align:center}
+.t_result_board2 thead th{padding:8px 0;border-top:1px solid #454852;background:#595d69;color:#fff;font-size:11px;font-weight:normal;letter-spacing:-1px}
+.t_result_board2 tfoot th,.t_result_board2 tbody th,.t_result_board2 td{padding:7px 0 4px;border:0;border-bottom:1px solid #e5e5e5;border-left:1px solid #e5e5e5;background:#fbfbfb;color:#484848;text-align:center}
+.t_result_board2 .frst_row th,.t_result_board2 .frst_row td{border-top:1px solid #454852}
+.t_result_board2 td{line-height:16px}
+.t_result_board2 td em{font-size:11px}
+.t_result_board2 strong.sc{color:#294dad}
+.t_result_board2 .frst{border-left:0}
+.t_result_board2 a{color:#354f99;letter-spacing:-1px}
+.t_result_board2 .bg th,.t_result_board2 .bg td{background:#f2f2f2}
+.last_fix{margin-bottom:0}
+/* TV 중계 */
+.pop_tvcast{position:relative;width:999px;padding:10px 0 10px 10px}
+.no_daskin{width:820px;padding:10px}
+.pop_tvcast #pop_content{position:relative;width:819px;padding-bottom:10px;background:#fff}
+.pop_tvcast .pop_aside{position:absolute;top:0;right:0;width:180px}
+.no_daskin .pop_aside{display:none}
+.pop_tvcast .section_tvcast{overflow:hidden;position:relative;width:800px;margin:0 auto;padding-bottom:11px}
+.pop_tvcast .section_scoreboard{height:100px;padding-top:29px}
+.pop_tvcast .tvcast_logo{float:left;height:55px}
+.pop_tvcast .score_lft{padding-right:15px}
+.pop_tvcast .score_rgt{padding-left:15px}
+.pop_tvcast .section_scoreboard2{height:129px}
+.pop_tvcast .section_scoreboard2 .team_lft{right:569px;top:34px}
+.pop_tvcast .section_scoreboard2 .team_cen{left:251px;top:26px}
+.pop_tvcast .section_scoreboard2 .team_rgt{left:569px;top:34px}
+.pop_tvcast .extra_time .team_lft{right:597px}
+.pop_tvcast .extra_time .team_cen{left:223px}
+.pop_tvcast .extra_time .team_rgt{left:597px}
+.pop_tvcast .p_score{float:left;margin-top:6px}
+.pop_tvcast .p_score span{display:inline-block;z-index:-1;height:46px;padding:0 3px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_num_score2.gif) no-repeat}
+.pop_tvcast .p_score span.n0{width:32px;background-position:3px 0}
+.pop_tvcast .p_score span.n1{width:22px;background-position:-46px 0}
+.pop_tvcast .p_score span.n2{width:32px;background-position:-93px 0}
+.pop_tvcast .p_score span.n3{width:33px;background-position:-141px 0}
+.pop_tvcast .p_score span.n4{width:35px;background-position:-190px 0}
+.pop_tvcast .p_score span.n5{width:32px;background-position:-241px 0}
+.pop_tvcast .p_score span.n6{width:33px;background-position:-290px 0}
+.pop_tvcast .p_score span.n7{width:33px;background-position:-340px 0}
+.pop_tvcast .p_score span.n8{width:33px;background-position:-388px 0}
+.pop_tvcast .p_score span.n9{width:33px;background-position:-439px 0}
+.pop_tvcast .player{float:left;width:512px}
+.pop_tvcast_detail{float:left;width:288px;height:436px;border-bottom:1px solid #000;background:#24385d}
+.section_pop_today{position:relative;padding:8px 0;border:1px solid #000;border-left:none;background:#172645}
+.section_pop_today h3{margin-left:12px}
+.section_pop_today p{position:absolute;top:6px;right:7px;color:#5d6a85;font-family:tahoma;font-size:10px;line-height:13px}
+.section_pop_today p img{margin:3px 0 -2px}
+.section_pop_tvcast{overflow:hidden}
+.section_pop_tvcast ul{margin-top:31px;padding:0 8px 0 7px}
+.section_pop_tvcast ul li{position:relative;height:65px;margin-top:30px;border:1px solid #192852}
+.section_pop_tvcast ul li .inner{height:63px;border:1px solid #344a77;background:#2d4068}
+.section_pop_tvcast ul li .inner p{position:absolute;top:-17px;right:0;color:#546a8f;font-size:11px;letter-spacing:-1px}
+.section_pop_tvcast ul li .inner p.nogame{top:27px;left:0;width:271px;color:#435c8f;text-align:center}
+.section_pop_tvcast ul li .inner div{float:left;margin-top:5px;color:#e4e6e3;font-size:11px;letter-spacing:-1px;text-align:center}
+.section_pop_tvcast ul li .inner div img{display:block;margin-bottom:4px}
+.section_pop_tvcast ul li.on{border-color:#1c2f6a}
+.section_pop_tvcast ul li.on .inner{border-color:#3c5595;background:#344a83}
+.section_pop_tvcast .team_lft{padding:0 0 0 1px}
+.section_pop_tvcast .team_rgt{_margin-right:-3px;padding:0 1px 0 0}
+.section_pop_tvcast .team_lft,.section_pop_tvcast .team_rgt{width:102px}
+.section_pop_tvcast .team_lft img,.section_pop_tvcast .team_rgt img{margin:0 auto}
+.section_pop_tvcast .score_area{position:relative;width:62px;padding:9px 1px 0 0}
+.section_pop_tvcast .score_area span em{position:relative;z-index:-1;text-indent:-9000px}
+.section_pop_tvcast .score_area strong{position:absolute;padding:0;white-space:nowrap}
+.section_pop_tvcast .score_area strong span{display:inline-block;z-index:-1;height:20px;padding-right:1px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_num_score4.gif) no-repeat}
+.section_pop_tvcast .score_area strong span.n0{width:12px;background-position:0 0}
+.section_pop_tvcast .score_area strong span.n1{width:8px;background-position:0 -35px}
+.section_pop_tvcast .score_area strong span.n2{width:12px;background-position:0 -70px}
+.section_pop_tvcast .score_area strong span.n3{width:13px;background-position:0 -105px}
+.section_pop_tvcast .score_area strong span.n4{width:14px;background-position:0 -140px}
+.section_pop_tvcast .score_area strong span.n5{width:12px;background-position:0 -175px}
+.section_pop_tvcast .score_area strong span.n6{width:12px;background-position:0 -210px}
+.section_pop_tvcast .score_area strong span.n7{width:13px;background-position:0 -245px}
+.section_pop_tvcast .score_area strong span.n8{width:12px;background-position:0 -280px}
+.section_pop_tvcast .score_area strong span.n9{width:13px;background-position:0 -315px}
+.section_pop_tvcast .on .score_area strong span.n0{width:12px;background-position:100% 0}
+.section_pop_tvcast .on .score_area strong span.n1{width:8px;background-position:100% -35px}
+.section_pop_tvcast .on .score_area strong span.n2{width:12px;background-position:100% -70px}
+.section_pop_tvcast .on .score_area strong span.n3{width:13px;background-position:100% -105px}
+.section_pop_tvcast .on .score_area strong span.n4{width:14px;background-position:100% -140px}
+.section_pop_tvcast .on .score_area strong span.n5{width:12px;background-position:100% -175px}
+.section_pop_tvcast .on .score_area strong span.n6{width:12px;background-position:100% -210px}
+.section_pop_tvcast .on .score_area strong span.n7{width:13px;background-position:100% -245px}
+.section_pop_tvcast .on .score_area strong span.n8{width:12px;background-position:100% -280px}
+.section_pop_tvcast .on .score_area strong span.n9{width:13px;background-position:100% -315px}
+.section_pop_tvcast .score_area strong.score_lft{top:5px;right:44px}
+.section_pop_tvcast .score_area strong.score_rgt{top:5px;left:42px}
+.section_pop_tvcast .score_area .score_cen{display:inline-block;width:3px;height:12px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_vs.gif) no-repeat}
+.section_pop_tvcast .on .score_area .score_cen{background-position:0 -27px}
+.section_pop_tvcast .score_area .p_btn{position:relative;top:0;left:-1px;height:18px;margin-top:9px}
+.section_pop_tvcast .score_area .p_btn a span{display:inline-block;width:31px;height:18px;margin-right:-1px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_btn_live.gif) no-repeat;vertical-align:top;cursor:pointer}
+.section_pop_tvcast .score_area .p_btn a span.t1{background-position:0 0}
+.section_pop_tvcast .score_area .p_btn a span.t2{background-position:100% 0}
+.section_pop_tvcast .score_area .p_btn a.on span{position:relative}
+.section_pop_tvcast .score_area .p_btn a.on span.t1{background-position:0 -18px}
+.section_pop_tvcast .score_area .p_btn a.on span.t2{background-position:100% -18px}
+.section_pop_tvcast .on .score_area .p_btn a span.t1{background-position:0 -36px}
+.section_pop_tvcast .on .score_area .p_btn a span.t2{background-position:100% -36px}
+.section_pop_tvcast .on .score_area .p_btn a.on span.t1{background-position:0 -54px}
+.section_pop_tvcast .on .score_area .p_btn a.on span.t2{background-position:100% -54px}
+/* wmp 플레이어 추가 */
+.pop_tvcast .wmp{overflow:visible;z-index:10}
+.pop_tvcast .wmp:after{display:block;clear:both;content:''}
+.pop_tvcast .wmp .player{width:510px}
+.pop_tvcast .wmp .player_svl{position:absolute;top:0;left:0;background:none}
+.pop_tvcast .wmp .pop_tvcast_detail{float:right;width:290px;height:434px}
+.pop_tvcast .wmp .section_pop_today h3{margin-left:14px}
+.pop_tvcast .wmp .section_pop_tvcast .team_lft,.pop_tvcast .wmp .section_pop_tvcast .team_rgt{width:101px}
+.pop_tvcast .wmp .section_pop_tvcast ul{margin-top:33px;padding:0 9px 0 10px}
+.pop_tvcast .section_scoreboard2 .team_lft.sm{top:34px;right:569px}
+.pop_tvcast .section_scoreboard2 .team_cen.sm{top:26px;left:264px;width:291px}
+.pop_tvcast .section_scoreboard2 .team_rgt.sm{top:34px;left:569px}
+.section_tvcast .player_b{overflow:hidden;width:800px;height:430px;background:url(https://imgnews.pstatic.net/image/sports/2010/live_streaming/bg_live_playerb.gif) 0 0 no-repeat}
+.section_tvcast .player_b .player_svl{overflow:hidden;margin-left:67px}
+.pop_tvcast .cmt_area{overflow:hidden;width:780px;margin:0 auto 11px auto;padding:9px;padding-bottom:0;border:1px solid #d9d9d9}
+.pop_tvcast .cmt_area h2{position:relative;padding:7px 0 9px 4px;font-size:12px;letter-spacing:-1px}
+.pop_tvcast .cmt_area h2 button{position:absolute;top:2px;right:1px;width:58px;height:20px;margin:0;padding:0;border:0;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_cast2.gif) no-repeat -203px -238px;cursor:pointer}
+.pop_tvcast .cmt_area h2 button span{position:absolute;left:-9999px;z-index:-1}
+.pop_tvcast .cbox_write_area{margin-bottom:10px}
+.pop_tvcast .input_rdo{margin:4px 4px 4px 6px;*margin:0 0 0 6px}
+.pop_tvcast .lbl_cmt{position:relative;top:-1px;margin-left:0;letter-spacing:-1px}
+.pop_tvcast .cbox_txt{margin-top:4px}
+.pop_tvcast .cbox_txt textarea{background:#fff url(https://imgnews.pstatic.net/image/sports/nsports/2010/txt_comment2.gif) no-repeat 7px 7px}
+.pop_tvcast .cbox_txt textarea.cbx_ipt_txt{background:#fff}
+.pop_tvcast .cbox_list_area{padding-right:0;padding-left:0;background:#fff}
+.pop_tvcast .cbox_list li{padding-left:10px}
+.pop_tvcast .cbox_list .c_btn li{padding-left:4px}
+.pop_tvcast .cbx_page{padding-bottom:7px}
+.pop_tvcast .cbx_page a,.pop_tvcast .cbx_page strong{background-color:#fff}
+.pop_tvcast .lft_cmt_area{float:left;width:370px;padding-right:20px;border-right:1px solid #eaeaea}
+.pop_tvcast .rgt_cmt_area{float:right;width:370px}
+.pop_tvcast .cmt_area .h_write{padding-top:12px;border-bottom:1px solid #b9b9b9}
+.pop_tvcast .cmt_area .h_write .c_total{top:14px;right:2px}
+.pop_tvcast .cmt_area .h_write2{position:relative;height:18px;padding-top:12px;border-bottom:1px solid #b9b9b9}
+.pop_tvcast .cmt_area .h_write2 h3{float:none;padding-left:4px;color:#000;font-size:12px;letter-spacing:-1px}
+.pop_tvcast .cmt_area .h_write2 .c_total{position:static}
+.pop_tvcast .cmt_area .h_write2 .c_total span{letter-spacing:-1px}
+.pop_tvcast .cmt_area .h_write2 .c_total{color:#444;font-size:11px;font-weight:normal}
+.pop_tvcast .cmt_area .h_write2 .c_total strong{color:#444;color:#ea3b3b;font-size:11px;letter-spacing:0}
+.pop_tvcast .cmt_area .h_write2 .block_id{position:absolute;top:11px;right:1px;padding-right:5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_arr.gif) no-repeat 100% 4px;color:#848484;font-size:11px;letter-spacing:-1px;line-height:15px}
+.pop_tvcast .cmt_area .h_write2 .block_id:hover{text-decoration:none}
+.pop_tvcast .cmt_area .h_write2 .ly_block_id{position:absolute;top:30px;right:0;left:auto;z-index:10;width:293px;padding:0;border:1px solid #888;background:#fff}
+.pop_tvcast .cmt_area .h_write2 .ly_block_id h3{float:none;margin:10px 19px 12px 14px;padding:0 0 8px;border-bottom:1px solid #e6e6e6;color:#454545;font-size:12px;letter-spacing:-1px;line-height:15px}
+.pop_tvcast .cmt_area .h_write2 .cbx_page{clear:both;margin:0 0 -3px;padding:8px 0 0;border:none;text-align:center}
+.pop_tvcast .cmt_area .h_write2 .cbx_page a,.pop_tvcast .cmt_area .h_write2 .cbx_page strong{display:inline-block;padding:0 6px 0 4px;background:#fff;color:#333;font-size:11px;font-weight:normal;letter-spacing:-1px;text-decoration:none}
+.pop_tvcast .cmt_area .h_write2 .cbx_page strong{color:#f63c00}
+.pop_tvcast .cmt_area .h_write2 .cbx_page a:hover{text-decoration:underline}
+.pop_tvcast .cmt_area .h_write2 .cbx_page a.cbx_prev{margin-left:0;padding:0 5px 0 4px;border:none;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 0 -50px;font-weight:normal;letter-spacing:-1px}
+.pop_tvcast .cmt_area .h_write2 .cbx_page a.cbx_next{padding:0 5px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_bullet.gif) no-repeat 100% -69px;font-weight:normal;letter-spacing:-1px}
+.player_svl{background:#262626}
+.player_svl .top_area{width:100%;height:87%;border-bottom:1px solid #333232}
+.player_svl .btm_area{width:100%}
+.player_svl .minfo{height:100%;border:0}
+.player_svl .top_area p{padding-top:28%}
+.player_svl .minfo p{padding-top:31%}
+.player_svl .btm_area p{padding-top:3%;line-height:12px}
+.player_svl a{color:#596fc0;text-decoration:underline}
+.player_svl .btn{display:inline-block;margin-top:10px}
+.player_svl p{color:#939393;font-size:12px;line-height:23px;text-align:center}
+.player_svl .minfo p{line-height:16px}
+.player_svl .minfo p strong{color:#596fc0;font-weight:normal}
+.player_svl .minfo p a{margin-top:20px}
+.player_svl .make{color:#565656;font-size:11px}
+.player_svl .make em{margin:0 4px}
+.player_svl .make strong{color:#596fc0;font-weight:normal}
+.player_svl img{vertical-align:text-bottom}
+/* 해외야구 다른 구장 */
+.other_score2{float:left;width:480px;margin-top:12px}
+.other_score2 li{float:left;position:relative;width:115px;height:50px;margin-right:3px;border:1px solid #31467c;background:#1c346b}
+.other_score2 li.g_ovr{border:1px solid #314c8c;background-color:#1c3a7a;background-position:70px 100%}
+.other_score2 li.g_prev{background:#1c346b}
+.other_score2 .g_score{float:left;width:110px;margin-top:6px}
+.other_score2 .g_score dt{float:left;width:70px;height:14px;margin:0;padding-left:7px;color:#c4d2f5;font-size:11px;letter-spacing:-1px}
+.other_score2 .g_score dd{float:right;width:20px;height:14px;margin:0;padding-right:8px;color:#ec2927;font-family:tahoma;font-size:11px;letter-spacing:-1px;text-align:right;font-weight:bold}
+.other_score2 .g_score dd.ini{float:left;width:100px;padding:1px 0 0 7px;color:#446296;font-family:돋움;font-size:11px;letter-spacing:-1px;text-align:left;font-weight:normal}
+.other_score2 .g_score dd.ini em{letter-spacing:0}
+.other_score2 .g_score dt span{margin:0 1px;color:#c4d1f6;font-size:11px}
+.other_score2 .g_cast a.btn2{position:absolute;top:15px;left:34px;z-index:12}
+.other_score2 .g_cast .bg_bx{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast2.gif) no-repeat}
+.other_score2 .g_none{background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_none.gif) no-repeat 0 0 !important}
+.btn_g_other li{position:absolute;top:12px}
+.btn_g_other .btn_g_prev{left:147px}
+.btn_g_other .btn_g_next{left:639px}
+.btn_g_other li a{display:block;width:18px;height:52px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/sprite_mlb.gif) no-repeat}
+.btn_g_other .btn_g_prev a{background-position:-46px 20px}
+.btn_g_other .btn_g_next a{background-position:-72px 20px}
+.btn_g_other .btn_g_prev a:hover{background-position:6px 20px}
+.btn_g_other .btn_g_next a:hover{background-position:-20px 20px}
+.btn_g_other li a span{position:absolute;left:-9999px;z-index:-1}
+.mlb_gtime{right:10px}
+.kbo_gc_type2 .btn_g_other{float:left;position:relative}
+.kbo_gc_type2 .btn_g_other li{position:absolute;top:29px}
+.kbo_gc_type2 .btn_g_other .btn_g_prev{left:-13px}
+.kbo_gc_type2 .btn_g_other .btn_g_next{left:481px}
+.kbo_gc_type2 .btn_g_other li a{display:block;width:9px;height:17px;background:none}
+.kbo_gc_type2 .btn_g_other .btn_g_prev .btn_prev{display:inline;overflow:hidden;float:left;width:9px;height:17px;margin:0}
+.kbo_gc_type2 .btn_g_other .btn_g_prev .btn_prev a{display:block;overflow:hidden;width:9px;height:17px}
+.kbo_gc_type2 .btn_g_other .btn_g_prev .btn_prev a:hover{background:none}
+.kbo_gc_type2 .btn_g_other .btn_g_prev .btn_prev a:hover img{margin-top:-17px}
+.kbo_gc_type2 .btn_g_other .btn_g_next .btn_next{overflow:hidden;float:left;width:9px;height:17px;margin:0}
+.kbo_gc_type2 .btn_g_other .btn_g_next .btn_next a{display:block;overflow:hidden;width:9px;height:17px}
+.kbo_gc_type2 .btn_g_other .btn_g_next .btn_next a:hover{background:none}
+.kbo_gc_type2 .btn_g_other .btn_g_next .btn_next a:hover img{margin-top:-17px}
+.premier12 .date_type1{overflow:hidden;float:left;position:relative;width:139px;height:77px;margin-left:25px}
+.premier12 .btn_kbo_view{text-align:left}
+.premier12 .btn_kbo_view a{padding-left:3px}
+.premier12 .btn_g_other{float:none;position:absolute}
+.premier12 .btn_g_other li{position:absolute;top:29px}
+.premier12 .btn_g_other .btn_g_prev{left:151px}
+.premier12 .btn_g_other .btn_g_next{left:645px}
+.premier12 .btn_g_other li a{overflow:hidden;display:block;width:9px;height:17px;background:none}
+.premier12 .btn_g_other .btn_g_prev .btn_prev{display:inline;overflow:hidden;float:left;width:9px;height:17px;margin:0}
+.premier12 .btn_g_other .btn_g_prev .btn_prev{display:block;overflow:hidden;width:9px;height:17px}
+.premier12 .btn_g_other .btn_g_prev .btn_prev:hover{background:none}
+.premier12 .btn_g_other .btn_g_prev .btn_prev:hover img{margin-top:-17px}
+.premier12 .btn_g_other .btn_g_next .btn_next{overflow:hidden;float:left;width:9px;height:17px;margin:0}
+.premier12 .btn_g_other .btn_g_next .btn_next{display:block;overflow:hidden;width:9px;height:17px}
+.premier12 .btn_g_other .btn_g_next .btn_next:hover{background:none}
+.premier12 .btn_g_other .btn_g_next .btn_next:hover img{margin-top:-17px}
+.premier12 .t_score tbody th{letter-spacing:-1px}
+.premier12 .g_cast .bg_bx2{width:117px;height:52px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_game_cast3.png) no-repeat}
+.premier12 .g_cast .btn3{position:absolute;top:16px;left:54px;z-index:12}
+.section_todayrec.premier12 .home,.section_todayrec.premier12 .away{background:url(https://imgsports.pstatic.net/images/event/2015/premier12/empty.gif) no-repeat 0 0}
+.section_todayrec .kbo_home_ea,.section_todayrec .kbo_away_we{background:#fff}
+html,body{height:100%}
+#pop_wrap{min-width:390px;height:100%}
+.pop_minicast{position:relative;width:100%;height:100%}
+.pop_minicast .ad_top{position:relative;z-index:1;height:28px;background-color:#142748;text-align:center}
+.pop_minicast .ad_top img{display:inline-block !important;vertical-align:top}
+.pop_minicast .section_pop_score{position:relative;z-index:1;height:83px;border-top:1px solid #0d1b35}
+.pop_minicast .section_pop_score .score_lft,.pop_minicast .section_pop_score .score_rgt{margin-top:0}
+.pop_minicast .section_pop_score .p_score span{background:none;height:auto;padding:0 2px}
+.pop_minicast .section_pop_score .p_score span em{font-family:Arial,Sans-serif;font-size:34px;font-weight:bold;letter-spacing:-1px;color:#fff}
+.pop_minicast .section_pop_score .t_name{width:auto;margin-top:-2px}
+.pop_minicast .section_pop_score .t_name dt{font-family:'맑은고딕',malgun gothic,'나눔고딕',nanum gothic,'돋움',Dotum,Helvetica,sans-serif;color:#fff;font-size:20px;font-weight:bold;letter-spacing:-1px;text-align:left}
+.pop_minicast .section_pop_score .t_name dd{padding-top:3px;letter-spacing:-1px;text-align:left}
+.pop_minicast .team_cen{position:absolute;top:32px;left:50%;width:auto;height:auto;margin-left:-18px}
+.pop_minicast .team_cen .p_inning{color:#839cd2}
+.pop_minicast .team_lft{position:absolute;top:24px;right:50%;left:auto;width:auto;padding-right:15px}
+.pop_minicast .team_lft .t_name dt,.pop_minicast .team_lft .t_name dd{text-align:right}
+.pop_minicast .team_rgt{position:absolute;top:24px;left:50%;right:auto;width:auto;padding-left:21px}
+.pop_minicast .section_cast{position:absolute;top:112px;left:7px;right:7px;bottom:57px;padding:0}
+.pop_minicast .section_cast .btn_refresh{right:8px}
+.pop_minicast .section_cast .time_refresh{right:74px;letter-spacing:0}
+.pop_minicast .section_cast .scrl_ad{position:absolute;top:57px;left:0;right:0;bottom:0;width:auto;height:auto}
+.pop_minicast .section_cast .scrl_ad .scrl_area{position:absolute;left:0;top:0;right:0;bottom:0;width:auto;height:auto}
+.pop_minicast .section_cast .scrl_ad .scrl_area::-webkit-scrollbar{width:17px;height:12px}
+.pop_minicast .section_cast .scrl_ad .scrl_area::-webkit-scrollbar-button:start:decrement{display:block;width:17px;height:34px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/scroll_top.png") 50% 50% no-repeat #1f3667}
+.pop_minicast .section_cast .scrl_ad .scrl_area::-webkit-scrollbar-button:end:increment{display:block;width:17px;height:34px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/scroll_down.png") 50% 50% no-repeat #1f3667}
+.pop_minicast .section_cast .scrl_ad .scrl_area::-webkit-scrollbar-track{background:#1f3667}
+.pop_minicast .section_cast .scrl_ad .scrl_area::-webkit-scrollbar-thumb{background:#354d84}
+.pop_minicast .section_cast .scrl_ad .delay_data + .scrl_area{top:45px}
+.pop_minicast .section_cast .tab_game{position:relative;width:auto}
+.pop_minicast .section_cast .tab_game:before{content:'';position:absolute;left:370px;right:0;top:0;height:33px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/tab_game2_left_bg_m.png") right 0 repeat-x}
+.pop_minicast .section_cast .tab_game:after{content:'';position:absolute;right:0;top:0;width:4px;height:33px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/tab_game2_left_bg_r.png") 0 0 no-repeat}
+.pop_minicast .section_cast .tab_inning{position:relative;width:auto}
+.pop_minicast .section_cast .tab_inning:before{content:'';position:absolute;left:370px;right:0;top:0;height:24px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/tab_inning_left_bg_m.png") right 0 repeat-x}
+.pop_minicast .section_cast .tab_inning:after{content:'';position:absolute;right:0;top:0;width:4px;height:24px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/tab_inning_left_bg_r.png") 0 0 no-repeat;z-index:1}
+.pop_minicast .other_area{position:absolute;left:0;right:0;bottom:0;padding:0 13px}
+.pop_minicast .other_area .btn_prev,.pop_minicast .other_area .btn_next{position:absolute;top:0}
+.pop_minicast .other_area .btn_prev{left:0}
+.pop_minicast .other_area .btn_next{right:0}
+.pop_minicast .other_score{float:none;width:100%;border-top:1px solid #141c2f}
+.pop_minicast .other_score li{float:left;position:relative;width:33.333%;height:48px;margin:0;background:#1a2f4c;border:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.pop_minicast .other_score li:before{position:absolute;left:0;top:0;bottom:0;width:1px;background-color:#141c2f;content:''}
+.pop_minicast .other_score li .g_cast{position:absolute;top:0;bottom:0;left:1px;right:0}
+.pop_minicast .other_score li .g_cast a.btn{width:100%;height:100%;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_bg.png") 0 0 repeat;border:#333e59 1px solid}
+.pop_minicast .other_score li .g_cast .bg_bx2{position:absolute;top:50%;left:50%;width:50px;height:10px;margin:-5px 0 0 -25px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_txt.png") 0 0 no-repeat;z-index:13}
+.pop_minicast .other_score li .g_base{width:45px;background:url(https://imgnews.pstatic.net/image/sports/nsports/2010/bg_other_score2.gif) no-repeat -75px -1px}
+.pop_minicast .other_score li .g_base em{width:100%;text-indent:2px}
+.pop_minicast .other_score li.g_none{border:0;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_none_image2.png") center center no-repeat !important}
+.pop_minicast .other_score li.g_prev{background:none}
+.pop_minicast .other_score li.g_prev .g_score{width:100%}
+.pop_minicast .other_score li.g_prev .g_cast{font-size:0;text-align:center}
+.pop_minicast .other_score li.g_prev .g_cast:before{display:inline-block;vertical-align:middle;width:0;height:100%;content:''}
+.pop_minicast .other_score li.g_prev .g_cast > span{display:inline-block;visibility:visible;position:relative;left:auto;z-index:15;padding:0 10px;font-size:11px;color:#fff;line-height:normal;vertical-align:middle}
+.pop_minicast .other_score li.g_prev .g_cast .bg_bx2{left:-1px;top:-1px;width:100%;height:100%;margin:0;border:1px solid #333e59;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_bg.png") 0 0 repeat}
+.npb_minicast .section_cast{bottom:67px}
+.npb_minicast .other_score2{float:none;width:100%;border-top:1px solid #141c2f}
+.npb_minicast .other_score2 li{float:left;position:relative;width:33.333%;height:58px;margin:0;background:none;border:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.npb_minicast .other_score2 li:before{position:absolute;left:0;top:0;bottom:0;width:1px;background-color:#141c2f;content:''}
+.npb_minicast .other_score2 li .g_score{width:100%}
+.npb_minicast .other_score2 li .g_score dt{clear:left}
+.npb_minicast .other_score2 li .g_score dd.ini{clear:left}
+.npb_minicast .other_score2 li .g_cast{position:absolute;top:0;bottom:0;left:1px;right:0}
+.npb_minicast .other_score2 li .g_cast a.btn{width:100%;height:100%;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_bg.png") 0 0 repeat;border:#333e59 1px solid}
+.npb_minicast .other_score2 li .g_cast .bg_bx2{position:absolute;top:50%;left:50%;width:50px;height:10px;margin:-5px 0 0 -25px;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_txt.png") 0 0 no-repeat;z-index:13}
+.npb_minicast .other_score2 li.g_none{border:0;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_none_image2.png") center center no-repeat !important}
+.npb_minicast .other_score2 li.g_prev{background:none}
+.npb_minicast .other_score2 li.g_prev .g_cast{font-size:0;text-align:center}
+.npb_minicast .other_score2 li.g_prev .g_cast:before{display:inline-block;vertical-align:middle;width:0;height:100%;content:''}
+.npb_minicast .other_score2 li.g_prev .g_cast > span{display:inline-block;visibility:visible;position:relative;left:auto;z-index:15;padding:0 10px;font-size:11px;color:#fff;line-height:normal;vertical-align:middle}
+.npb_minicast .other_score2 li.g_prev .g_cast .bg_bx2{left:-1px;top:-1px;width:100%;height:100%;margin:0;border:1px solid #333e59;background:url("https://imgsports.pstatic.net/images/2018/pc/common/g_cast_bg.png") 0 0 repeat}
+.cbox_txt{font-size:0}

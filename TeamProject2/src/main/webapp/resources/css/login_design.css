@@ -1,0 +1,2813 @@
+@charset "UTF-8";
+
+/*=========================================================
+CSS基本設定
+FutureShop2 system_DesignSettings.css
+=========================================================*/
+
+/*　フォントサイズをクロスブラウジング対応　*/
+body {
+	font-size:80%;
+}
+
+/*　body直下テキスト　*/
+.FS2_body_text {
+	margin:0px;
+	padding:0px;
+}
+
+/*=========================================================
+ページレイアウト
+=========================================================*/
+/*　ページレイアウト：左メニュー　*/
+td.layout_menu {
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+}
+
+/*　ページレイアウト：コンテンツエリア　*/
+td.layout_content {
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+}
+
+/*　ページレイアウト：右メニュー　*/
+td.layout_right {
+	margin:0px;
+	padding:0px;
+	vertical-align:top;
+}
+
+
+
+/*=========================================================
+ユーザーメニューエリア
+=========================================================*/
+
+/*　ユーザーメニューエリア　*/
+.utility {
+	padding:0px;
+	margin:0 0 5px 0;
+}
+
+.utility table {
+	margin:0px;
+}
+
+.utility td {
+	padding:0px;
+	margin:0px;
+}
+
+/*　ユーザーメニューエリア：いらっしゃいませゲストさん　*/
+.FS2_welcome_area {
+	border-bottom:1px dotted #DDDDDD;
+}
+
+.welcome {
+	margin-left:0.5em;
+	line-height:1.1;
+}
+
+/*　ユーザーメニューエリア：マイページ・ログイン・パスワード　*/
+.FS2_login_area {
+	padding:0 0 0 10px;
+	text-align:right;
+}
+
+ul.login {
+	border-bottom:1px dotted #DDDDDD;
+	padding:0px;
+	margin:0px;
+}
+
+.login li {
+	padding:0 5px 0 15px;
+	margin:0px;
+	display:inline;
+}
+
+
+/*　ユーザーメニューエリア：送料・個人情報・特商　*/
+ul.item {
+	border-bottom:2px solid #DDDDDD;
+	padding:2px 0 0 0;
+	margin:5px 0 0 0;
+	text-align:right;
+}
+
+.item li {
+	padding:0 5px 0 15px;
+	margin:0px;
+	display:inline;
+}
+
+
+
+/*=========================================================
+システムコンテンツ
+=========================================================*/
+/*　システムコンテンツ：パンくずナビ　*/
+.pan {
+	font-size:85%;
+	background:#F6F6F6;
+	padding:5px;
+	margin:0 0 20px 0;
+}
+
+/*　システムコンテンツ：ページ切り替え（○件中○件表示）　*/
+.pager {
+	margin:20px 0;
+	padding:0 5px;
+	border-bottom:2px solid #DDDDDD;
+}
+
+
+/*　システムコンテンツ：並び替え（並び替え｜価格が安い｜価格が高い｜新着順｜）　*/
+/*　システムコンテンツ：並び替え：コンテナ　*/
+.FS2_sort_menu_bg {
+	margin:0px;
+	padding:0 5px;
+}
+
+.FS2_sort_menu_bg ul {
+	margin:0px;
+	padding:0px;
+	text-align:right;
+}
+
+.FS2_sort_menu_bg li {
+	margin:0px;
+	padding:0 8px 0 5px;
+	display:inline;
+	border-right:1px solid #333333;
+}
+
+/*=========================================================
+ページ共通設定：見出し
+=========================================================*/
+.pageTitle {
+	padding:0px;
+	margin:0 0 25px 0;
+	border-bottom:2px solid #DDDDDD;
+}
+
+.CrossHead {
+	padding:0px;
+	margin:20px 0 5px 0;
+	border-bottom:2px solid #DDDDDD;
+}
+
+.Definition {
+	padding:0px;
+	margin:20px 0 5px 0;
+	border-bottom:2px dotted #DDDDDD;
+}
+
+
+/*=========================================================
+ページ共通設定：テーブル
+=========================================================*/
+
+.userTable_01 {
+	width:100%;
+	margin-bottom:10px;
+	border-top:1px solid #DDDDDD;
+	border-left:1px solid #DDDDDD;
+}
+
+.userTable_01 caption {
+	padding:5px;
+	text-align:center;
+	background:#DDDDDD;
+}
+
+.userTable_01 th {
+	white-space:nowrap;
+	font-weight:normal;
+	background:#F6F6F6;
+	border-bottom:1px solid #DDDDDD;
+	padding:3px 5px;
+}
+
+.userTable_01 th.FS2_Delivery_table_caution{
+	white-space:normal;
+}
+
+
+.userTable_01 td {
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:3px 5px;
+}
+
+.userTable_02 {
+	border-top:1px solid #DDDDDD;
+	border-left:1px solid #DDDDDD;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.userTable_02 caption {
+	padding:5px;
+	text-align:center;
+	background:#DDDDDD;
+}
+
+.userTable_02 th {
+	font-weight:normal;
+	background:#F6F6F6;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:3px 5px;
+}
+
+.userTable_02 td {
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:3px 5px;
+}
+
+
+/*=========================================================
+ページ共通設定：個人情報保護方針
+=========================================================*/
+.FS2_privacyPageLink_container {
+	text-align:center;
+	margin:5px 0;
+	border:1px solid #DDDDDD;
+	padding:5px;
+}
+
+.FS2_privacyPageLink_container input {
+	position:relative;
+	top:3px;
+}
+
+
+/*=========================================================
+商品画面：商品カテゴリ一覧ページ
+=========================================================*/
+
+/*　商品画面：商品グループ：商品グループのコンテナ　*/
+.groupLayout {
+	margin:0 auto;
+	width:100%;
+}
+
+/*　商品画面：商品グループ：商品のコンテナ　*/
+.groupLayout .gl_Item {
+	float: left;
+	display:inline;
+}
+
+/*　商品画面：商品グループ：サムネイル　*/
+.groupLayout .FS2_thumbnail_container {
+	margin:0 0 5px 0;
+}
+
+/*　商品画面：商品グループ名　*/
+.groupLayout .itemGroup {
+	padding:0px;
+	margin: 0 0 5px 0;
+}
+
+
+/*=========================================================
+商品画面：商品グループ・商品一覧　レイアウトスタイル
+=========================================================*/
+
+/*　商品グループレイアウト1×1から
+　　商品レイアウト横幅指定　*/
+.alignItem_01 .gl_Item {
+	width:98%;
+	margin-left:1%;
+}
+
+.alignItem_02 .gl_Item {
+	width:48.5%;
+	margin-left:1%;
+}
+
+.alignItem_03 .gl_Item {
+	width:32.2%;
+	margin-left:1%;
+}
+
+.alignItem_04 .gl_Item {
+	width:23.8%;
+	margin-left:1%;
+}
+
+.alignItem_05 .gl_Item {
+	width:19.5%;
+	margin-left:0.5%;
+}
+
+.alignItem_06 .gl_Item {
+	width:16.1%;
+	margin-left:0.5%;
+}
+
+.alignItem_07 .gl_Item {
+	width:13.7%;
+	margin-left:0.5%;
+}
+
+.alignItem_08 .gl_Item {
+	width:11.9%;
+	margin-left:0.5%;
+}
+
+.alignItem_09 .gl_Item {
+	width:10.6%;
+	margin-left:0.5%;
+}
+
+.alignItem_10 .gl_Item {
+	width:9.4%;
+	margin-left:0.5%;
+}
+
+
+/*=========================================================
+商品画面：所属する子グループのレイアウトスタイル
+=========================================================*/
+
+/* r_system_preset.css */
+#FS2_itemlayout_list_D td{
+vertical-align:top;
+	padding:2px;
+}
+
+/* r_system_preset.css */
+#FS2_itemlayout_list_D .itemGroup{
+	font-weight:normal;
+	font-size:80%;
+	padding:0px;
+	margin:0px;
+}
+
+/* r_system_preset.css */
+#FS2_itemlayout_list_D .itemGroup .FS2_itemlayout_list_D_arrow{
+	font-weight:bold;
+	color:red;
+}
+
+/* r_system_preset.css */
+.FS2_itemlayout_list_D_icon{
+	width:3px;
+}
+
+/* r_system_preset.css */
+.alignItem_01 .FS2_itemlayout_list_D_name{
+	width:99%;
+}
+
+/* r_system_preset.css */
+.alignItem_02 .FS2_itemlayout_list_D_name{
+	width:49%;
+}
+
+/* r_system_preset.css */
+.alignItem_03 .FS2_itemlayout_list_D_name{
+	width:33%;
+}
+
+/* r_system_preset.css */
+.alignItem_04 .FS2_itemlayout_list_D_name{
+	width:24%;
+}
+
+/* r_system_preset.css */
+.alignItem_05 .FS2_itemlayout_list_D_name{
+	width:19%;
+}
+
+/* r_system_preset.css */
+.alignItem_06 .FS2_itemlayout_list_D_name{
+	width:16%;
+}
+
+/* r_system_preset.css */
+.alignItem_07 .FS2_itemlayout_list_D_name{
+	width:14%;
+}
+
+/* r_system_preset.css */
+.alignItem_08 .FS2_itemlayout_list_D_name{
+	width:12%;
+}
+
+/* r_system_preset.css */
+.alignItem_09 .FS2_itemlayout_list_D_name{
+	width:11%;
+}
+
+/* r_system_preset.css */
+.alignItem_10 .FS2_itemlayout_list_D_name{
+	width:9%;
+}
+
+
+
+
+/*=========================================================
+商品画面：おすすめ商品
+=========================================================*/
+
+
+/*　おすすめ商品：見出し　*/
+#FS2_Recommend_List .CrossHead {
+	margin-bottom:15px;
+}
+
+#FS2_Recommend_List .gl_Item {
+	float:left;
+	display:inline;
+}
+
+
+/*　おすすめ商品：レイアウトテーブル　*/
+.FS2_recommendgoods_table {
+	margin:0 auto;
+}
+
+/*　おすすめ商品：商品名　*/
+#FS2_Recommend_List .itemTitle {
+	padding:0px;
+	margin:0px;
+}
+
+/*　おすすめ商品：定価　*/
+#FS2_Recommend_List .FS2_itemPrice_text {
+	margin-bottom:0px;
+}
+
+#FS2_Recommend_List .FS2_memberPriceImage {
+	margin:0px;
+}
+
+
+
+/*=========================================================
+商品画面：商品詳細
+=========================================================*/
+
+/*　商品画面：商品詳細：コンテナ　*/
+.gl_Item {
+	padding:0px;
+	margin:0 0 15px 0;
+}
+
+/*　商品画面：商品詳細：上部・下部コメント　*/
+.user_inner_content {
+	margin-bottom:20px;
+}
+
+/*　商品画面：商品詳細：コンテナ：レイアウト左側　*/
+.FS2_itemlayout_td_Left {
+	vertical-align:top;
+}
+
+/*　商品画面：商品詳細：画像コンテナ　*/
+.FS2_thumbnail_container {
+	vertical-align:top;
+}
+
+
+/*　商品画面：商品詳細：商品レイアウトパターン：中央寄せのレイアウト　*/
+#FS2_itemlayout_list_B .thumbnail {margin:0px;}/*商品グループ*/
+#FS2_itemlayout_list_C .thumbnail {margin:0px;}/*商品グループ*/
+#FS2_itemlayout_B .thumbnail {margin:0 0 5px 0;}
+#FS2_itemlayout_C .thumbnail {margin:0 0 5px 0;}
+#FS2_Recommend_itemlayout_B .thumbnail {margin:0 0 5px 0;}/*おすすめ商品*/
+#FS2_Recommend_itemlayout_C .thumbnail {margin:0 0 5px 0;}/*おすすめ商品*/
+
+/*　商品画面：商品詳細：商品レイアウトパターン：中央寄せ以外のレイアウト　*/
+#FS2_itemlayout_list_A .thumbnail {margin:0 10px 0 0;}/*商品グループ*/
+#FS2_itemlayout_A .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_D .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_E .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_F .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_G .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_I .thumbnail {margin:0 10px 5px 0;}
+#FS2_itemlayout_J .thumbnail {margin:0 10px 5px 0;}
+#FS2_Recommend_itemlayout_A .thumbnail {margin:0 10px 5px 0;}/*おすすめ商品*/
+
+/*　商品画面：商品詳細：コンテナ：レイアウト右側　*/
+.FS2_itemlayout_td_Right {
+	vertical-align:top;
+}
+
+/*　商品画面：商品詳細：商品名　*/
+.itemTitle {
+	font-size:116%;
+}
+
+/*　商品画面：商品詳細：商品レイアウトパターン：中央寄せのレイアウト　*/
+#FS2_itemlayout_list_B .catch {margin:0 1px;}/*商品グループ*/
+#FS2_itemlayout_list_C .catch {margin:0 1px;}/*商品グループ*/
+#FS2_itemlayout_B .catch {margin:0 1px;}
+#FS2_itemlayout_C .catch {margin:0 1px;}
+
+/*　商品画面：商品詳細：商品レイアウトパターン：中央寄せ以外のレイアウト　*/
+#FS2_itemlayout_list_A .catch {margin:0 2px 0 0;}/*商品グループ*/
+#FS2_itemlayout_A .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_D .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_E .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_F .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_G .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_I .catch {margin:0 2px 0 0;}
+#FS2_itemlayout_J .catch {margin:0 2px 0 0;}
+
+
+/*　商品画面：商品詳細：商品番号　*/
+.itemNumber {
+	color:#8C8C8C;
+	padding:0px;
+	margin:0 0 5px 0;
+}
+
+/*　商品画面：商品詳細：価格コンテナ　*/
+.FS2_itemPrice_area {
+	padding:0px;
+	margin:0 0 5px 0;
+}
+
+/*　商品画面：商品詳細：商品価格上部コメント　*/
+.itemComment {
+	padding:0px;
+	margin:0 0 5px 0;
+	}
+
+/*　商品画面：商品詳細：定価　*/
+.FS2_itemPrice_text {
+	padding:0px;
+	margin:0 0 15px 0;
+}
+
+/*　商品画面：商品詳細：定期購入定価　*/
+.FS2_FixedPeriodItemPrice_text {
+	padding:0px;
+	margin:0 0 15px 0;
+}
+
+
+/*　商品画面：商品詳細：定価取消し線　*/
+.useBorder {
+	text-decoration:line-through;
+}
+
+/*　商品画面：商品詳細：当店特別価格　*/
+.FS2_special_price {
+	padding:0px;
+	margin-right:0.5em;
+}
+
+/*　商品画面：商品詳細：価格　*/
+.itemPrice {
+	font-weight:bold;
+	color:#000099;
+}
+
+
+/*　商品画面：商品詳細：特別会員価格ありアイコン　*/
+.FS2_memberPriceImage {
+	margin:0 0 5px 0;
+	padding:0px;
+}
+
+/*　商品画面：商品詳細：特別会員価格：コンテナ　*/
+.FS2_special_members_price {
+	margin:0px;
+	padding:0px;
+}
+
+/*　商品画面：商品詳細：特別会員価格：テキスト　*/
+.FS2_special_members_price_text {
+	margin-right:0.5em;
+}
+
+/*　商品画面：商品詳細：特別会員価格　*/
+.FS2_special_members_price .itemPrice {
+	color:#FF0000;
+}
+
+/*　商品画面：商品詳細：ポイント　*/
+.FS2_point {
+	font-size:85%;
+	color:#FF3300;
+	padding:0px;
+	margin:0px;
+	border-bottom:1px dotted #DDDDDD;
+}
+
+/*　商品画面：商品詳細：会員価格で購入するにはログインが必要です　*/
+.FS2_members_login_link {
+	padding:0px;
+	margin:0px;
+	text-align:right;
+}
+
+.FS2_members_login_link a {
+	text-decoration:none;
+}
+
+.FS2_members_login_link a:hover {
+	text-decoration:underline;
+}
+
+
+/*　商品画面：商品詳細：送料　*/
+.FS2_postage {
+	padding:0px;
+	margin:0 0 10px 0;
+}
+
+/*　商品画面：商品詳細：販売開始前です。　*/
+/*　商品画面：商品詳細：販売を終了いたしました。　*/
+.error_item {
+	border:1px dotted #FF3300;
+	color:#FF3300;
+	background:#FFF1EE;
+	text-align:center;
+	padding:0px;
+	margin:0 0 10px 0;
+}
+
+/*　商品画面：商品詳細：販売期間　*/
+.sellTerms {
+	border:1px dotted #DDDDDD;
+	background:#F6F6F6;
+	text-align:center;
+	padding:0px;
+	margin:0 0 10px 0;
+}
+
+/*　商品画面：商品詳細：項目選択肢コンテナ　*/
+.FS2_inputSelection {
+	margin-bottom:10px;
+}
+
+.FS2_inputSelection_table th {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	background:#F6F6F6;
+}
+
+.FS2_inputSelection_table td {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	text-align:left;
+}
+
+
+/*　商品画面：商品詳細：バリエーションのテーブル　*/
+.GoodsSelectionTable {
+	margin: 0 0 5px 0;
+}
+
+.GoodsSelectionTable th {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	background:#F6F6F6;
+}
+
+.GoodsSelectionTable td {
+	padding:2px 8px;
+	text-align:center;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+}
+
+/*　商品画面：商品詳細：申し訳ございません。ただいま在庫がございません。　*/
+.itemStock {
+	border:1px dotted #FF3300;
+	color:#FF3300;
+	padding:0 5px;
+	margin:0 0 10px 0;
+	text-align:center;
+}
+
+
+
+/*　商品画面：商品詳細：△：残りわずか　*/
+.FS2_ItemStockSample_area {
+	padding:0px;
+	margin:0 0 10px 0;  
+}
+
+
+/*　商品画面：商品詳細：在庫がない場合の時の着色をリセット　*/
+.FS2_ItemStockSample_area .itemStock {
+	border:none;
+	padding:0px;
+	color:#000000;
+}
+
+
+
+
+
+/*　商品画面：商品詳細：数量コンテナ　*/
+.FS2_figure {
+	padding:0px;
+	margin:0 0 5px 0;
+}
+
+
+/*　商品画面：商品詳細：クール便コンテナ　*/
+.FS2_CoolButton_area {
+	padding:0px;
+	margin:0 0 5px 0;
+}
+
+/*　商品画面：商品詳細：レビューを見るボタン　*/
+
+.FS2_ReviewButton_area a {
+	text-decoration:none;
+}
+
+/*　商品画面：商品詳細：この商品の平均評価　*/
+.FS2_ReviewEditAverage img {
+	position:relative;
+	top:-2px;
+}
+
+/*　商品画面：商品詳細：レビュー一覧　*/
+.FS2_Review_Detail_container_td table {
+	width:100%;
+	border:none;
+}
+
+#FS2_body_Goods .userTable_01 {
+	border-left:none;
+	border-bottom:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+}
+
+#FS2_body_Goods .userTable_01 td {
+	padding:0px;
+	border-right:none;
+	border-bottom:none;
+}
+
+#FS2_body_Goods .userTable_01 .FS2_Review_Detail_container_td td {
+	border:none;
+	padding:3px;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：背景色　*/
+.FS2_Review_Detail_td {
+	background:#F6F6F6;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：購入者　*/
+.FS2_Review_User_Status {
+	background:#FF6600;
+	color:#FFFFFF;
+	padding:1px 0px 0px 2px;
+	line-height:1.2;
+	border:1px solid #FFFFFF;
+	font-size:11px;
+	margin-left:5px;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：投稿者詳細・投稿日　*/
+.FS2_Review_Detail_Prof_Date {
+	padding:0px;
+	margin:0px;
+	text-align:right;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：おすすめ度　*/
+.FS2_MyReviewStatus {
+	color:#5BA633;
+	float:left;
+	font-size:85%;
+	margin:5px;
+}
+
+.FS2_MyReviewStatus img {
+	position:relative;
+	top:-2px;
+}
+
+.FS2_MyReviewStatus_text {
+	line-height:2;
+	color:#000000;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：投稿内容　*/
+.FS2_MyReviewList_Text {
+	padding:0px;
+	margin:0 5px 5px 5px;
+	width:98%;
+}
+
+/*　商品画面：商品詳細：レビュー一覧：全てのレビューを見る　*/
+.FS2_ReviewTextLink_area {
+	text-align:right;
+}
+
+/*　商品画面：商品詳細：TrustMark　*/
+.FS2_TrustMark {
+	margin-bottom:10px;
+}
+
+
+/*　商品詳細：定期購入・頒布会：価格表　*/
+/*　商品詳細：定期購入・頒布会：価格表：コンテナ　*/
+.FS2_FixedPeriod {
+	margin-bottom:10px;	
+}
+
+/*　商品詳細：定期購入・頒布会：価格表：上部コメント　*/
+.FS2_FixedPeriod_comment {
+	margin:0px 0px 5px 0px;
+}
+
+/*　商品詳細：定期購入・頒布会：価格表：テーブル　*/
+.FS2_GoodsFixedPeriodTable{
+	margin: 0 0 5px 0;
+	width:100%;
+	border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+}
+
+.FS2_GoodsFixedPeriodTable th {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	background:#F6F6F6;
+	text-align:left;
+}
+
+.FS2_GoodsFixedPeriodTable td {
+	padding:2px 8px;
+	text-align:center;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	text-align:right;
+}
+
+
+/*　商品詳細：定期購入：一回のみ注文する　*/
+.FS2_figure_InCartOnly {
+	border:5px solid #F0F0F0;
+	padding:10px;
+	margin:0px;
+}
+
+.FS2_figure_InCartOnly p {
+	margin:0px;
+	padding:0px;
+}
+
+/*　商品詳細：定期購入：定期購入する　*/
+.FS2_figure_FixedPeriod {
+	border:5px solid #F0F0F0;
+	padding:10px;
+	margin:0px 0px 10px 0px;
+}
+
+.FS2_figure_FixedPeriod p {
+	margin:0px;
+	padding:0px;
+}
+
+
+
+/*　商品詳細：定期購入：通常・定期商品混在時の定期購入する　*/
+.FS2_figure_FixedPeriodUnion {
+	border:5px solid #F0F0F0;
+	border-top:none;
+	padding:10px;
+	margin:0px 0px 10px 0px;
+}
+
+.FS2_figure_FixedPeriodUnion p {
+	margin:0px;
+	padding:0px;
+}
+
+/*　商品詳細：定期購入：通常・定期商品混在時の定期購入する：在庫切れメッセージ　*/
+p.FS2_noStockText_forFixedPeriod {
+	color:#8c8c8c;
+	display:block;
+	background:#f0f0f0;
+	padding:5px 10px;
+}
+
+/*　商品詳細：頒布会：商品別価格一覧　*/
+/*　商品詳細：頒布会：商品別価格一覧：コンテナ　*/
+.FS2_Distribution {
+	margin:10px 0;
+}
+
+.FS2_Distribution_title{
+margin-bottom:2px;
+}
+/*　商品詳細：頒布会：商品別価格一覧：テーブル　*/
+.FS2_GoodsDistributionTable{
+	margin: 0 0 5px 0;
+	width:100%;
+	border-left:1px solid #B8B8B8;
+	border-top:1px solid #B8B8B8;
+	border-right:1px solid #B8B8B8;
+}
+.FS2_GoodsDistributionTable th{
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #B8B8B8;
+	border-right:1px solid #B8B8B8;
+	background:#e0e0e0;
+	text-align:left;
+}
+.FS2_GoodsDistributionTable td {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #B8B8B8;
+	text-align:left;
+}
+
+/*　商品詳細：頒布会：頒布会購入するボタン　*/
+.FS2_figure_Distribution {
+	border:5px solid #F0F0F0;
+	padding:10px;
+	margin:0px 0px 10px 0px;
+}
+
+.FS2_figure_Distribution p {
+	margin:0px;
+	padding:0px;
+}
+
+/*　商品詳細：頒布会：頒布会購入するボタン：在庫切れメッセージ　*/
+p.FS2_noStockText_forDistribution {
+	color:#8c8c8c;
+	display:block;
+	background:#f0f0f0;
+	padding:5px 10px;
+}
+
+/*　商品詳細：返品特約　*/
+/*　商品詳細：返品特約：コンテナ　*/
+.FS2_ReturnedSpecialContract {
+	margin-bottom:10px;	
+}
+
+/*　商品詳細：返品特約：リンクテキスト　*/
+.FS2_ReturnedSpecialContract_link {
+	margin:10px 0;
+}
+
+.FS2_ReturnedSpecialContract_text p {
+	padding:0px;
+	margin:0px;
+}
+
+
+/*　商品詳細：返品特約：テキスト　*/
+.FS2_ReturnedSpecialContract_text {
+	margin:10px 0 30px 0;
+	border:5px solid #f0f0f0;
+	padding:10px;
+}
+
+
+
+
+
+
+/*=========================================================
+商品についてのお問い合わせ
+友達にメールで知らせる
+=========================================================*/
+.FS2_inqury_table {
+	margin: 0 0 20px 0;
+}
+
+.FS2_inqury_td01 img {
+	margin-right:10px;
+}
+
+
+/*=========================================================
+入荷お知らせメールお申し込み
+=========================================================*/
+.FS2_arrival_information_table {
+	margin: 0 0 20px 0;
+}
+
+.FS2_arrival_information_td01 img {
+	margin-right:10px;
+}
+
+.FS2_body_ArrivalInfomationEntry .FS2_bottom_btn_center_1 {
+margin-bottom:40px;
+}
+
+
+/*=========================================================
+レビュー一覧画面
+=========================================================*/
+#FS2_body_Review .userTable_01 td {
+	border-right:none;
+	border-bottom:none;
+	padding:0px;
+}
+
+#FS2_body_Review .userTable_01 {
+	border-left:none;
+	border-bottom:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+}
+
+/*　レビュー一覧画面：商品ごとのレビュー一覧　*/
+.FS2_ReviewImage_table td {
+	vertical-align:top;
+	padding-right:10px;
+}
+
+#FS2_body_Review .userTable_01 .FS2_Review_Detail_td {
+	padding:5px;
+}
+
+#FS2_body_Review .caution {
+	position:relative;
+	top:3px;
+}
+
+.FS2_Review_Detail_text {
+	padding:0px;
+	margin:5px;
+}
+
+
+/*　レビュー一覧画面：投稿者ごとのレビュー一覧　*/
+.FS2_body_ReviewListCustomer .FS2_Review_Detail_Prof_Date {
+	margin:5px;
+}
+
+.FS2_body_ReviewListCustomer .userTable_01 th {
+	white-space:nowrap;border:none;
+	padding:2px 5px;
+}
+
+
+.FS2_body_ReviewListCustomer .userTable_01 .FS2_Review_Detail_td td {
+	border:none;
+	padding:2px 5px;
+}
+
+
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧　*/
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：テーブル　*/
+.FS2_body_ReviewList .userTable_01 {
+	margin-bottom:15px;
+}
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：投稿内容　*/
+.FS2_body_ReviewList td.FS2_Review_Detail_td {
+	font-size:100%;
+	border-bottom:1px solid #DDDDDD;
+	padding:5px 5px 0 5px;
+}
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：本文背景色　*/
+.FS2_body_ReviewList .FS2_MyReviewList_Detail_td {
+	background:none;
+}
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：投稿者名　*/
+.FS2_body_ReviewList .FS2_Review_Detail_name {
+	font-weight:bold;
+	margin-left:5px;
+}
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：投稿者詳細・投稿日　*/
+.FS2_body_ReviewList .FS2_Review_Detail_Prof_Date {
+	margin-top:7px;
+}
+
+/*　レビュー一覧画面：投稿された全てのレビュー一覧：商品名リンク　*/
+.FS2_Review_Detail_itemname {
+	font-size:85%;
+	margin-left:5px;
+}
+
+
+/*=========================================================
+カート画面
+=========================================================*/
+
+/*　カート画面テーブル　*/
+.cartTable {
+	width:100%;
+	margin-bottom:5px;
+	border-collapse:collapse;
+	border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+}
+
+.cartTable caption {
+	background:#DDDDDD;
+	padding:5px;
+}
+
+.cartTable th {
+	background:#F6F6F6;
+	border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+	padding:3px;
+	font-weight:normal;
+}
+
+.cartTable td {
+	border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+	padding:3px;
+}
+
+.FS2_GoodsImage_td {
+	width:1px;
+	vertical-align:top;
+}
+.FS2_GoodsImage_td img {
+	margin:5px;
+}
+
+
+/*　カート画面：合計金額　*/
+.summary {
+	font-weight:bold;
+}
+
+/* 手数料、値引き等の表の「総合計」行の見せ方 */
+.cartTable tr.summary th,
+.cartTable tr.summary td{
+	border-top-width:3px;
+	border-top-style:double;
+}
+
+
+
+/*　カート画面：STEP1～STEP5　*/
+.orderFlow {
+	padding:0px;
+	margin:0 0 20px 0;
+}
+
+/*　カート画面：TadeSafe　*/
+/*　system_preset.css　*/
+.FS2_TradeSafe div{
+	margin:auto;
+}
+	
+.FS2_FixedPeriodDelivery_CycleEdit_container_02 {
+	margin-top:0.3em;
+	margin-left:1.5em;
+	margin-bottom:1.5em;
+}
+
+.FS2_FixedPeriodDeliveryCycle_Confirm_container{
+	margin:0 auto;
+	width:65%;
+}
+
+.FS2_body_FixedPeriodDeliveryCycleEdit .inputTableArea th{
+	text-align:left;	
+}
+
+
+
+/*　楽天銀行注意書き　*/
+.FS2_rakuten_bank_caution{
+	font-size:85%;
+}
+
+/*　カート：定期購入：お届け日確認一覧　*/
+.FS2_FixedPeriodDeliveryCycle_Confirm {
+	border:5px solid #DDDDDD;
+	padding:10px;
+}
+
+
+.FS2_FixedPeriodDeliveryCycle_Confirm span {
+	display: -moz-inline-box;
+	display:inline-block;
+	width:10em;
+}
+/*　カート：定期購入：お届け日確認一覧：省略の…　*/
+.FS2_FixedPeriodDeliveryCycle_Confirm_abbr {
+	padding-left:16em;
+}
+/*　カート：定期購入：STEP5：合計金額（th）　*/
+.FS2_total_area .cartTable th.FS2_FixedPeriod_summary {
+	font-weight:bold;
+}
+
+/*　カート：定期購入：STEP5：合計金額（td）　*/
+.FS2_total_area .cartTable td.FS2_FixedPeriod_summary {
+	font-weight:bold;
+}
+
+/*　カート：返品特約　*/
+.FS2_body_Cart_OrderConfirm .FS2_ReturnedSpecialContract_text {
+	margin:10px 0 30px 0;
+	border:none;
+	padding:0px;
+}
+
+.FS2_body_Cart_OrderConfirm .FS2_ReturnedSpecialContract_text p {
+	padding:0px;
+	margin:0px 0px 10px 0px ;
+}
+
+/*　メール便　*/
+.FS2_DeliveryMethod_table p{
+	margin-top:0px;
+}
+
+.FS2_DeliveryMethod_table td th{
+	white-space:nowrap;
+}
+
+.FS2_DeliveryMethod_table_input_th{
+	text-align:left;
+	vertical-align:top;
+}
+.FS2_Delivery_table03{
+	width:inherit;
+	margin-left:1.5em;
+}
+
+
+
+
+/*=========================================================
+ログイン画面
+=========================================================*/
+
+/*　ログイン画面：レイアウト用テーブル　*/
+.FS2_login_layout_table {
+	margin:0 0 10px 0;
+	width:100%;
+}
+
+.FS2_login_layout_table_td_left .inputTableArea {
+	margin-right:15px;
+}
+
+.FS2_login_layout_table_td_left .CrossHead {
+	margin-right:15px;
+}
+
+
+/*　ログイン画面：会員登録後（せず）に購入ボタン　*/
+.FS2_Login_btn_position {
+	text-align:center;
+}
+
+/*=========================================================
+会員登録画面
+=========================================================*/
+/*　会員登録画面：会員規約　*/
+.frameArea{
+	height: 300px;
+	margin: 10px auto;
+	overflow: scroll;
+}
+
+/*=========================================================
+会員画面（マイページ）
+=========================================================*/
+.FS2_mypage_top_table {
+	width:100%;
+}
+
+/*　会員画面：注文履歴ページ　*/
+.FS2_body_MyPage_OrderHistoryList .pager {
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+/*　会員画面：マイページ共通：表示するボタン　*/
+.FS2_pagerTable_area_input {
+	position:relative;
+	top:3px;
+	left:3px;
+}
+
+/*　会員画面：注文履歴ページ：今年の注文　*/
+.FS2_mypage_Entry_table .GoodsSelectionTable th {
+	border-right:none;
+}
+.FS2_mypage_Entry_table .GoodsSelectionTable td {
+	border-right:none;
+}
+
+/*　会員画面：注文履歴ページ：ご注文明細：お届け先タイトル　*/
+.OD_CrossHead {
+	margin:0px;
+	padding:0px;
+}
+
+.ODTable {
+	width:100%;
+	border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+	margin:0 0 5px 0;
+}
+
+.ODTable th {
+	font-weight:normal;
+	background:#F6F6F6;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:0px 5px;
+}
+
+.ODTable td {
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:0px 5px;
+}
+
+.ODTable2 {
+	width:100%;
+	border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+	margin:0 0 5px 0;
+}
+
+.ODTable2 th {
+	font-weight:normal;
+	background:#F6F6F6;
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:0px 5px;
+}
+
+.ODTable2 td {
+	border-bottom:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;
+	padding:0px 5px;
+}
+
+/*　アドレス帳　*/
+.FS2_Address_list_btn input {
+	margin-right:20px;
+}
+
+/*　会員画面：注文履歴ページ：ページ切り替え（○件中○件表示）　*/
+.FS2_body_MyPage_PointHistory .pager {
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+	
+/*　会員画面：レビューページ：購入した商品のレビュー一覧　*/
+.FS2_body_ItemReviewList .cartTable td {
+	padding:0px;
+}
+
+.FS2_body_ItemReviewList .FS2_GoodsImage_td {
+	border-right:none;
+}
+
+.FS2_MyReviewList_Detail_td {
+	background:#F6F6F6;
+}
+
+.FS2_MyReview_itemname {
+	padding:0px;
+	margin:5px;
+}
+
+.FS2_body_ItemReviewList .FS2_MyReviewStatus {
+	float:left;
+	line-height:1.1;
+	margin:0 5px;
+}
+
+.FS2_body_ItemReviewList .FS2_MyReviewList_Text {
+	background:#FFFFFF;
+	padding:5px;
+	margin:0px;
+}
+
+.FS2_MyReviewList_Text:after {   
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}  
+
+.FS2_MyReviewList_Text {   
+    display: inline-block;
+}
+
+/*　会員画面：レビューページ：レビュー履歴一覧　*/
+.FS2_body_MyReviewList .cartTable {
+	border-top:1px solid #DDDDDD;
+	border-left:none;
+}
+
+.FS2_body_MyReviewList .cartTable td {
+	padding:0px;
+	border-right:none;
+}
+
+.FS2_body_MyReviewList .FS2_GoodsImage_td {
+	border-right:none;
+}
+
+.FS2_body_MyReviewList .FS2_MyReviewStatus {
+	float:left;
+	line-height:1.1;
+	margin:0 5px;
+}
+
+.FS2_body_MyReviewList .FS2_MyReviewList_Text {
+	background:#FFFFFF;
+	padding:5px;
+	margin:0px;
+}
+
+.FS2_ReviewEdit {
+	float:right;
+}
+
+
+
+
+/*　=================================================================
+　返品特約
+=================================================================　*/
+
+/* 返品特約：商品詳細 */
+.FS2_ReturnedSpecialContract {
+	margin:20px 0px;
+}
+
+.FS2_ReturnedSpecialContract_link {
+	margin:10px 0;
+}
+
+.FS2_ReturnedSpecialContract_text {
+	margin:10px 0 30px 0;
+	border:5px solid #f0f0f0;
+	padding:10px;
+}
+
+.FS2_ReturnedSpecialContract_text p{
+	padding:0px;
+	margin:0px;
+}
+
+
+/* 返品特約：ショッピングカート */
+.FS2_body_Cart_OrderConfirm .FS2_ReturnedSpecialContract{
+	width:48%;
+	margin:0px;
+	border:5px solid #f0f0f0;
+	padding:0px;
+}
+
+.FS2_body_Cart_OrderConfirm .FS2_ReturnedSpecialContract_link {
+	margin:10px;
+}
+
+.FS2_body_Cart_OrderConfirm .FS2_ReturnedSpecialContract_text {
+	margin:0px 10px 10px 10px;
+	border:none;
+	padding:0px;
+}
+
+
+/*　=================================================================
+　画像ホスティングオプション
+=================================================================　*/
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1　*/
+#FS2_itemlayout_IHL1{
+	border:1px solid #ddd;	
+	float:left;
+	width:200px;
+	padding:0;
+	margin:5px;
+	padding:10px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+サムネイル　*/
+#FS2_itemlayout_IHL1 .FS2_thumbnail_container{
+	border:none;
+	margin:5px 0px;
+	padding:0px;
+}
+
+#FS2_itemlayout_IHL1 img{
+	margin:0px;
+	padding:0px;	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+サムネイル　*/
+#FS2_itemlayout_IHL1 .FS2_AdditionalImageEnlargementSsize_Button{
+	text-align:right;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+商品価格コンテナ　*/
+#FS2_itemlayout_IHL1 .FS2_itemPrice_text{
+	margin:5px 0px;
+	font-size:80%;
+	font-weight:normal;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+商品一言コメント　*/
+#FS2_itemlayout_IHL1 .FS2_ItemShortComment{
+	margin:10px;
+	font-size:80%;
+	color:#777;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+特別会員価格あり　*/
+#FS2_itemlayout_IHL1 .FS2_members_contents{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL1：
+会員価格　*/
+#FS2_itemlayout_IHL1 .FS2_special_members_price{
+	margin:5px 0px;
+}
+
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2　*/
+#FS2_itemlayout_IHL2{
+	border:1px solid #ddd;	
+	float:left;
+	width:200px;
+	padding:10px;
+	margin:5px;
+	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+サムネイル　*/
+#FS2_itemlayout_IHL2 .FS2_thumbnail_container{
+	border:none;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+
+}
+
+#FS2_itemlayout_IHL2 img{
+	margin:0px;
+	padding:0px;	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+アイキャッチアイコン　*/
+#FS2_itemlayout_IHL2 .FS2_eye_catch_icon{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+商品価格コンテナ　*/
+#FS2_itemlayout_IHL2 .FS2_itemPrice_text{
+	margin:5px 0px;
+	font-size:80%;
+	font-weight:normal;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+商品一言コメント　*/
+#FS2_itemlayout_IHL2 .FS2_ItemShortComment{
+	margin:10px;
+	font-size:80%;
+	color:#777;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+特別会員価格あり　*/
+#FS2_itemlayout_IHL2 .FS2_members_contents{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+会員価格　*/
+#FS2_itemlayout_IHL2 .FS2_special_members_price{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL2：
+拡大ボタン　*/
+#FS2_itemlayout_IHL2 .FS2_AdditionalImageEnlargementSsize_Button{
+	margin:5px 0px 0px 0px;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3　*/
+#FS2_itemlayout_IHL3{
+	border:1px solid #ddd;	
+	float:left;
+	width:320px;
+	padding:10px;
+	margin:5px;
+	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+サムネイル　*/
+#FS2_itemlayout_IHL3 .FS2_thumbnail_container{
+	border:none;
+	padding:0px;
+	float:left;
+	margin:0px 10px 0px 0px;
+}
+
+#FS2_itemlayout_IHL3 img{
+	margin:0px;
+	padding:0px;	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+アイキャッチアイコン　*/
+#FS2_itemlayout_IHL3 .FS2_eye_catch_icon{
+	margin-bottom:10px;	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+商品価格コンテナ　*/
+#FS2_itemlayout_IHL3 .FS2_itemPrice_text{
+	margin:5px 0px;
+	font-size:80%;
+	font-weight:normal;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+商品一言コメント　*/
+#FS2_itemlayout_IHL3 .FS2_ItemShortComment{
+	margin:10px;
+	font-size:80%;
+	color:#777;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+特別会員価格あり　*/
+#FS2_itemlayout_IHL3 .FS2_members_contents{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+会員価格　*/
+#FS2_itemlayout_IHL3 .FS2_special_members_price{
+	margin:5px 0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品一覧：IHL3：
+拡大ボタン　*/
+#FS2_itemlayout_IHL3 .FS2_AdditionalImageEnlargementSsize_Button{
+	text-align:right;
+}
+
+
+
+/*　商品画面：商品詳細：オプション価格コンテナ　*/
+.FS2_OptionPrice {
+	margin-bottom:10px;
+}
+
+.FS2_OptionPrice th {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	background:#F6F6F6;
+}
+
+.FS2_OptionPrice td {
+	font-weight:normal;
+	padding:2px 8px;
+	border-bottom:1px solid #DDDDDD;
+	text-align:left;
+}
+
+/*　オプション価格（カート画面罫線）　*/
+.FS2_option_price_rule{
+	color:#DDDDDD;
+}
+
+
+
+/*商品詳細画面------------------------------------------------------------------*/
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+商品画像コンテナ横幅　*/
+#FS2_itemlayout_IH1 .FS2_thumbnail_container{
+	width:400px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+メイン・サブ画像群サムネイルコンテナ横幅　*/
+#FS2_itemlayout_IH1 .FS2_additional_image_container{
+	width:140px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+商品画像・拡大・Prev・Nextボタンテーブルコンテナ横幅　*/
+#FS2_itemlayout_IH1 .FS2_additional_image_btn_thumbnail_container{
+	width:420px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+商品詳細右カラム　*/
+#FS2_itemlayout_IH1 .FS2_additional_image_itemdetail_container_right{
+	width:220px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+商品詳細左カラム　*/
+#FS2_itemlayout_IH1 .FS2_additional_image_itemdetail_container_left{
+	width:350px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH1：
+商品詳細コンテナ*/
+#FS2_itemlayout_IH1 .FS2_additional_image_itemdetail_container{
+	margin-top:2em;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+商品画像・拡大・Prev・Nextボタンテーブルコンテナ横幅　*/
+#FS2_itemlayout_IH2 .FS2_additional_image_btn_thumbnail_container{
+	width:420px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+商品画像コンテナ横幅　*/
+#FS2_itemlayout_IH2 .FS2_thumbnail_container{
+	width:400px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+商品詳細右カラム　*/
+#FS2_itemlayout_IH2 .FS2_additional_image_itemdetail_container_right{
+	width:220px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+商品詳細左カラム　*/
+#FS2_itemlayout_IH2 .FS2_additional_image_itemdetail_container_left{
+	width:350px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+メイン画像群サムネイルコンテナ　*/
+#FS2_itemlayout_IH2 .FS2_additional_image_container_main{
+	float:right;
+	width:140px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+サブ画像群サムネイルコンテナ　*/
+#FS2_itemlayout_IH2 .FS2_additional_image_container_sub{
+	margin-top:2em;
+	width:100%;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH2：
+商品詳細コンテナ*/
+#FS2_itemlayout_IH2 .FS2_additional_image_itemdetail_container{
+	margin-top:2em;
+}
+
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+商品画像コンテナ横幅　*/
+#FS2_itemlayout_IH3 .FS2_thumbnail_container{
+	width:410px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+商品詳細右カラム　*/
+#FS2_itemlayout_IH3 .FS2_additional_image_itemdetail_container_right{
+	width:330px;
+	margin-left:40px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+メイン画像群サムネイルコンテナ　*/
+#FS2_itemlayout_IH3 .FS2_additional_image_container_main{
+	float:right;
+	width:90px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+サブ画像群サムネイルコンテナ　*/
+#FS2_itemlayout_IH3 .FS2_additional_image_container_sub{
+	width:520px;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+商品画像・拡大・Prev・Nextボタンテーブルコンテナ横幅　*/
+#FS2_itemlayout_IH3 .FS2_additional_image_btn_thumbnail_container{
+	width:430px;
+	margin-bottom:2em;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH3：
+商品詳細コンテナ*/
+#FS2_itemlayout_IH3 .FS2_additional_image_itemdetail_container{
+	margin-top:2em;
+}
+
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4：
+商品画像コンテナ横幅　*/
+#FS2_itemlayout_IH4 .FS2_thumbnail_container{
+	width:200px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4：
+商品詳細右カラム　*/
+#FS2_itemlayout_IH4 .FS2_additional_image_itemdetail_container_right{
+	width:250px;
+	margin-left:20px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4：
+商品詳細左カラム　*/
+#FS2_itemlayout_IH4 .FS2_additional_image_itemdetail_container_left{
+	width:290px;
+	float:right;
+	margin-left:20px;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4：
+商品画像・拡大・Prev・Nextボタンテーブルコンテナ横幅　*/
+#FS2_itemlayout_IH4 .FS2_additional_image_btn_thumbnail_container{
+	width:220px;
+	float:left;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：レイアウト別サイズ指定：IH4：
+メイン・サブ画像群サムネイルコンテナ横幅　*/
+#FS2_itemlayout_IH4 .FS2_additional_image_container{
+	width:85px;
+	float:left;
+	margin-right:10px;
+}
+
+
+/*　各レイアウト共通　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：サムネイルコンテナ　*/
+.FS2_additional_image_btn_thumbnail_container .FS2_thumbnail_container{
+	border:1px solid #ddd;
+	margin-bottom:10px;
+	padding:9px;
+	text-align:center;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：メイン・サブ画像群サムネイルコンテナ　*/
+.FS2_additional_image_container{
+	float:right;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：メイン画像群サムネイルコンテナ　*/
+.FS2_additional_image_container_main{
+	margin-bottom:2em;	
+}
+
+.FS2_additional_image_container_main img{
+	margin:0px 2px 2px 0px;
+    border: 1px solid white;
+}
+
+
+.FS2_additional_image_container_sub img{
+	margin:0px 2px 2px 0px;
+	border: 1px solid white;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：メイン・サブ画像群名称　*/
+.FS2_additional_image_container_title{
+	border-bottom:1px dotted #555;
+	padding-bottom:2px;
+	margin:5px 0px;
+	font-weight:bold;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大・Next・Prevボタン　*/
+.FS2_additional_image_btn_container table{
+	border-collapse:collapse;
+	border-spacing: 0px;
+	/*width:100%;*/
+}
+
+.FS2_additional_image_btn_container td{
+	vertical-align:top;	
+}
+
+.FS2_additional_image_btn_container .FS2_additional_image_btn_next{
+	text-align:right;
+	/*width:59px;*/
+}
+
+.FS2_additional_image_btn_container .FS2_additional_image_btn_prev{
+	text-align:right;
+	/*width:59px;*/
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：商品詳細右カラム　*/
+.FS2_additional_image_itemdetail_container_right{
+	float:right;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：バリエーションテーブル　*/
+.FS2_additional_image_tableVariation{
+	margin:10px 0;	
+}
+
+.FS2_additional_image_tableVariation_table th{
+	text-align:left;
+	font-weight:normal;
+	padding:2px 2px 2px 2px;	
+}
+
+.FS2_additional_image_tableVariation_table td{
+	padding:2px;	
+}
+
+.FS2_additional_image_tableVariation_table td span{
+	display:block;
+	text-align:center;
+	color:#777;
+}
+
+
+.FS2_additional_image_tableVariation_border th{
+	border-top:1px solid #888;
+	padding-top:4px;
+	vertical-align:top;
+}
+
+.FS2_additional_image_tableVariation_border td{
+	border-top:1px solid #888;
+	padding-top:4px;
+}
+
+.FS2_additional_image_tableVariation_bg{
+	background:#f6f6f6;	
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大（popup window）：
+ページ余白　*/
+body#FS2_additional_image_popup{
+	margin:0px;
+	padding:0px;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大（popup window）：
+画像コンテナ　*/
+#FS2_additional_image_popup .FS2_thumbnail_container{
+	width:500px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#FS2_additional_image_popup .FS2_thumbnail_container img{
+border:none;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大（popup window）：
+ページ全体の横幅　*/
+.FS2_additional_image_popup_container{
+	width:900px;
+	padding-bottom:50px;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大（popup window）：
+メイン・サブ画像群サムネイルコンテナ　*/
+.FS2_additional_image_popup_container .FS2_additional_image_container{
+	float:right;
+	width:350px;
+	margin-top:10px;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：拡大（popup window）：
+フッタ　*/
+.FS2_additional_image_popup_footer{
+	text-align:center;
+	margin:2em auto 0 auto;
+	background:#f0f0f0;
+	padding:1em 0;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
+
+.FS2_additional_image_popup_footer a:link{
+	color:#fff;
+	text-decoration:none;
+	background:#000;
+	display:inline-block;
+	padding:5px 10px;
+}
+
+.FS2_additional_image_popup_footer a:active{
+	color:#fff;
+	text-decoration:none;
+	background:#000;
+	display:inline-block;
+	padding:5px 10px;
+}
+
+.FS2_additional_image_popup_footer a:visited{
+	color:#fff;
+	text-decoration:none;
+	background:#000;
+	display:inline-block;
+	padding:5px 10px;
+}
+
+
+.FS2_additional_image_popup_footer a:hover{
+	color:#fff;
+	background:#666;
+}
+
+
+
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ　*/
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ：コンテナ　*/
+.FS2_AdditionalImage_Balloon_Tip {
+	width: 300px;
+	height: 100px;
+	display: none;
+	position: absolute;
+	color: gray;
+	background-color: white;
+	border: 1px solid silver;
+	overflow: hidden;
+	padding:10px;
+}
+
+#FS2_AdditionalImage_Balloon_Tip_container {
+	width: 300px;
+	left: 10px;
+	top: 10px;
+	display: block;
+	position: fixed;
+	color: gray;
+	background-color: white;
+	border: 1px solid silver;
+}
+
+#FS2_AdditionalImage_Balloon_Tip_container {
+	display: none;
+}
+
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ：
+左側に表示時　*/
+.FS2_AdditionalImage_Balloon_Tip_left {
+	border-right: 5px solid silver;
+	border-bottom: 5px solid silver;
+}
+
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ：
+右側に表示時　*/
+.FS2_AdditionalImage_Balloon_Tip_right {
+	border-left: 5px solid silver;
+	border-bottom: 5px solid silver;
+}
+
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ：
+画像共通設定　*/
+.FS2_AdditionalImage_Balloon_Tip img {
+	border: 0;
+}
+
+
+/*　商品画面：商品一覧：画像ホスティングオプション：バルーンチップ：
+ロールオーバー時背景色　*/
+.FS2_AdditionalImage_Balloon_Tip_RollOver {
+	background-color: #f6f6f6;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え　*/
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+メイン画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_thumbs_color img { 
+	border: 1px solid white;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_thumbs_item img { 
+	border: 1px solid white;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_cursor_pointer { 
+	cursor: pointer;
+}
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_cursor_cross { 
+	cursor: crosshair;
+ }
+
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_thumbnail_selected {
+	border-color: silver !important;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_btn_prev {
+	cursor: pointer;
+}
+
+/*　商品画面：商品詳細：画像ホスティングオプション：画像切り替え：
+サブ画像群サムネイル　*/
+.FS2_AdditionalImage_switcher_btn_next {
+	cursor: pointer;
+}
+
+
+/*　入荷お知らせメールお申し込み：画像ホスティングオプション用：マトリクス　*/
+.FS2_AdditionalImage_ArrivalInformation_Entry_Container_Matorix{
+	margin:1em 0 2em 0;
+}
+
+/*　入荷お知らせメールお申し込み：画像ホスティングオプション用：コンボボックス　*/
+.FS2_AdditionalImage_ArrivalInformation_Entry_Container {
+	display:table;
+	margin:0 0 15px 0;
+	width:100%;
+	background-color:#EEEEEE;
+}
+
+.FS2_ArrivalInformation_Entry_ListR {
+	direction:rtl;
+}
+
+.FS2_ArrivalInformation_Entry_ListR * {
+	direction:ltr; 
+}
+
+.FS2_AdditionalImage_ArrivalInformation_Entry_Container .FS2_ArrivalInformation_Entry_List,
+.FS2_AdditionalImage_ArrivalInformation_Entry_Container .FS2_ArrivalInformation_Entry_Comment {
+	display:table-cell;
+	padding:10px;
+	vertical-align:top;
+	line-height:1.2em;
+
+}
+.FS2_AdditionalImage_ArrivalInformation_Entry_Container .FS2_ArrivalInformation_Entry_List {
+	padding-left:10px;
+	padding-right:10px;
+}
+.FS2_ArrivalInformation_Entry_ListR .FS2_ArrivalInformation_Entry_Comment {
+	padding-left:10px;
+}
+.FS2_ArrivalInformation_Entry_ListL .FS2_ArrivalInformation_Entry_Comment {
+	padding-right:10px;
+}
+
+/* for IE */
+.FS2_forIE8 .FS2_ArrivalInformation_Entry_ListL .FS2_ArrivalInformation_Entry_List {
+	float:left;
+}
+.FS2_forIE8 .FS2_ArrivalInformation_Entry_ListR .FS2_ArrivalInformation_Entry_List {
+	float:right;
+}
+
+/* ウィッシュリスト */
+.FS2_body_WishList .pager{
+	border:none;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+}
+
+.FS2_WishList_table{
+	width:100%;
+	border-top:1px solid #ddd;
+}
+
+.FS2_WishList_table td{
+	padding:8px 3px;
+	border-bottom:1px solid #ddd;
+}
+
+.FS2_WishListCheck_td{
+	width:20px;
+}
+
+.FS2_WishListGoodsImage_td{
+	width:50px;
+}
+
+.FS2_WishListDetail_td p{
+	margin:0px;
+	padding:0px;
+}
+
+.FS2_WishListDetail_td p.FS2_WishListDate{
+	font-size:80%;
+	margin:0.3em 0;
+	text-align:right;
+}
+
+.FS2_WishListDetail_td h1.itemTitle{
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	font-weight:normal;
+}
+
+.FS2_WishListDelete_td{
+	text-align:right;
+}
+
+.FS2_WishListAllDeleteButton_area{
+	width:100%;
+	text-align:left;
+}
+
+.FS2_body_WishList .FS2_itemPrice_area{
+	margin:0px;
+	padding:0px;
+}
+
+.FS2_body_WishList .FS2_FixedPeriodItemPrice_text{
+	margin:0px;
+	padding:0px;
+}
+
+
+.FS2_body_WishList .FS2_ReviewEditAverage{
+	margin:0px;
+	padding:0px;
+}
+
+
+/*=========================================================
+エラー
+=========================================================*/
+
+/*　操作失敗時のエラー　*/
+
+.error_content {
+	border:1px solid #FF0000;
+	text-align:center;
+	padding:5px 2px;
+	margin-bottom:10px;
+	background:#FF3300;
+	color:#FFFFFF;
+}
+
+
+
+
+/*=========================================================
+ページ下部のボタン
+=========================================================*/
+
+/*　ページ下部のボタン：infomation.html用　*/
+.FS2_bottom_btn_info {
+	margin: 0 0 30px 0;
+}
+
+/*　ページ下部のボタン：位置:1段目：中央寄　*/
+.FS2_bottom_btn_center_1 {
+	text-align:center;
+	margin: 10px 0;
+}
+
+/*　ページ下部のボタン：位置:1段目：右寄　*/
+.FS2_bottom_btn_right_1 {
+	text-align:right;
+	margin: 10px 0;
+}
+
+/*　ページ下部のボタン：位置:1段目：左寄　*/
+.FS2_bottom_btn_left_1 {
+	text-align:left;
+	margin: 10px 0;
+}
+
+/*　ページ下部のボタン：位置：2段目：中央寄　*/
+.FS2_bottom_btn_center_2 {
+	text-align:center;
+	margin: 10px 0;
+}
+
+/*　ページ下部のボタン：位置：2段目：右寄　*/
+.FS2_bottom_btn_right_2 {
+	text-align:right;
+	margin: 10px 0;
+}
+
+/*　ページ下部のボタン：位置：2段目：左寄　*/
+.FS2_bottom_btn_left_2 {
+	text-align:left;
+	margin: 10px 0;
+}
+
+
+/*=========================================================
+共通使用セレクタ
+=========================================================*/
+
+/*　Float　*/
+.itemCenter {
+	text-align:center;
+}
+
+.itemLeft {
+	float:left;
+}
+
+.itemRight {
+	float:right;
+}
+
+.itemLeft50 {
+	float:left;
+	width:48%;
+}
+.itemRight50 {
+	float:right;
+	width:48%;
+}
+
+
+/*　文字寄　*/
+.alignCenter {
+	text-align:center;
+}
+
+.alignLeft {
+	text-align:left;
+}
+
+.alignRight {
+	text-align:right;
+}
+
+/*　dummySubmit　*/
+.dummySubmit {
+	position:absolute;
+	left:-9999px;
+}
+
+.caution {
+	color:#FF0000;
+}
+
+/*　テーブル直下のcheckboxとテキスト位置調整　*/
+p.FS2_checkbox_text_container{
+	margin-top:10px;
+}
+
+
+/*=========================================================
+お試し店舗　ヘッダ
+=========================================================*/
+.FS2_trial table {
+	position:relative;
+	top:-2px;
+}
+
+.FS2_trial td {
+	vertical-align:top;
+}
+
+.FS2_trial p {
+	padding:0px;
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+/*========================================================================
+　クーポン関係スタイル↓↓↓↓↓
+========================================================================　*/
+
+body#FS2_body_Coupon a img{border:none;}
+
+a.FS2_MoveToAcquiredCouponList{
+	display:block;
+	float:right;
+	padding:5px 3px 0 0;
+	text-decoration:none;
+}
+
+div.FS2_CouponBlock{
+	margin:0 0 40px 0;
+	padding-bottom:25px;
+	line-height:1.5em;
+}
+
+table.FS2_CouponDescriptionTable{
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+table.FS2_CouponDescriptionTable td{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+
+table.FS2_CouponDescriptionTable img.FS2_CouponImg{
+	margin:0 16px 8px 0;
+}
+
+table.FS2_CouponDescriptionTable td.FS2_CouponDescriptionCell
+ p{
+	margin:0px 0 8px 0;
+}
+
+div.FS2_CouponInfo{
+	text-align:center;
+	padding:10px;
+	margin:10px 0;
+}
+
+div.FS2_CouponInfo p.FS2_CouponEffect{
+	font-size:20px;
+	margin:6px;
+}
+
+div.FS2_CouponInfo p.FS2_CouponRequirements{
+	margin:0 0 5px 0;
+	padding:0;
+}
+
+div.FS2_CouponBlock table th{
+	width:160px;
+}
+
+div.FS2_CouponBlock table .FS2_Coupon_condition{
+	margin:3px 0 0 0;
+	padding0;
+}
+
+.FS2_ShowCouponGoodsList{
+	margin:5px 2px;
+	text-align:right;
+}
+
+.FS2_Coupon_container,
+.FS2_UseCoupon_container,
+.FS2_InputCouponCode_container,
+.FS2_MoveToCouponCode_container{
+	margin:20px 0;
+	padding:5px;
+	text-align:center;
+}
+
+.FS2_Coupon_container strong,
+.FS2_Coupon_container em,
+.FS2_UseCoupon_container strong,
+.FS2_UseCoupon_container em,
+.FS2_InputCouponCode_container strong,
+.FS2_InputCouponCode_container em,
+.FS2_MoveToCouponCode_container strong,
+.FS2_MoveToCouponCode_container em{
+	display:block;
+	padding:10px 5px;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+}
+
+.FS2_Coupon_container span,
+.FS2_UseCoupon_container span,
+.FS2_MoveToCouponCode_container span{
+	display:block;
+}
+
+
+.FS2_Coupon_container p{
+	margin:8px 0;
+	line-height:1.5em;
+}
+
+.FS2_InputCouponCode_container span{
+	display:block;
+	padding-bottom:10px;
+}
+
+
+.FS2_CouponTargetItems+p.alignRight{
+	margin:0 0 10px 0;
+}
+
+
+.FS2_GetCoupon{
+	padding:3px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.FS2_GetCoupon p{
+	margin:3px;
+}
+
+body.FS2_body_CouponLogin .FS2_Login_btn_position{
+		margin:10px 0 30px 0;
+}
+
+
+/* クーポン対象商品一覧↓ */
+
+span.FS2_CouponTargetItemsBoxPager{
+	display:block;
+	text-align:right;
+	position:absolute;
+	top:-32px;
+	right:5px;
+}
+span.FS2_CouponTargetItemsBoxCtrlButtons{
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:10px;
+	visibility:hidden;
+}
+span.FS2_CouponTargetItemsBoxCtrlButtons a{
+	display:block;
+}
+
+a.FS2_CouponTargetItemsBox_leftButton{
+	float:left;
+}
+a.FS2_CouponTargetItemsBox_rightButton{
+	float:right;
+}
+
+ul.FS2_CouponTargetItems{
+	margin:10px auto 0 auto;
+	list-style-type:none;
+	margin:0 50px;
+	padding:0;
+	position: relative;
+  z-index: 100;	
+}
+
+ul.FS2_CouponTargetItems a{
+	display:block;
+	text-decoration:none;
+	padding:5px;
+}
+ul.FS2_CouponTargetItems span.FS2_itemName{
+	display:block;
+	padding-top:4px;
+}
+div.FS2_CouponTargetItemsBox{
+	position:relative;
+	margin:0;
+}
+
+ul.FS2_CouponTargetItems:after{
+	content:".";
+	height:0;
+	visibility:hidden;
+	overflow:hidden;
+	display:block;
+	clear:both;
+}
+ul.FS2_CouponTargetItems {
+  min-height: 1px;
+}
+* html ul.FS2_CouponTargetItems{
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+ul.FS2_CouponTargetItems li{
+	width:130px;
+	margin:0 20px 0 0;
+	float:left;
+	text-align:center;
+}
+ul.FS2_CouponTargetItems li img{
+	width:120px;
+}
+
+/* クーポン対象商品一覧↑ */
+
+
+
+/* 支払い方法選択画面（クーポン）↓ */
+
+table.FS2_CouponTable{
+	margin-top:30px;
+}
+
+table.FS2_CouponTable th span{
+	display:block;
+	font-size:0.88em;
+}
+
+
+table.FS2_CouponTable ul,
+table.FS2_CouponTable li{
+	padding:0;
+	list-style:none;
+}
+table.FS2_CouponTable ul{margin:10px 0 0 0;}
+
+table.FS2_CouponTable li{
+	margin:0 0 10px 0;
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+}
+
+table.FS2_CouponTable li:last-child{border:none;}
+
+table.FS2_CouponTable li p{
+	margin:0 0 5px 0;
+}
+
+table.FS2_CouponTable li div{
+	margin:0 0 5px 5px;
+}
+
+table.FS2_CouponTable li strong{
+	display:block;
+	margin:0;
+	font-size:1.1em;
+	color:#c00;
+}
+
+table.FS2_CouponTable li p.FS_couponSettleCaution{
+	margin-top:10px;
+}
+
+table.FS2_CouponCalculateTable{
+	margin-bottom:30px;
+	width:300px;
+}
+
+table.FS2_CouponCalculateTable th,
+table.FS2_CouponCalculateTable td{
+	text-align:right;
+}
+/* 支払い方法選択画面（クーポン）↑ */
+
+
+
+
+
+/* -=-=-=-= ↓クーポン　テンプレートシリーズに依存する部分↓ =-=-=-=- */
+
+
+
+/* クーポン名(枠)：シンプルシリーズ */
+table.FS2_CouponDescriptionTable td.FS2_CouponDescriptionCell
+ h3{
+	margin:0 0 10px 0;
+	padding:2px 0 1px 8px;
+}
+
+/* クーポン名テキスト部分：シンプルシリーズ */
+table.FS2_CouponDescriptionTable td.FS2_CouponDescriptionCell
+ h3 span{
+	display:block;
+	padding:0;
+}
+
+
+
+/* -=-=-=-= ↓クーポン　テンプレートカラーに依存する部分↓ =-=-=-=- */
+
+/* クーポン一覧での各クーポンの境界線 */
+div.FS2_CouponBlock{
+	border-bottom:1px solid #999;
+}
+
+
+/* 「クーポン取得・使用」などのボタンを含むブロック */
+.FS2_Coupon_container,
+.FS2_UseCoupon_container,
+.FS2_InputCouponCode_container,
+.FS2_MoveToCouponCode_container{
+	border:5px solid #ddd;
+}
+
+
+/* 「クーポン取得・使用」などのボタンの上のコメント */
+.FS2_Coupon_container strong,
+.FS2_UseCoupon_container strong{
+	color:#c00;
+}
+
+
+/* 「クーポン対象商品」のサムネールにマウスオーバーしたときの背景色 */
+ul.FS2_CouponTargetItems a:hover{
+	background-color:#f5f5f5;
+}
+
+
+/* クーポン効果表示ブロック */
+div.FS2_CouponInfo{
+	border:3px double #999;
+	background-color:#f0f0f0;
+}
+
+/* クーポン効果文字列 */
+div.FS2_CouponInfo p.FS2_CouponEffect{
+	color:#f03;
+}
+
+
+/* 「クーポンを獲得しました」部分 */
+.FS2_GetCoupon{
+	color:#fff;
+	background-color:#c02;
+}
+
+
+
+/* クーポン名(枠)左線指定 */
+table.FS2_CouponDescriptionTable td.FS2_CouponDescriptionCell
+ h3{
+	border-left:3px solid #333;
+}
+
+/* クーポン名テキスト部分背景色と文字色 */
+table.FS2_CouponDescriptionTable td.FS2_CouponDescriptionCell
+ h3 span{
+	color:#333;
+}
+
+/*========================================================================
+　クーポン関係スタイル↑↑↑↑↑
+========================================================================　*/
+
+
+
+
+

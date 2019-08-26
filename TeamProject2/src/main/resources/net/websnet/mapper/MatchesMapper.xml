@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace = "net.websnet.mapper.MatchesMapper">
+
+	<!-- 조건없이 값 모두 불러오기 -->
+	<select id ="MatchesSelectAll" resultType="net.websnet.domain.MatchesVO">
+		select * from Matches
+	</select>
+
+	<!-- 매치넘버로 값 찾아오기 -->
+	<select id="MatchesSelect" resultType="net.websnet.domain.MatchesVO">
+		select * from Matches where mnum=#{mnum}
+	</select>
+	
+	<!-- insert -->
+	<insert id = "MatchesInsert">
+		insert into Matches (mnum, hteam, ateam, hscore, ascore, mtime, mplace, win, draw, lose)
+		values (#{mnum}, #{hteam}, #{ateam}, #{hscore}, #{ascore}, #{mtime}, #{mplace}, #{win}, #{draw}, #{lose})
+	</insert>
+	
+	<!-- update -->
+	<update id = "MatchesUpdate">
+		update Matches set
+		where mnum=#{mnum}, hteam=#{hteam}, ateam=#{ateam}, hscore=#{hscore}, ascore=#{ascore}, mtime=#{mtime}, mplace=#{mplace},win=#{win}, draw=#{draw}, lose=#{lose}
+	</update>
+	
+	<!-- delete -->
+	<delete id = "MatchesDelete">
+		delete from Matches where idx=#{idx}
+	</delete>
+	
+	<!-- insert data -->
+	<!-- 
+		INSERT INTO matches values (1,'Brazil','Colombia',2,0,2,8,2,0,2,3,'Tite','Carlos Queiroz','Neymar da Silva','Radamel Falcao','3승 0무 2패','2승 0무 3패',1,3,2,0,0,0);
+	 -->
+	
+</mapper>

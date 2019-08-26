@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org.//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.websnet.mapper.MemberMapper">
+	<!-- 회원가입 순서 : 인덱스, 히라가나[성,이름], 후리가나[성,이름], 우편번호,
+	 				  살고있는 현, 시구, 번지, 건물명, 전화번호, 성별, 생일, 광고수신동의, 유저패스워드, 다이렉트메세지동의 순으로 입력-->
+		<insert id="memberJoin">
+		INSERT INTO MEMBER (idx,hifn,hiln,hufn,huln,email,postf,postb,ken,address1,address2,address3,phonef,phonem,phoneb,gender,birthY,birthM,birthD,userpw,dmagree)
+		VALUES (member_seq_idx.nextval,#{hifn},#{hiln},#{hufn},#{huln},#{email},#{postf},#{postb},#{ken},#{address1},#{address2},#{address3},#{phonef},#{phonem},#{phoneb},#{gender},#{birthY},#{birthM},#{birthD},#{userpw},#{dmagree})
+	</insert>
+
+	<!-- 로그인시 이메일, 비밀번호 비교후 정보를 가져옴 -->
+	<select id="memberLogin"
+		resultType="net.websnet.domain.MemberVO">
+		select * from member where email=#{email} and userpw=#{userpw}
+	</select>
+
+	<!-- 인덱스 번호에 맞는 사람의 정보를 가져옴 -->
+	<select id="memberSelect"
+		resultType="net.websnet.domain.MemberVO">
+		select * from member where idx=#{idx}
+	</select>
+	
+	<!-- 회원수정 -->
+	<update id ="memberUpdate">
+		update member set 
+		idx=#{idx}, hifn=#{hifn}, hiln=#{hiln}, hufn=#{hufn},fuln=#{hufn},
+		email=#{email}, postf=#{postf},postb=#{postb}, ken=#{ken}, adress1=#{address1}, address2=#{address2}, address3=#{adress3},
+		phonef=#{phonef}, phonem=#{phonem},phoneb=#{phoneb},  gender=#{gender}, birthY=#{birthY},birthM=#{birthM},birthD=#{birthD}, userpw=#{userpw}, dmagree=#{dmagree})
+		where idx=#{idx}
+	</update>
+	
+	<!-- 회원탈퇴 -->
+	<delete id ="memberDelete">
+		delete from member where idx=#{idx}
+	</delete>
+	
+	<select id ="emailCheck" resultType ="net.websnet.domain.MemberVO" parameterType="String">
+		SELECT * FROM MEMBER WHERE EMAIL=#{email}
+	</select>
+	
+</mapper>
